@@ -21,4 +21,7 @@ format:
 
 execute:
   freeze: auto
+from: markdown+emoji
+
+
 
