@@ -1,15 +1,22 @@
 ---
-title: "eimhin_co"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/eimhin-rafferty/
+    - icon: github
+      text: Github
+      href: https://github.com/eimhinr
+
 ---
 
 ## Hello! 
 I'm Eimhin Rafferty and you can find me online during central eurpean hours 
+
+
+## About me
+I'm a product manager, and have 15 years experience in digital design and coordination architecture, design and construction. My speciality is in BIM and Building Data. 
+
