@@ -4,16 +4,19 @@ image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: linkedin
-      text: LinkedIn
+    - text: LinkedIn
       href: https://www.linkedin.com/in/eimhin-rafferty/
-    - icon: github
-      text: Github
+    - text: Github
       href: https://github.com/eimhinr
-
+    - text: Strava
+      href: https://www.strava.com/athletes/15882927
+    - text: Instagram
+      href: https://www.instagram.com/eimhinr/
 ---
+:wave:
 Eimhin Rafferty
-Architecture Geek:point_right: Design Technology :point_right: Product Manager 
+:point_right: Design Technology 
+:point_right: Product Manager 
 
-## Contact 
-you can get me on my socials below
+# Contact 
+if you have my number you can get me on whatsapp/telegram/signal, if you dont, you can get me at any of the linked socials :point_down::point_down::point_down:! 

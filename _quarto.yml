@@ -2,14 +2,18 @@ project:
   type: website
 
 website:
-  title: "eimhin_co"
+  title: "eimhin.co"
   navbar:
     right:
-      - posts.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - notes.qmd
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/eimhin-rafferty/
+      - text: Github
+        href: https://github.com/eimhinr
+      - text: Strava
+        href: https://www.strava.com/athletes/15882927
+      - text: Instagram
+        href: https://www.instagram.com/eimhinr/
 format:
   html:
     theme: cosmo
