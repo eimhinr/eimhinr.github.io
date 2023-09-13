@@ -7,39 +7,32 @@
     "text": "title: “Posts” listing: contents: posts sort: “date desc” type: default categories: true sort-ui: false filter-ui: false page-layout: full title-block-banner: true"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\nthis is a check in to see if this will actually run when published. lets try.."
+    "text": "This is a post with executable code."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About",
-    "section": "",
-    "text": "I’m Eimhin Rafferty and you can find me online during central eurpean hours"
-  },
-  {
-    "objectID": "index.html#hello",
-    "href": "index.html#hello",
-    "title": "About",
+    "title": "Hello",
     "section": "",
     "text": "I’m Eimhin Rafferty and you can find me online during central eurpean hours"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
-    "title": "About",
+    "title": "Hello",
     "section": "About me",
     "text": "About me\nI’m a product manager, and have 15 years experience in digital design and coordination architecture, design and construction. My speciality is in BIM and Building Data."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\nthis is a check in to see if this will actually run when published. lets try.."
   },
   {
     "objectID": "about.html",
