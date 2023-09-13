@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 11, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 8, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\nthis is a check in to see if this will actually run when published. lets try.."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello",
-    "section": "",
-    "text": "I’m Eimhin Rafferty and you can find me online during central eurpean hours"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Hello",
-    "section": "About me",
-    "text": "About me\nI’m a product manager, and have 15 years experience in digital design and coordination architecture, design and construction. My speciality is in BIM and Building Data."
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 11, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 8, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -35,10 +14,17 @@
     "text": "This is a post with executable code."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello",
     "section": "",
-    "text": "About this blog"
+    "text": ":wave: Eimhin Rafferty :point_right: Design Technology :point_right: Product Manager\n\nContact\nif you have my number you can get me on whatsapp/telegram/signal, if you dont, you can get me at any of the linked socials :point_down::point_down::point_down:!"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }
 ]

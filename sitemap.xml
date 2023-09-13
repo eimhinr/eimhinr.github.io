@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://eimhin.co/posts.html</loc>
-    <lastmod>2023-09-13T13:02:19.914Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eimhin.co/posts/welcome/index.html</loc>
-    <lastmod>2023-09-13T13:02:19.070Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eimhin.co/index.html</loc>
-    <lastmod>2023-09-13T13:02:17.990Z</lastmod>
+    <loc>https://eimhin.co/notes.html</loc>
+    <lastmod>2023-09-13T19:04:58.123Z</lastmod>
   </url>
   <url>
     <loc>https://eimhin.co/posts/post-with-code/index.html</loc>
-    <lastmod>2023-09-13T13:02:18.722Z</lastmod>
+    <lastmod>2023-09-13T19:04:57.295Z</lastmod>
   </url>
   <url>
-    <loc>https://eimhin.co/about.html</loc>
-    <lastmod>2023-09-13T13:02:19.390Z</lastmod>
+    <loc>https://eimhin.co/index.html</loc>
+    <lastmod>2023-09-13T19:04:56.567Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eimhin.co/posts/welcome/index.html</loc>
+    <lastmod>2023-09-13T19:04:57.635Z</lastmod>
   </url>
 </urlset>
