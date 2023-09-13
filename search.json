@@ -16,16 +16,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "eimhin_co",
+    "title": "About",
     "section": "",
     "text": "I’m Eimhin Rafferty and you can find me online during central eurpean hours"
   },
   {
     "objectID": "index.html#hello",
     "href": "index.html#hello",
-    "title": "eimhin_co",
+    "title": "About",
     "section": "",
     "text": "I’m Eimhin Rafferty and you can find me online during central eurpean hours"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "About",
+    "section": "About me",
+    "text": "About me\nI’m a product manager, and have 15 years experience in digital design and coordination architecture, design and construction. My speciality is in BIM and Building Data."
   },
   {
     "objectID": "posts/welcome/index.html",
