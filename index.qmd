@@ -1,14 +1,17 @@
 ---
-title: "eimhin_co"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Hello"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/eimhin-rafferty/
+    - icon: github
+      text: Github
+      href: https://github.com/eimhinr
+
 ---
 
-
+## Hello! 
+I'm Eimhin Rafferty and you can find me online during central eurpean hours 
