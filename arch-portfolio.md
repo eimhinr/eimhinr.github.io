@@ -80,7 +80,7 @@
         
         headers.forEach(function(header) {
             header.classList.add('collapsible');
-            header.innerHTML = '&#9654; ' + header.innerHTML; // Initialize with closed chevron
+            header.innerHTML = '&#9660; ' + header.innerHTML; // Initialize with open chevron
 
             header.addEventListener('click', function() {
                 var isExpanded = header.innerHTML.startsWith('&#9660;');
