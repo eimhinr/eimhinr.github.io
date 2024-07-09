@@ -1,15 +1,12 @@
 ---
 title: Eimhin Rafferty
 ---
-<title>Eimhin Rafferty</title>
+<title>Your Website Title</title>
 <link href="style.css" rel="stylesheet">
 
-  <!-- <p style="text-align: center;"> 
-    <!-- <img src="profile.png" alt="Eimhin Rafferty" style="width: 40%; height: auto; border-radius: 50%; object-fit: cover; max-width: 150px; max-height: 150px;">
-</p> -->
-  <p style="text-align: center;">
+  <div class="profile-image-container" >
     <img src="source/profile.png" alt="Eimhin Rafferty" class="profile-image" >
-  </p>
+  </div>
   
 # 👋 Hello
 
