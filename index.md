@@ -1,5 +1,5 @@
 
-![Eimhin Rafferty](https://www.eimhin.co/profile.jpg)
+![Eimhin Rafferty](profile.jpg)
 <!-- <p align=center>
     <img src="profile.jpg" alt="Eimhin Rafferty" style="width: 80px, height: 80px, border-radius: 50%; object-fit: cover;"> 
 </p> -->
@@ -12,8 +12,8 @@ I am a Product Manager with 5+ years as a PM and 10+ in Design and Construction.
 I love to Cycle & Run -> Follow me on [Strava](https://www.strava.com/athletes/eimhin_rafferty)  
 Most of my time is spend being a dad though!
 
-> [!TIP]
-> Eimhin is a difficult irish name, it is prounced like 'Kevin' if you ignore the K
+![tip]
+ Eimhin is a difficult irish name, it is prounced like 'Kevin' if you ignore the K
 
 ## Contact
 
