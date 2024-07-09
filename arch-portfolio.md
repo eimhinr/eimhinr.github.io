@@ -74,18 +74,22 @@
     });
 </script> 
 --->
-
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var headers = document.querySelectorAll('h1, h2');
+        var headers = document.querySelectorAll('h1, h2, h3');
+        
         headers.forEach(function(header) {
             header.classList.add('collapsible');
+            header.innerHTML = '&#9654; ' + header.innerHTML; // Initialize with closed chevron
+
             header.addEventListener('click', function() {
-                var chevron = header.querySelector('.chevron');
+                var isExpanded = header.innerHTML.startsWith('&#9660;');
+                header.innerHTML = isExpanded
+                    ? '&#9654; ' + header.innerHTML.substring(2) // Closed state
+                    : '&#9660; ' + header.innerHTML.substring(2); // Open state
+
                 var nextElement = header.nextElementSibling;
-                var isExpanded = chevron.innerHTML === '&#9660;';
-                chevron.innerHTML = isExpanded ? '&#9654;' : '&#9660;';
-                while (nextElement && !nextElement.matches('h1, h2')) {
+                while (nextElement && !nextElement.matches('h1, h2, h3')) {
                     nextElement.style.display = nextElement.style.display === 'none' ? 'block' : 'none';
                     nextElement = nextElement.nextElementSibling;
                 }
