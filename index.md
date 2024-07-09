@@ -1,7 +1,7 @@
-<link href="style.css" rel="stylesheet"></link>
+<link href="style.css" rel="stylesheet">
 
 <p>
-    <img src="profile.png" alt="Eimhin Rafferty" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
+    <img src="profile.png" alt="Eimhin Rafferty" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
 </p>
 # 👋 Hello
 
