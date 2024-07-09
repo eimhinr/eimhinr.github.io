@@ -21,10 +21,10 @@ I am a Product Manager with 5+ years as a PM and 10+ in Design and Construction.
  🇮🇪 I'm from ireland
 
  🇬🇧 I've Lived and worked for many years in the UK
- 
+
  🇮🇹 Now I live in Italy with my family
 
-> **Tip**: 🔉 Eimhin is a difficult irish name, it is prounced like 'Kevin' if you ignore the K
+>  🔉 Eimhin is a difficult irish name, it is prounced like 'Kevin' if you ignore the K
 
 ## Contact
 

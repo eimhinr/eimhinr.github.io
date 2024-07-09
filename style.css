@@ -74,8 +74,14 @@ code {
 }
 
 
-/* this is some custom css for block quote types */
-/* Custom styles for GitHub alerts */
+/* this is some custom css for block quote types
+> **Note**: This is an important note.
+> **Tip**: Here is a useful tip for you.
+> **Warning**: Be careful about this warning.
+> **Danger**: This is a critical danger alert.
+
+*/
+
 .markdown-body blockquote {
     padding: 10px 20px;
     margin: 10px 0;
