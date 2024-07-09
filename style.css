@@ -70,12 +70,9 @@ code {
 
 
 .profile-image {
-    width: 40%;
+    width: 25%;
     height: auto;
-    /* border-radius: 50%; */
-    /* object-fit: ; */
+
     clip-path: circle(50%);
-    /* max-width: 150px; */
-    /* max-height: 150px; Set to a specific value */
 }
 
