@@ -26,6 +26,18 @@ header h1, footer p {
     margin: 0;
 }
 
+/*indents fo headings */
+h1, h2, h3, h4, h5 {
+    padding-left: 10px; /* Adjust the value as needed for the indent */
+    position: relative;
+}
+
+h1::before, h2::before, h3::before, h4::before, h5::before {
+    content: '';
+    position: absolute;
+    left: 0;
+}
+
 main {
     padding: 20px;
     max-width: 800px;
