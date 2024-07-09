@@ -82,7 +82,7 @@ code {
 .profile-image-container {
     text-align: center;
     background-color: #f0f0f0; /* Light grey background for contrast */
-    padding: 20px; /* Optional padding */
+    padding: 0; /* Optional padding */
 }
 
 .profile-image {
@@ -91,7 +91,7 @@ code {
     border-radius: 50%;
     object-fit: cover;
     max-width: 150px;
-    max-height: 150px;
+    max-height: auto;
 }
 
 .profile-image-container {
