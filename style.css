@@ -79,9 +79,7 @@ code {
 
 /* profile image settings for index.md */
 .profile-image-container {
-    text-align: left;
-    width: auto;
-    height: auto;
+    text-align: center;
 }
 
 
