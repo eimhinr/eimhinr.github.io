@@ -7,7 +7,7 @@ title: Eimhin Rafferty
   <!-- <p style="text-align: center;"> 
     <!-- <img src="profile.png" alt="Eimhin Rafferty" style="width: 40%; height: auto; border-radius: 50%; object-fit: cover; max-width: 150px; max-height: 150px;">
 </p> -->
-  <p>
+  <p style="text-align: center;">
     <img src="source/profile.png" alt="Eimhin Rafferty" class="profile-image" >
   </p>
   
