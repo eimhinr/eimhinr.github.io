@@ -1,8 +1,9 @@
+<link href="style.css" rel="stylesheet"></link>
 
 ![Eimhin Rafferty](profile.jpg)
-<!-- <p align=center>
+<p>
     <img src="profile.jpg" alt="Eimhin Rafferty" style="width: 80px, height: 80px, border-radius: 50%; object-fit: cover;"> 
-</p> -->
+</p>
 # 👋 Hello
 
 I'm Eimhin Rafferty
