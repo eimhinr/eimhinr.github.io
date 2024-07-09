@@ -1,8 +1,8 @@
 
-<!-- ![Eimhin Rafferty](https://www.eimhin.co/profile.jpg) -->
-<p align=center>
+![Eimhin Rafferty](https://www.eimhin.co/profile.jpg)
+<!-- <p align=center>
     <img src="profile.jpg" alt="Eimhin Rafferty" style="width: 80px, height: 80px, border-radius: 50%; object-fit: cover;"> 
-</p>
+</p> -->
 # 👋 Hello
 
 I'm Eimhin Rafferty
