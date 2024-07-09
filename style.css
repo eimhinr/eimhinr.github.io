@@ -87,7 +87,7 @@ code {
 .profile-image {
     width: 40%;
     height: auto;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* object-fit: ; */
     clip-path: circle();
     max-width: 150px;
