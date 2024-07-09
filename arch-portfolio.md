@@ -56,7 +56,8 @@
 
 ![Portfolio/BandR/Image 10.jpg](Portfolio/BandR/Image 10.jpg)
 
-=============
+= = = = = = = = = = = = =
+---
 <!--- 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -74,8 +75,6 @@
     });
 </script> 
 --->
-
-end of page
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
