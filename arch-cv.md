@@ -16,6 +16,7 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [portfolio](http://www.eimhi
 
 - Led the technical aspects of the "Record Model Initiative," a $2.7M project to deliver uniform, verified real estate data in standardised BIM format using Revit internal and external teams.
 - Developed and maintained revit documentation, training content, andtools for internal and external teams to deliver accurate design information. Supported this with bespoke plugins and utilities (pyrevit, dynamo, C#) to streamline productivity and quality control, integrating with third-party applications.
+- Managed conversion of reality capture data into High Accuracy (LOD) and low LOI modelds at scale. 
 - Established ring-fenced maintenance protocols and workflows to accurately maintain critical business data based on the Record Model Initiative, ensuring that teams could trust the reliability of their data.
 - Conducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items based on refredhsed BIM Data.
 - Managed design software and workflows, serving as Contract Administrator for $3M in Autodesk services and software.

@@ -43,4 +43,9 @@
 
 ## B+R Architects • Architectural Technologist • *08/2010 - 11/2012*
 ### Waitrose Dorking
+
 ### JLP 
+[Portfolio/BandR/Portfolio Master layout draft 038.jpg](Portfolio/BandR/Portfolio Master layout draft 038.jpg)
+[Portfolio/BandR/Image 12.jpg](Portfolio/BandR/Image 12.jpg)
+[Portfolio/BandR/Image 10.jpg](Portfolio/BandR/Image 10.jpg)
+

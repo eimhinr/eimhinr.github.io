@@ -28,6 +28,7 @@ you can drop me an email any time, whatsapp, signal or telegram too.
 or find me anywhere below:
 
 💻 [Github](https://www.github.com/eimhinr)
+
 📋 [LinkedIn](https://www.linkedin.com/eimhin-rafferty)
 
 
