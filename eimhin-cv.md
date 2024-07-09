@@ -1,3 +1,4 @@
+<link href="style.css" rel="stylesheet">
 Lecco, Italy • +393792058117 • eimhin@pm.me • [eimhin.co](http://www.eimhin.co) • [linkedin/eimhin](https://www.linkedin.com/in/eimhin-rafferty)
 
 ## Professional Experience
