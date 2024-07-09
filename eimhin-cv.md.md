@@ -33,7 +33,7 @@ Technological University Dublin 09/2005 - 05/2010
 ### SKILLS
 - **Technical Skills**: Product Lifecycle Management, Market Research, Agile Methodologies, Project Management, Data Analysis, Product Roadmapping, User Experience (UX) Design, Wireframing and Prototyping
 - **Soft Skills**: Communication, Leadership, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration
-- **Tools and Software**: Python, SQL, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool
+- **Tools and Software**: Python, SQL, Typescript, Jira, Linear, Figma, Monday, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Njc4OTcxXX0=
+eyJoaXN0b3J5IjpbMjUyNzUyNjk2XX0=
 -->
