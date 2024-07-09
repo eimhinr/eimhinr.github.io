@@ -57,7 +57,7 @@
 ![Portfolio/BandR/Image 10.jpg](Portfolio/BandR/Image 10.jpg)
 
 =============
-
+<!--- 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var headers = document.querySelectorAll('h1, h2, h3');
@@ -66,6 +66,26 @@
             header.addEventListener('click', function() {
                 var nextElement = header.nextElementSibling;
                 while (nextElement && !nextElement.matches('h1, h2, h3')) {
+                    nextElement.style.display = nextElement.style.display === 'none' ? 'block' : 'none';
+                    nextElement = nextElement.nextElementSibling;
+                }
+            });
+        });
+    });
+</script> 
+--->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var headers = document.querySelectorAll('h1, h2');
+        headers.forEach(function(header) {
+            header.classList.add('collapsible');
+            header.addEventListener('click', function() {
+                var chevron = header.querySelector('.chevron');
+                var nextElement = header.nextElementSibling;
+                var isExpanded = chevron.innerHTML === '&#9660;';
+                chevron.innerHTML = isExpanded ? '&#9654;' : '&#9660;';
+                while (nextElement && !nextElement.matches('h1, h2')) {
                     nextElement.style.display = nextElement.style.display === 'none' ? 'block' : 'none';
                     nextElement = nextElement.nextElementSibling;
                 }
