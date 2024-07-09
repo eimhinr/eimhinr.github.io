@@ -4,7 +4,7 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [eimhin.co](http://www.eimhi
 
 ### Archilogic • Product Manager • *11/2022 - Present*  
 
-- Managed product roadmap for Editor, Data Services, and Customer Onboarding during the growth phase.
+- Managed product roadmap for Editor, Data Services, and Customer Onboarding verticals. Defined, gathered and analyzeed metrics to drive decision-making and inform OKRs.
 - Led product feature discovery, requirements gathering, and authored PRDs to drive product development. Collaborated with Sales, Customer Support, and other product teams to balance growth features and core product development.
 - Delivered new planar graph data structure and compatible Editor 4.0 modelling platform. Supported users with advanced tools, resulting in a 2.5x increase in data conversion quality and a 1.8x reduction in conversion times.
 - Conducted daily standups and weekly backlog refinement calls to ensure alignment and progress within the remote first, agile team in 2 week cycles over rolling 6 committed backlog week cycles. 
@@ -24,7 +24,7 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [eimhin.co](http://www.eimhi
 ### Pascall + Watson • Building Information Model Coordinator • *11/2016 - 07/2018*
 
 - Responsible for planning, maintaining and enforcing the 'Project Building Information Model Execution Plan' (BEP) for £480M Airport Campus Development Project. Implemented BS 1192 standards on the project across multiple parties.
-- Developed and Implemented new technology processes to increase efficacy and accuracy, including: Reduced biweekly design freeze from 72hrs to 8hrs & deliverable set production time from 4hrs to 20 mins
+- Developed and Implemented new technology processes to increase efficacy and accuracy, including: Reduced biweekly design freeze from 72hrs to 8hrs & deliverable set production time from 4hrs to 20 mins.
 
 ### Watkins Gray International • Building Information Model Manager • *02/2014 - 11/2016*
 
