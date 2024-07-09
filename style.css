@@ -83,3 +83,8 @@ code {
 .collapsible {
     cursor: pointer;
 }
+
+.chevron {
+    display: inline-block;
+    margin-right: 10px;
+}
