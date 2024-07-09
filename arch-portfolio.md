@@ -56,8 +56,7 @@
 
 ![Portfolio/BandR/Image 10.jpg](Portfolio/BandR/Image 10.jpg)
 
-= = = = = = = = = = = = =
----
+=============
 <!--- 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -76,19 +75,21 @@
 </script> 
 --->
 
+end of page
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var headers = document.querySelectorAll('h2, h3');
         
         headers.forEach(function(header) {
             header.classList.add('collapsible');
-            header.innerHTML = '&#x002D; ' + header.innerHTML; // Initialize with open state
+            header.innerHTML = '- ' + header.innerHTML; // Initialize with open state
 
             header.addEventListener('click', function() {
-                var isExpanded = header.innerHTML.startsWith('&#x002D;');
+                var isExpanded = header.innerHTML.startsWith('-');
                 header.innerHTML = isExpanded
-                    ? '&#x002B; ' + header.innerHTML.substring(2); // closed state
-                    : '&#x002D; ' + header.innerHTML.substring(2) // open state
+                    ? '+ ' + header.innerHTML.substring(2) // Closed state
+                    : '- ' + header.innerHTML.substring(2); // Open state
 
                 var nextElement = header.nextElementSibling;
                 while (nextElement && !nextElement.matches('h2, h3')) {
