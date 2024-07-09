@@ -68,9 +68,8 @@ code {
     text-align: center;
 }
 
-
 .profile-image {
-    width: 25%;
+    width: 20%;
     height: auto;
     clip-path: circle(50%);
 }
