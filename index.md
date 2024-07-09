@@ -27,11 +27,15 @@ I am a Product Manager with 5+ years as a PM and 10+ in Design and Construction.
 you can drop me an email any time, whatsapp, signal or telegram too.
 or find me anywhere below:
 
-[LinkedIn](https://www.linkedin.com/eimhin-rafferty) 
+[LinkedIn](https://www.linkedin.com/eimhin-rafferty)
+
 [Github](https://www.github.com/eimhinr)
 
 
 > **Note**: This is an important note.
+
 > **Tip**: Here is a useful tip for you.
+
 > **Warning**: Be careful about this warning.
+
 > **Danger**: This is a critical danger alert.
