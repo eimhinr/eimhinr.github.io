@@ -1,9 +1,10 @@
 
 <!-- ![Eimhin Rafferty](https://www.eimhin.co/profile.jpg)  Replace with actual image URL --> 
-<img src="https://www.eimhin.co/profile.jpg" alt="Eimhin Rafferty" style=" border-radius: 50%; object-fit: cover;"> 
-# Hello
+<p align=center>
+<img src="https://www.eimhin.co/profile.jpg" alt="Eimhin Rafferty" style="width: 80px, height: 80px, border-radius: 50%; object-fit: cover;"> </p>
+# 👋 Hello
 
-👋 I'm Eimhin Rafferty
+I'm Eimhin Rafferty
 
 I am a Product Manager with 5+ years as a PM and 10+ in Design and Construction. I have lead large and successful initiatives and fostered user-centric design. I possess strong user empathy, an eye for good design, and a continuous curiosity to drive product improvements. My Architectural background gives me a meticulous attention to detail and strong problem-solving skills.
 
