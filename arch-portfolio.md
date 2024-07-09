@@ -37,6 +37,19 @@
 
 
 ## 1508 London • Architectural Technologist • *11/2012 - 02/2014*
+![Portfolio/1508/1508 Bathroom Details.png](Portfolio/1508/1508 Bathroom Details.png)
+![Portfolio/1508/1508 Beverly 52.png](Portfolio/1508/1508 Beverly 52.png)
+![Portfolio/1508/1508 Beverly 54.png](Portfolio/1508/1508 Beverly 54.png)
+![Portfolio/1508/1508 Beverly 55.png](Portfolio/1508/1508 Beverly 55.png)
+![Portfolio/1508/1508 Beverly 56.png](Portfolio/1508/1508 Beverly 56.png)
+![Portfolio/1508/1508 Kitchen Plan.png](Portfolio/1508/1508 Kitchen Plan.png)
+![Portfolio/1508/1508 London Envelope.jpg](Portfolio/1508/1508 London Envelope.jpg)
+![Portfolio/1508/1508 London Joinery.jpg](Portfolio/1508/1508 London Joinery.jpg)
+![Portfolio/1508/1508 London Master Dressing Plan.png](Portfolio/1508/1508 London Master Dressing Plan.png)
+![Portfolio/1508/1508 Zink Roof Details.png](Portfolio/1508/1508 Zink Roof Details.png)
+![Portfolio/1508/1508London Bebek.jpg](Portfolio/1508/1508London Bebek.jpg)
+![Portfolio/1508/1508London Ofoe Bebek.jpg](Portfolio/1508/1508London Ofoe Bebek.jpg)
+![Portfolio/1508/Typical Joinery Type 1.png](Portfolio/1508/Typical Joinery Type 1.png)
 ### BEBEK
 ### Draper 
 ### Detailing examples 
@@ -47,7 +60,7 @@
 
 ![Portfolio/BandR/B+R Dorking Elevation.png](Portfolio/BandR/B+R Dorking Elevation.png)
 
-![Portfolio/BandR/B+R Dorking Elevation3.png](Portfolio/BandR/B+R Dorking Elevation3.png)
+![Portfolio/BandR/B+R Dorking Elevation3.jpg](Portfolio/BandR/B+R Dorking Elevation3.jpg)
 
 ### JLP Leeds
 ![Portfolio/BandR/Portfolio Master layout draft 038.jpg](Portfolio/BandR/Portfolio Master layout draft 038.jpg)
