@@ -77,7 +77,6 @@ code {
     border-radius: 4px;
 }
 
-
 /* profile image settings for index.md */
 .profile-image-container {
     text-align: center;
@@ -91,5 +90,6 @@ code {
     border-radius: 50%;
     object-fit: cover;
     max-width: 150px;
-    max-height: 150px;
+    max-height: 150px; /* Set to a specific value */
 }
+

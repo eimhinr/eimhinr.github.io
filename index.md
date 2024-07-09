@@ -10,7 +10,7 @@ title: Eimhin Rafferty
   <div class="profile-image-container">
     <img src="profile.png" alt="Eimhin Rafferty" class="profile-image">
   </div>
-
+  
 # 👋 Hello
 
 I'm Eimhin Rafferty
