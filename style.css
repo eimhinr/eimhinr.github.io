@@ -72,7 +72,6 @@ code {
 .profile-image {
     width: 25%;
     height: auto;
-
     clip-path: circle(50%);
 }
 
