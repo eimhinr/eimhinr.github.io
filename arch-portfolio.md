@@ -74,7 +74,9 @@
     });
 </script> 
 --->
+
 end of page
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var headers = document.querySelectorAll('h1, h2, h3');
