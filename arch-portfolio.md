@@ -83,13 +83,13 @@ end of page
         
         headers.forEach(function(header) {
             header.classList.add('collapsible');
-            header.innerHTML = '&#x00D7; ' + header.innerHTML; // Initialize with open state
+            header.innerHTML = '&#x002D; ' + header.innerHTML; // Initialize with open state
 
             header.addEventListener('click', function() {
-                var isExpanded = header.innerHTML.startsWith('&#x00D7;');
+                var isExpanded = header.innerHTML.startsWith('&#x002D;');
                 header.innerHTML = isExpanded
-                    ? '&#x00D7; ' + header.innerHTML.substring(2); // closed state
-                    : '&#x002B; ' + header.innerHTML.substring(2) // open state
+                    ? '&#x002B; ' + header.innerHTML.substring(2); // closed state
+                    : '&#x002D; ' + header.innerHTML.substring(2) // open state
 
                 var nextElement = header.nextElementSibling;
                 while (nextElement && !nextElement.matches('h2, h3')) {
