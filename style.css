@@ -89,7 +89,8 @@ code {
     width: 40%;
     height: auto;
     border-radius: 50%;
-    object-fit: cover;
+    /* object-fit: ; */
+    clip-path: circle();
     max-width: 150px;
     max-height: 150px; /* Set to a specific value */
 }
