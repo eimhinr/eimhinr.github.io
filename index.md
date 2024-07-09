@@ -20,7 +20,7 @@ I am a Product Manager with 5+ years as a PM and 10+ in Design and Construction.
  🇬🇧 I've Lived and worked for many years in the UK
  🇮🇹 Now I live in Italy with my family
 
-> 🔉 Eimhin is a difficult irish name, it is prounced like 'Kevin' if you ignore the K
+> **Tip**: 🔉 Eimhin is a difficult irish name, it is prounced like 'Kevin' if you ignore the K
 
 ## Contact
 
@@ -29,3 +29,9 @@ or find me anywhere below:
 
 [LinkedIn](https://www.linkedin.com/eimhin-rafferty) 
 [Github](https://www.github.com/eimhinr)
+
+
+> **Note**: This is an important note.
+> **Tip**: Here is a useful tip for you.
+> **Warning**: Be careful about this warning.
+> **Danger**: This is a critical danger alert.
