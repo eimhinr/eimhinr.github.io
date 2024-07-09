@@ -79,20 +79,20 @@ end of page
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var headers = document.querySelectorAll('h1, h2, h3');
+        var headers = document.querySelectorAll('h2, h3');
         
         headers.forEach(function(header) {
             header.classList.add('collapsible');
-            header.innerHTML = '&#9660; ' + header.innerHTML; // Initialize with open chevron
+            header.innerHTML = '&#x00D7; ' + header.innerHTML; // Initialize with open chevron
 
             header.addEventListener('click', function() {
-                var isExpanded = header.innerHTML.startsWith('&#9660;');
+                var isExpanded = header.innerHTML.startsWith('&#x00D7;');
                 header.innerHTML = isExpanded
-                    ? '&#9654; ' + header.innerHTML.substring(2) // Closed state
-                    : '&#9660; ' + header.innerHTML.substring(2); // Open state
+                    ? '&#x002B; ' + header.innerHTML.substring(2) // Closed state
+                    : '&#x00D7; ' + header.innerHTML.substring(2); // Open state
 
                 var nextElement = header.nextElementSibling;
-                while (nextElement && !nextElement.matches('h1, h2, h3')) {
+                while (nextElement && !nextElement.matches('h2, h3')) {
                     nextElement.style.display = nextElement.style.display === 'none' ? 'block' : 'none';
                     nextElement = nextElement.nextElementSibling;
                 }
