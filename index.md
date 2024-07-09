@@ -22,3 +22,10 @@ you can drop me an email any time, whatsapp, signal or telegram too.
 or find me anywhere below:
 
 [LinkedIn](https://www.linkedin.com/eimhin-rafferty) [Github](https://www.github.com/eimhinr)
+
+
+<link rel="stylesheet" href="styles.css">
+
+<h1>Example Heading</h1>
+
+<p class="centered">This paragraph will be centered.</p>
