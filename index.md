@@ -4,8 +4,9 @@ title: Eimhin Rafferty
 
 <link href="style.css" rel="stylesheet">
 
-<p>
-    <img src="profile.png" alt="Eimhin Rafferty" style="width: 40%; height: auto; border-radius: 50%; object-fit: cover;">
+  <p style="text-align: center;">
+    <!-- <img src="profile.png" alt="Eimhin Rafferty" style="width: 40%; height: auto; border-radius: 50%; object-fit: cover;"> -->
+    <img src="profile.png" alt="Eimhin Rafferty" style="width: 40%; height: auto; border-radius: 50%; object-fit: cover; max-width: 200px; max-height: 200px;">
 </p>
 
 # 👋 Hello
