@@ -74,3 +74,12 @@ code {
     clip-path: circle(50%);
 }
 
+/*for collapsable headers in portfolio page*/
+.content {
+    display: none;
+    margin-left: 20px;
+}
+
+.collapsible {
+    cursor: pointer;
+}

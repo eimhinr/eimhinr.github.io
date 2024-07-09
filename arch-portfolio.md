@@ -56,3 +56,20 @@
 
 ![Portfolio/BandR/Image 10.jpg](Portfolio/BandR/Image 10.jpg)
 
+=============
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var headers = document.querySelectorAll('h1, h2, h3');
+        headers.forEach(function(header) {
+            header.classList.add('collapsible');
+            header.addEventListener('click', function() {
+                var nextElement = header.nextElementSibling;
+                while (nextElement && !nextElement.matches('h1, h2, h3')) {
+                    nextElement.style.display = nextElement.style.display === 'none' ? 'block' : 'none';
+                    nextElement = nextElement.nextElementSibling;
+                }
+            });
+        });
+    });
+</script>
