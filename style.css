@@ -81,7 +81,7 @@ code {
 > **Danger**: This is a critical danger alert.
 
 */
-
+/* 
 .markdown-body blockquote {
     padding: 10px 20px;
     margin: 10px 0;
@@ -98,7 +98,7 @@ code {
 
 .markdown-body blockquote > :last-child {
     margin-bottom: 0;
-}
+} */
 
 /* Specific styles for each type of alert */
 .markdown-body blockquote:has(> p:contains('Note:')) {
