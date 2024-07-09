@@ -4,25 +4,6 @@
 /* Importing Inter font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-/* testing these two lines to remove the top link of the page */
-/* .post-title {
-    display: none;
-}
-
-header {
-    display: none;
-  } */
-
-
-.container-lg.px-3.my-5.markdown-body {
-display: none;
-}
-  
-/* Depending on the theme, you might need to hide additional elements */
-.page-title, .entry-title {
-    display: none;
-}
-
 
 body {
     font-family: 'Inter', sans-serif;
