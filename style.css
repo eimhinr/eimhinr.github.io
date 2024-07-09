@@ -80,8 +80,9 @@ code {
 /* profile image settings for index.md */
 .profile-image-container {
     text-align: center;
-    background-color: #f0f0f0; /* Light grey background for contrast */
     padding: 0; /* Optional padding */
+    width: auto;
+    height: auto;
 }
 
 .profile-image {
