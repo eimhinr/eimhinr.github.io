@@ -8,7 +8,7 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [eimhin.co](http://www.eimhi
 - Managed product roadmap for Editor, Data Services, and Customer Onboarding verticals. Defined, gathered and analyzeed metrics to drive decision-making and inform OKRs.
 - Led product feature discovery, requirements gathering, and authored PRDs to drive product development. Collaborated with Sales, Customer Support, and other product teams to balance growth features and core product development.
 - Delivered new planar graph data structure and compatible Editor 4.0 modelling platform. Supported users with advanced tools, resulting in a 2.5x increase in data conversion quality and a 1.8x reduction in conversion times.
-- Conducted daily standups and weekly backlog refinement calls to ensure alignment and progress within the remote first, agile team in 2 week cycles over rolling 6 committed backlog week cycles. 
+- Conducted daily standups and weekly backlog refinement calls to ensure alignment and progress within the remote first, agile team in 2 week cycles over rolling 6 committed backlog week cycles.
 - Provided sales demos, customer support, and onboarding, supporting business activities.
 - Led technical initiatives, including single tenant instance productisation and deployment, and custom integrations with customer platforms for both proof of concept and production features.
 
@@ -40,12 +40,12 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [eimhin.co](http://www.eimhi
 
 - Project Architectural technology lead and BIM specialist.
 
-## EDUCATION
+## Education
 
 **BSc (Hons) in Architectural Technology** 
 Technological University Dublin *09/2005 - 05/2010*
 
-## SKILLS
+## Skills
 
 - **Technical Skills**: Product Lifecycle Management, Market Research, Agile Methodologies, Project Management, Data Analysis, Product Roadmapping, User Experience (UX) Design, Wireframing and Prototyping
 - **Soft Skills**: Communication, Leadership, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration

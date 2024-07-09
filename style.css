@@ -81,6 +81,8 @@ code {
 /* profile image settings for index.md */
 .profile-image-container {
     text-align: center;
+    background-color: #f0f0f0; /* Light grey background for contrast */
+    padding: 20px; /* Optional padding */
 }
 
 .profile-image {
@@ -91,3 +93,6 @@ code {
     max-width: 150px;
     max-height: 150px;
 }
+
+.profile-image-container {
+  }
