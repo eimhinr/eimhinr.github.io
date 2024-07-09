@@ -9,6 +9,10 @@
     display: none;
 }
 
+header {
+    display: none;
+  }
+  
 /* Depending on the theme, you might need to hide additional elements */
 .page-title, .entry-title {
     display: none;
