@@ -1,3 +1,4 @@
+<link href="style.css" rel="stylesheet">
 # Architectural Portflio 
 
 ## Archilogic • Product Manager • *11/2022 - Present*  
