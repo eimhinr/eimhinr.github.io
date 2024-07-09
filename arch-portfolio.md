@@ -45,7 +45,9 @@
 ### Waitrose Dorking
 
 ### JLP 
-[Portfolio/BandR/Portfolio Master layout draft 038.jpg](Portfolio/BandR/Portfolio Master layout draft 038.jpg)
-[Portfolio/BandR/Image 12.jpg](Portfolio/BandR/Image 12.jpg)
-[Portfolio/BandR/Image 10.jpg](Portfolio/BandR/Image 10.jpg)
+![Portfolio/BandR/Portfolio Master layout draft 038.jpg](Portfolio/BandR/Portfolio Master layout draft 038.jpg)
+
+![Portfolio/BandR/Image 12.jpg](Portfolio/BandR/Image 12.jpg)
+
+![Portfolio/BandR/Image 10.jpg](Portfolio/BandR/Image 10.jpg)
 
