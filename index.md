@@ -1,6 +1,6 @@
 
 <!-- ![Eimhin Rafferty](https://www.eimhin.co/profile.jpg)  Replace with actual image URL --> 
-<img src="https://www.eimhin.co/profile.jpg" alt="Eimhin Rafferty" style="width: 100; height: 100; border-radius: 50%; object-fit: cover;"> 
+<img src="https://www.eimhin.co/profile.jpg" alt="Eimhin Rafferty" style=" border-radius: 50%; object-fit: cover;"> 
 # Hello
 
 👋 I'm Eimhin Rafferty
