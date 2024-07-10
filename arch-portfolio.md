@@ -306,7 +306,9 @@ Our technical philosophy in 1508 was that if you can touch it, you should draw i
                 var nextElement = header.nextElementSibling;
                 while (nextElement && !nextElement.matches('h2, h3')) {
                     if (nextElement.matches('h3, h4, h5')) {
-                        nextElement.innerHTML = isExpanded ? '+ ' + nextElement.innerHTML.substring(2) : '- ' + nextElement.innerHTML.substring(2);
+                        nextElement.innerHTML = isExpanded 
+                            ? nextElement.innerHTML.replace('-', '+') 
+                            : nextElement.innerHTML.replace('+', '-');
                     }
                     nextElement.style.display = isExpanded ? 'none' : 'block';
                     nextElement = nextElement.nextElementSibling;
