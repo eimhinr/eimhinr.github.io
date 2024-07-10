@@ -1,11 +1,7 @@
----
-title: Eimhin Rafferty
----
-<title>Your Website Title</title>
 <link href="style.css" rel="stylesheet">
 
   <div class="profile-image-container" >
-    <img src="source/profile.png" alt="Eimhin Rafferty" class="profile-image" >
+    <img src="source/profile.png" alt="" class="profile-image" >
   </div>
   
 # 👋 Hello
@@ -31,4 +27,4 @@ or find me anywhere below:
 
 📋 [LinkedIn](https://www.linkedin.com/eimhin-rafferty)
 
-<script src="scriptMain.js"></script>
+<!-- <script src="scriptMain.js"></script> -->
