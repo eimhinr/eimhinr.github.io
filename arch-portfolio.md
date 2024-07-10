@@ -1,35 +1,67 @@
 <link href="style.css" rel="stylesheet">
 # Architectural Portflio
 
-## Archilogic • Product Manager • *11/2022 - Present*  
+<!-- ## Archilogic • Product Manager • *11/2022 - Present*   -->
 
-### Editor 4.0
+<!-- ### Editor 4.0 -->
 
-### Spacegraph Data Model
+<!-- ### Spacegraph Data Model -->
 
-### BOMA Calculatior
+<!-- ### BOMA Calculatior -->
 
-### IWMS intergrations
+<!-- ### IWMS intergrations -->
 
-### CAD Imports
+<!-- ### CAD Imports -->
 
-### IFC Exports
+<!-- ### IFC Exports -->
 
-### GLTF
+<!-- ### GLTF -->
 
 ## WeWork • Product Manager, Design Technology • *07/2018 - 12/2022*
+![WeWork_](assets/WeWork/WeWork-Logo-Helicoptor.gif)
+<!-- ### Record Model initiative -->
 
-### Record Model initiative
+### Entreprise Projects
+![WeWork_](assets/WeWork/ww-parnassus-2.png)
 
-### Design Standards
+![WeWork_](assets/WeWork/ww-parnassus-3.png)
 
-### Entreprise Hannover Building, Manchester
+![WeWork_](assets/WeWork/ww-parnassus-4.png)
 
 ### Reality Capture
+![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination4.png)
+
+![WeWork_](assets/WeWork/WeWork-Point-Cloud-Coordination-36-Dame.png)
+
+![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination-2.png)
+
+![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination.png)
+
+## Clever BIM
+![WeWork_](assets/WeWork/WeWork-Coodinatoin-As-Built.png)
+
+![WeWork_](assets/WeWork/WeWork-Automation-Gsheet-MAAnnex.gif)
 
 ### PyRevit Tools
+![WeWork_](assets/WeWork/WeWork-Automation-Gsheet-DataCheck.png)
 
-### Dynamo Tools
+### Design Standards Content + Process + Traning 
+
+- Initiative to give teams the tools to implement design standards.
+- Self documenting content.
+- Reliable, maintainable, version controled documentation.
+- Formed the basis of consultant onboarding.
+
+![WeWork_DesignContentGif](assets/WeWork/WW_DesignContentUpdate.gif)
+
+![WeWork_](assets/WeWork/ww_design_standards-09.png)
+
+![WeWork_](assets/WeWork/ww_design_standards-16.png)
+
+![WeWork_](assets/WeWork/ww_design_standards-19.png)
+
+![WeWork_](assets/WeWork/ww_design_standards-30.png)
+
 
 ## Pascall + Watson • Building Information Model Coordinator • *11/2016 - 07/2018*
 
