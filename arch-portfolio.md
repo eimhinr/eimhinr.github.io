@@ -279,7 +279,6 @@ Our technical philosophy in 1508 was that if you can touch it, you should draw i
     });
 </script> -->
 
-
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var headers = document.querySelectorAll('h2, h3');
@@ -304,7 +303,7 @@ Our technical philosophy in 1508 was that if you can touch it, you should draw i
                     : '- ' + header.innerHTML.substring(2); // Open state
 
                 var nextElement = header.nextElementSibling;
-                while (nextElement && !nextElement.matches('h2, h3')) {
+                while (nextElement && nextElement.tagName !== header.tagName) {
                     if (nextElement.matches('h3, h4, h5')) {
                         nextElement.innerHTML = isExpanded 
                             ? nextElement.innerHTML.replace('-', '+') 
