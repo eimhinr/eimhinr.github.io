@@ -279,6 +279,15 @@ Our technical philosophy in 1508 was that if you can touch it, you should draw i
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
+
+        // Update the first H1 element if its content is 'Eimhin'
+        var firstH1 = document.querySelector('h1');
+        if (firstH1 && firstH1.textContent.trim() === 'Eimhin') {
+            firstH1.textContent = 'Eimhin Rafferty';
+        }
+
+
+
         var headers = document.querySelectorAll('h2, h3');
         
         headers.forEach(function(header) {
