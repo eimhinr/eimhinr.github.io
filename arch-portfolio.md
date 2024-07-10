@@ -35,7 +35,7 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [CV](http://www.eimhin.co/ar
 
 ![WeWork_](assets/WeWork/ww-parnassus-4.png)
 
-#### Amazon Hannover Building, Manchester 
+#### Amazon Hannover Building, Manchester
 
 ![WeWork_hannover](assets/WeWork/WW_hannover.jpg)
 
@@ -43,7 +43,20 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [CV](http://www.eimhin.co/ar
     <iframe src="https://my.matterport.com/show/?m=hfZrMH1Qigm&ts=1&st=5000&tourcta=2&ss=71&sr=-2.86,-.09" width="853" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </body>
 
-### Reality Capture
+### BIM at WeWork
+
+> WeWork uses Autodesk building information modeling
+(BIM) software throughout the building lifecycle to help
+keep pace with the growing demand for collaborative
+office space around the world.
+
+#### Reality Capture - BIM for existing conditions
+
+Capturing accurate as-built data as the first step of design
+
+> WeWork uses reality capture and BIM solutions to support the design and construction of its WeWork offices, including ReCap, Revit, and Dynamo software. The firm uses 3D laser scanners to capture the existing conditions of a newly acquired space. The resulting point clouds are combined and edited in ReCap to visualize and navigate the existing conditions data.
+> This data is used in Revit to guide WeWork's modeling efforts as it develops a series of design options. The firm uses Dynamo and Revit API to embed cost and sales data from its business systems in the models in order to analyze revenue versus cost and other key business metrics.
+
 ![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination4.png)
 
 ![WeWork_](assets/WeWork/WeWork-Point-Cloud-Coordination-36-Dame.png)
@@ -52,7 +65,10 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [CV](http://www.eimhin.co/ar
 
 ![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination.png)
 
-### Tooled up BIM, PyRevit, Dynamo, Google Apps Scripts
+#### Tooled up BIM, PyRevit, Dynamo, Google Apps Scripts
+
+> As the design progresses, WeWork scans the space and references that data to quickly generate a more detailed design model and coordinate its design with existing structure and services. This highly-coordinated, precise 3D model offers increased use of prefabrication and offsite assembly, helping to minimize onsite rework and avoid delays during construction.
+> In addition, the intelligent Revit design model drives WeWork’s supply chain. With Revit, the project team is able to produce all of their drawings and quantities automatically, so all estimating and bidding is based on the design model and surprises are minimized during construction.
 
 ![WeWork_Pytools](assets/WeWork/WeWorkTools.jpg)
 
@@ -62,7 +78,45 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [CV](http://www.eimhin.co/ar
 
 ![WeWork_](assets/WeWork/WeWork-Automation-Gsheet-DataCheck.png)
 
-### Design Standards Content + Process + Traning 
+![WW_codeExamples](assets/WeWork/CODEEXAMPLE1.png)
+
+![WW_codeExamples](assets/WeWork/CODEEXAMPLE2.png)
+
+```sql
+/* Examples of simple SQL which enabled us to dive into our building data and
+answer questions such as 'hey how many MOP rooms are there in Florida?'  */
+
+select 
+    s.UUID,
+    s.floor_uuid,
+    s.ROOM_NUMBER,
+    s.DESIGNED_AS_SPACE_TYPE,
+    s.SQUARE_FOOTAGE,
+    s.WORK_UNITS,
+    s.DESK_COUNT,
+    s.HAS_WINDOW,
+    s.RGS_SPACE_TYPE,
+    f.LABEL,
+    f.UUID,
+    f.BUILDING_UUID,
+    f.SPACE_FIRST_PHYSICAL_OPEN_DATE,
+    b.COUNTRY,
+    b.STATE,
+    b.CITY,
+    b.ADDRESS_LINE,
+    b.NAME,
+    b.UUID
+FROM CENTRAL.CDM_PHYSICAL_SPACE.SPACE AS s
+  INNER JOIN CENTRAL.CDM_PHYSICAL_SPACE.FLOOR AS f on f.UUID = s.floor_uuid
+  INNER JOIN CENTRAL.CDM_PHYSICAL_SPACE.BUILDING AS b on b.uuid = f.BUILDING_UUID
+       WHERE s.DESIGNED_AS_SPACE_TYPE ='MOP' 
+         AND s.SQUARE_FOOTAGE BETWEEN 900 AND 1100
+         AND b.STATE LIKE 'Florida'
+    ORDER BY s.SQUARE_FOOTAGE DESC
+
+```
+
+#### Design Standards Content + Process + Traning 
 
 - Initiative to give teams the tools to implement design standards.
 - Self documenting content.
@@ -133,7 +187,7 @@ London City Airport stands out as a uniquely challenging site and project for se
 
 ![PAW_coord_collab](assets/PAW/P+W-BIMcollab-3.png)
 
-### Dynamo
+### Delivering Classifications, COBie and Efficncies with Dynamo
 
 ![PAW-Data-Code](assets/PAW/2020-Portfolio-Google-Slides-data.jpg)
 
@@ -201,20 +255,16 @@ London City Airport stands out as a uniquely challenging site and project for se
 
 > 1508 London is an esteemed design studio renowned for crafting exceptional interiors and architectural spaces. Specializing in bespoke residential, hospitality, and yacht projects, they blend timeless elegance with innovative design. Their portfolio includes iconic developments like No.1 Grosvenor Square and the Mandarin Oriental Residences. With a tailored approach and a dedication to excellence, 1508 London transforms client visions into luxurious, functional realities.
 
-### Bebek
-
-This project in Istambul overlooking the Bebek inspired insluded a full rebuild of the roof structure to create a 2nd floor for this stunning view. many tecnhicial chalanges included 36m of continious, electronic curtains.
+### Interior finishing examples
 
 ![assets/1508/1508London-Ofoe-Bebek.jpg](assets/1508/1508London-Ofoe-Bebek.jpg)
 
 ![assets/1508/1508London-Bebek.jpg](assets/1508/1508London-Bebek.jpg)
 
-### Beverly
-
-This project was a home in dubai, which no stone was unturned to achieve the vision of the team.
+![alt text](assets/1508/1508-London-Joinery.jpg)
 
 ![assets/1508/1508-Beverly-52.png](assets/1508/1508-Beverly-52.png)
-![assets/1508/1508-Beverly-54.png](assets/1508/1508-Beverly-54.png)
+
 ![assets/1508/1508-Beverly-55.png](assets/1508/1508-Beverly-55.png)
 
 ### Detailing examples
@@ -225,7 +275,12 @@ Our technical philosophy in 1508 was that if you can touch it, you should draw i
 
 ![assets/1508/1508-London-Master-Dressing-Plan.png](assets/1508/1508-London-Master-Dressing-Plan.png)
 
-![assets/1508/1508-Kitchen-![WGI-Image](Portfolio/WGI/WGI---2.png)
+![1508/1508](assets/1508/Typical-Joinery-Type-1.png)
+
+![1508/1508](assets/1508/1508-Kitchen-Plan.png)
+
+![1508/1508](assets/1508/1508-Bathroom-Details.png)
+
 
 ## B+R Architects • Architectural Technologist • *08/2010 - 11/2012*
 
