@@ -18,15 +18,23 @@
 <!-- ### GLTF -->
 
 ## WeWork • Product Manager, Design Technology • *07/2018 - 12/2022*
-![WeWork_](assets/WeWork/WeWork-Logo-Helicoptor.gif)
+
 <!-- ### Record Model initiative -->
 
 ### Entreprise Projects
+
+#### Zoom HQ, Amsterdam 
 ![WeWork_](assets/WeWork/ww-parnassus-2.png)
 
 ![WeWork_](assets/WeWork/ww-parnassus-3.png)
 
 ![WeWork_](assets/WeWork/ww-parnassus-4.png)
+
+#### Amazon Hannover Building, Manchester 
+![WeWork_hannover](assets/WeWork/WW_hannover.jpg)
+<body>
+    <iframe src="https://my.matterport.com/show/?m=hfZrMH1Qigm&ts=1&st=5000&tourcta=2&ss=71&sr=-2.86,-.09" width="853" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</body>
 
 ### Reality Capture
 ![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination4.png)
@@ -37,12 +45,12 @@
 
 ![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination.png)
 
-## Clever BIM
+## Tooled up BIM, PyRevit, Dynamo, Google Apps Scripts
+
 ![WeWork_](assets/WeWork/WeWork-Coodinatoin-As-Built.png)
 
 ![WeWork_](assets/WeWork/WeWork-Automation-Gsheet-MAAnnex.gif)
 
-### PyRevit Tools
 ![WeWork_](assets/WeWork/WeWork-Automation-Gsheet-DataCheck.png)
 
 ### Design Standards Content + Process + Traning 
@@ -52,9 +60,7 @@
 - Reliable, maintainable, version controled documentation.
 - Formed the basis of consultant onboarding.
 
-![WeWork_DesignContentGif](assets/WeWork/WW_DesignContentUpdate.gif)
-
-![WeWork_](assets/WeWork/ww_design_standards-09.png)
+![WeWork_DesignContentGif](assets/WeWork/2019Q3-DesignContentUpdate_gimp.gif)
 
 ![WeWork_](assets/WeWork/ww_design_standards-16.png)
 
@@ -100,15 +106,10 @@ London City Airport stands out as a uniquely challenging site and project for se
 Model Overview
 ![model overview](assets/PAW/2020-Portfolio-Google-Overview.jpg)
 
-### Digital Air Traffic Control Tower
-[Pascall+Watson's remote air traffic control tower is world-first for a major international airport](https://www.pascalls.co.uk/news/article/pascallwatsons-remote-air-traffic-control-tower-is-world-first-for-a-major-international-airport/)
-> London City Airport has introduced the UK's first digital air traffic control tower, a significant development in its £400 million redevelopment program. This state-of-the-art tower allows controllers to manage air traffic remotely using high-definition cameras and sensors, providing a 360-degree view of the airfield from a control center located over 70 miles away. This innovative approach enhances operational efficiency and safety, marking a transformative step in airport technology
 
-![DATCT](assets/PAW/LCY2-News-4-3.jpg)
 
 ### London City Airport
 
-![PAW_LCA](assets/PAW/LCY2-News-4-3.jpg)
 
 ![PAW_LCA](assets/PAW/London-City-Airport-Pascall-Watson-(1).jpg)
 
@@ -120,9 +121,12 @@ Model Overview
 
 ![PAW-LCA-planning-plans](assets/PAW/Proposed-Phase-2-Terminal-Extension-First-Level.png)
 
-![PAW-LCA-planning-plans](assets/PAW/VAR-CADP1-S73-Design-Development-Report.png)
-
 ![PAW-LCA-planning-plans](assets/PAW/Western-Terminal-Extension-Elevations.png)
+
+### Digital Air Traffic Control Tower
+[Pascall+Watson's remote air traffic control tower is world-first for a major international airport](https://www.pascalls.co.uk/news/article/pascallwatsons-remote-air-traffic-control-tower-is-world-first-for-a-major-international-airport/)
+> London City Airport has introduced the UK's first digital air traffic control tower, a significant development in its £400 million redevelopment program. This state-of-the-art tower allows controllers to manage air traffic remotely using high-definition cameras and sensors, providing a 360-degree view of the airfield from a control center located over 70 miles away. This innovative approach enhances operational efficiency and safety, marking a transformative step in airport technology
+![PAW_LCA](assets/PAW/LCY2-News-4-3.jpg)
 
 ### BIM Coordination
 
