@@ -18,12 +18,13 @@
 <!-- ### GLTF -->
 
 ## WeWork • Product Manager, Design Technology • *07/2018 - 12/2022*
-
+> WeWork provides flexible workspace solutions for businesses of all sizes, from freelancers to Fortune 500 companies. Offering private offices, coworking memberships, and on-demand meeting rooms, WeWork creates environments that foster productivity and innovation. With locations worldwide, WeWork integrates technology, community, and design to support your professional needs, whether you require a dedicated desk or a turnkey office.
 <!-- ### Record Model initiative -->
 
 ### Entreprise Projects
 
 #### Zoom HQ, Amsterdam 
+
 ![WeWork_](assets/WeWork/ww-parnassus-2.png)
 
 ![WeWork_](assets/WeWork/ww-parnassus-3.png)
@@ -31,7 +32,9 @@
 ![WeWork_](assets/WeWork/ww-parnassus-4.png)
 
 #### Amazon Hannover Building, Manchester 
+
 ![WeWork_hannover](assets/WeWork/WW_hannover.jpg)
+
 <body>
     <iframe src="https://my.matterport.com/show/?m=hfZrMH1Qigm&ts=1&st=5000&tourcta=2&ss=71&sr=-2.86,-.09" width="853" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </body>
@@ -45,7 +48,7 @@
 
 ![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination.png)
 
-## Tooled up BIM, PyRevit, Dynamo, Google Apps Scripts
+### Tooled up BIM, PyRevit, Dynamo, Google Apps Scripts
 
 ![WeWork_](assets/WeWork/WeWork-Coodinatoin-As-Built.png)
 
@@ -70,6 +73,8 @@
 
 
 ## Pascall + Watson • Building Information Model Coordinator • *11/2016 - 07/2018*
+
+> Pascall+Watson Architects, founded in 1956, is an international architecture and design firm known for its innovative and sustainable solutions. With studios across the UK, Europe, and the Middle East, they specialize in diverse sectors including aviation, education, healthcare, and leisure. Their collaborative approach ensures each project reflects the client's vision, creating impactful spaces that serve communities. Pascall+Watson is committed to environmental and social responsibility, continually pushing the boundaries of what's possible in architecture and design.
 
 Due to the confidential nature of this project, information shared here is limited to what is publicly available.
 
