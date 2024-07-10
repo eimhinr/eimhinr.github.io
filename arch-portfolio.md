@@ -166,7 +166,7 @@ London City Airport stands out as a uniquely challenging site and project for se
 
 ### Coordination and collaboration
 
-![model_breakdown](<assets/PAW/2020 Portfolio Google Slides (1).jpg>)
+![modelBreakdown](assets/PAW/LCY-modelBreakdown.jpg)
 
 ![PAW-LCA-planning-plans](assets/PAW/Proposed-Phase-2-Extension-Elevations.png)
 
