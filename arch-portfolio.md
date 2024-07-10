@@ -157,9 +157,9 @@ London City Airport stands out as a uniquely challenging site and project for se
    - **Technological Advancements**: To address these challenges, the airport incorporates state-of-the-art technologies in air traffic management, security, and passenger services. Innovations such as remote air traffic control towers and biometric boarding systems are part of its strategy to enhance efficiency and passenger experience.
    - **Infrastructure Upgrades**: Continuous infrastructure upgrades are essential to meet growing demand and evolving regulatory standards. Projects like terminal expansions, runway enhancements, and improved transportation links are critical to maintaining the airport’s competitive edge.
 
-![alt text](assets/PAW/London-City-Airport-Pascall-Watson-(1).jpg)
+![model overview](assets/PAW/London-City-Airport-Pascall-Watson-(1).jpg)
 
-![alt text](assets/PAW/London-City-Airport-Pascall-Watson.jpg)
+![model overview](assets/PAW/London-City-Airport-Pascall-Watson.jpg)
 
 ![model overview](assets/PAW/2020-Portfolio-Google-Overview.jpg)
 
