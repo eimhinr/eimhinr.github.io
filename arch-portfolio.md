@@ -1,5 +1,8 @@
 <link href="style.css" rel="stylesheet">
-# Architectural Portflio
+# Architectural Portflio - Eimhin Rafferty
+Lecco, Italy • +393792058117 • eimhin@pm.me • [CV](http://www.eimhin.co/arch-cv) • [linkedin/eimhin](https://www.linkedin.com/in/eimhin-rafferty)
+
+---
 
 <!-- ## Archilogic • Product Manager • *11/2022 - Present*   -->
 
@@ -51,6 +54,7 @@
 ![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination.png)
 
 ### Tooled up BIM, PyRevit, Dynamo, Google Apps Scripts
+
 ![WeWork_Pytools](assets/WeWork/WeWorkTools.jpg)
 
 ![WeWork_](assets/WeWork/WeWork-Coodinatoin-As-Built.png)
