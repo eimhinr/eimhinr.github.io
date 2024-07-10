@@ -21,6 +21,8 @@
 > WeWork provides flexible workspace solutions for businesses of all sizes, from freelancers to Fortune 500 companies. Offering private offices, coworking memberships, and on-demand meeting rooms, WeWork creates environments that foster productivity and innovation. With locations worldwide, WeWork integrates technology, community, and design to support your professional needs, whether you require a dedicated desk or a turnkey office.
 <!-- ### Record Model initiative -->
 
+![Global Footprint](assets/WeWork/WeWorkMap.jpg)
+
 ### Entreprise Projects
 
 #### Zoom HQ, Amsterdam 
@@ -49,6 +51,7 @@
 ![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination.png)
 
 ### Tooled up BIM, PyRevit, Dynamo, Google Apps Scripts
+![WeWork_Pytools](assets/WeWork/WeWorkTools.jpg)
 
 ![WeWork_](assets/WeWork/WeWork-Coodinatoin-As-Built.png)
 
@@ -88,39 +91,25 @@ London City Airport stands out as a uniquely challenging site and project for se
 
 2. **Operational Complexity**:
    - **Short Runway**: The airport has one of the shortest commercial runways in the world, at just 1,508 meters (4,948 feet). This necessitates precise and careful landing and takeoff procedures, often requiring aircraft modifications and specialized pilot training.
-   - **High Volume of Traffic**: Despite its size, London City Airport handles a significant volume of business and leisure travelers. Managing this high traffic within the constrained space adds to the complexity.
 
-3. **Environmental Considerations**:
-   - **Sustainability**: As part of London’s commitment to environmental sustainability, the airport has to implement green practices, from energy-efficient buildings to reduced carbon emissions. Balancing operational efficiency with environmental impact is a constant challenge.
-   - **Noise Pollution**: Given its proximity to populated areas, minimizing noise pollution is crucial. This involves not only advanced noise-reducing technologies in aircraft but also strategic flight scheduling and path planning.
-
-4. **Regulatory and Community Engagement**:
+3. **Regulatory and Community Engagement**:
    - **Strict Regulations**: Operating within one of the world’s most regulated airspaces means compliance with numerous aviation, safety, and environmental regulations. Navigating these regulations while maintaining efficient operations requires meticulous planning and execution.
    - **Community Relations**: The airport must actively engage with the local community to address concerns related to noise, traffic, and environmental impact. Building and maintaining good relations with the community is vital for its ongoing operations and potential expansion projects.
 
-5. **Innovative Solutions**:
+4. **Innovative Solutions**:
    - **Technological Advancements**: To address these challenges, the airport incorporates state-of-the-art technologies in air traffic management, security, and passenger services. Innovations such as remote air traffic control towers and biometric boarding systems are part of its strategy to enhance efficiency and passenger experience.
    - **Infrastructure Upgrades**: Continuous infrastructure upgrades are essential to meet growing demand and evolving regulatory standards. Projects like terminal expansions, runway enhancements, and improved transportation links are critical to maintaining the airport’s competitive edge.
-
-**A uniquely challenging site and project**
 
 ![alt text](assets/PAW/London-City-Airport-Pascall-Watson-(1).jpg)
 
 ![alt text](assets/PAW/London-City-Airport-Pascall-Watson.jpg)
 
-Model Overview
 ![model overview](assets/PAW/2020-Portfolio-Google-Overview.jpg)
 
 
-
-### London City Airport
-
-
-![PAW_LCA](assets/PAW/London-City-Airport-Pascall-Watson-(1).jpg)
-
-![PAW_LCA](assets/PAW/London-City-Airport-Pascall-Watson.jpg)
-
 ### Coordination and collaboration
+
+![model_breakdown](<assets/PAW/2020 Portfolio Google Slides (1).jpg>)
 
 ![PAW-LCA-planning-plans](assets/PAW/Proposed-Phase-2-Extension-Elevations.png)
 
