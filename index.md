@@ -31,6 +31,4 @@ or find me anywhere below:
 
 📋 [LinkedIn](https://www.linkedin.com/eimhin-rafferty)
 
-
-
-
+<script src="scriptMain.js"></script>

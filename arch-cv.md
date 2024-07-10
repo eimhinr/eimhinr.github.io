@@ -64,15 +64,4 @@ Technological University Dublin *09/2005 - 05/2010*
 - **Soft Skills**: Communication, Leadership, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration
 - **Tools and Software**: Python, SQL, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Get the first H1 element on the page
-        var firstH1 = document.querySelector('h1');
-        
-        // Check if the content of the first H1 is exactly 'Eimhin'
-        if (firstH1 && firstH1.textContent.trim() === 'Eimhin') {
-            // Change the content to 'Eimhin Rafferty'
-            firstH1.textContent = 'Eimhin Rafferty';
-        }
-    });
-</script>
+<script src="scriptMain.js"></script>

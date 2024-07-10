@@ -304,34 +304,9 @@ Our technical philosophy in 1508 was that if you can touch it, you should draw i
 
 =============
 
+<script src="scriptPortfolio.js"></script>
+
 <!-- <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var headers = document.querySelectorAll('h2, h3');
-
-        headers.forEach(function(header) {
-            header.classList.add('collapsible');
-            header.innerHTML = '- ' + header.innerHTML; // Initialize with open state
-
-            header.addEventListener('click', function() {
-                var isExpanded = header.innerHTML.startsWith('-');
-                header.innerHTML = isExpanded
-                    ? '+ ' + header.innerHTML.substring(2) // Closed state
-                    : '- ' + header.innerHTML.substring(2); // Open state
-
-                var nextElement = header.nextElementSibling;
-                while (nextElement && nextElement.tagName !== header.tagName) {
-                    if (nextElement.matches('h2, h3, h4, h5')) {
-                        nextElement.innerHTML = isExpanded ? '+ ' + nextElement.innerHTML.substring(2) : '- ' + nextElement.innerHTML.substring(2);
-                    }
-                    nextElement.style.display = isExpanded ? 'none' : 'block';
-                    nextElement = nextElement.nextElementSibling;
-                }
-            });
-        });
-    });
-</script> -->
-
-<script>
     document.addEventListener('DOMContentLoaded', function() {
 
         // Update the first H1 element if its content is 'Eimhin'
@@ -376,4 +351,4 @@ Our technical philosophy in 1508 was that if you can touch it, you should draw i
             });
         });
     });
-</script>
+</script> -->
