@@ -1,5 +1,4 @@
 <link href="style.css" rel="stylesheet">
-# Architectural Portflio - Eimhin Rafferty
 Lecco, Italy • +393792058117 • eimhin@pm.me • [CV](http://www.eimhin.co/arch-cv) • [linkedin/eimhin](https://www.linkedin.com/in/eimhin-rafferty)
 
 ---
@@ -28,7 +27,7 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [CV](http://www.eimhin.co/ar
 
 ### Entreprise Projects
 
-#### Zoom HQ, Amsterdam 
+#### Zoom HQ, Amsterdam
 
 ![WeWork_](assets/WeWork/ww-parnassus-2.png)
 
@@ -283,7 +282,7 @@ Our technical philosophy in 1508 was that if you can touch it, you should draw i
         // Update the first H1 element if its content is 'Eimhin'
         var firstH1 = document.querySelector('h1');
         if (firstH1 && firstH1.textContent.trim() === 'Eimhin') {
-            firstH1.textContent = 'Eimhin Rafferty';
+            firstH1.textContent = 'Eimhin Rafferty - Architectural & BIM Portfolio';
         }
 
 

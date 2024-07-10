@@ -1,4 +1,5 @@
 <link href="style.css" rel="stylesheet">
+
 Lecco, Italy • +393792058117 • eimhin@pm.me • [portfolio](http://www.eimhin.co/arch-portfolio) • [linkedin/eimhin](https://www.linkedin.com/in/eimhin-rafferty)
 
 ## Professional Experience
@@ -64,7 +65,7 @@ Technological University Dublin *09/2005 - 05/2010*
         // Check if the content of the first H1 is exactly 'Eimhin'
         if (firstH1 && firstH1.textContent.trim() === 'Eimhin') {
             // Change the content to 'Eimhin Rafferty'
-            firstH1.textContent = 'Eimhin Rafferty';
+            firstH1.textContent = 'Eimhin Rafferty - Architectural & BIM Portfolio';
         }
     });
 </script>
