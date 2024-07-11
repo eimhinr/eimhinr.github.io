@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Notes",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 11, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 8, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hello",
     "section": "",
-    "text": "👋 Eimhin Rafferty 👉 Design Technology 👉 Product Manager\n\nContact\nif you have my number you can get me on whatsapp/telegram/signal, if you dont, you can get me at any of the linked socials 👇👇👇!"
+    "text": "I’m Eimhin Rafferty\nI am a Product Manager with 5+ years as a PM, prior to that I have worked for 10+ years as a Building Information Modling expert in the Architectural Design and Construction sectors. I have lead large and successful initiatives and fostered user-centric design. I possess strong user empathy, an eye for good design, and a continuous curiosity to drive product improvements. My Architectural background gives me a meticulous attention to detail and strong problem-solving skills.\n\n\n\n🏃 I love to Cycle & Run ↗️ Follow me on ⏱️ Strava\n\n🚸 Most of my time is spend being a dad though!\n🇮🇪 I’m from ireland\n🇬🇧 I’ve Lived and worked for many years in the UK\n🇮🇹 Now I live in Italy with my family\n🔉 Eimhin is a difficult irish name, it is prounced like ‘Kevin’ if you ignore the K\n\n\n\n\nyou can drop me an email any time, whatsapp, signal or telegram too. or find me anywhere below 👇"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Hello",
+    "section": "",
+    "text": "🏃 I love to Cycle & Run ↗️ Follow me on ⏱️ Strava\n\n🚸 Most of my time is spend being a dad though!\n🇮🇪 I’m from ireland\n🇬🇧 I’ve Lived and worked for many years in the UK\n🇮🇹 Now I live in Italy with my family\n🔉 Eimhin is a difficult irish name, it is prounced like ‘Kevin’ if you ignore the K"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Hello",
+    "section": "",
+    "text": "you can drop me an email any time, whatsapp, signal or telegram too. or find me anywhere below 👇"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -26,5 +26,19 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 11, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 8, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
   }
 ]
