@@ -1,27 +1,37 @@
+
 project:
   type: website
 
 website:
-  title: "eimhin.co"
+  title: "eimhin-co"
   navbar:
-    right:
-      - notes.qmd
-      - text: LinkedIn
-        href: https://www.linkedin.com/in/eimhin-rafferty/
-      - text: Github
-        href: https://github.com/eimhinr
-      - text: Strava
-        href: https://www.strava.com/athletes/15882927
-      - text: Instagram
-        href: https://www.instagram.com/eimhinr/
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
 format:
   html:
     theme: cosmo
     css: styles.css
-
-execute:
-  freeze: auto
-from: markdown+emoji
-
-
-
+    toc: true
+  pdf:
+    documentclass: article
+    css: styles.css
+    theme: cosmo
+    linestretch: 1.2
+    margin-top: 1in
+    margin-bottom: 1in
+    margin-left: 1in
+    margin-right: 1in
+    toc: false
+    # toc-depth: 2
+    keep_tex: true
+    include-in-header:
+      text: |
+        \usepackage{fontspec}
+        \setmainfont{Arial}
+        \usepackage{titlesec}
+        \titlespacing\section{1.5pt}{*0}{*0}
+        \titlespacing\subsection{1.5pt}{*0}{*0}
+        \titlespacing\subsubsection{1.5pt}{*0}{*0}

@@ -1,21 +1,7 @@
 ---
-title: "Hello"
-image: profile.jpg
-about:
-  template: jolla
-  links:
-    - text: LinkedIn
-      href: https://www.linkedin.com/in/eimhin-rafferty/
-    - text: Github
-      href: https://github.com/eimhinr
-    - text: Strava
-      href: https://www.strava.com/athletes/15882927
-    - text: Instagram
-      href: https://www.instagram.com/eimhinr/
----
-
-  
-# 👋 Hello
+title: "Home"
+--- 
+👋 Hello
 
 I'm Eimhin Rafferty
 
@@ -27,9 +13,13 @@ I am a Product Manager with 5+ years as a PM, prior to that I have worked for 10
 - 🇮🇪 I'm from ireland
 - 🇬🇧 I've Lived and worked for many years in the UK
 - 🇮🇹 Now I live in Italy with my family
-- 🔉 Eimhin is a difficult irish name, it is prounced like 'Kevin' if you ignore the K
+- 🔉 Eimhin is a difficult irish name, it is prounced like 'Kevin' if you ignore the K 
 
 ## Contact
 
 you can drop me an email any time, whatsapp, signal or telegram too.
-or find me anywhere below :point_down:
+or find me anywhere below:
+
+💻 [Github](https://www.github.com/eimhinr)
+
+📋 [LinkedIn](https://www.linkedin.com/eimhin-rafferty)
