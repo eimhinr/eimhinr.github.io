@@ -2,18 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://eimhin.co/index.html</loc>
-    <lastmod>2024-07-12T07:48:00.400Z</lastmod>
+    <lastmod>2024-07-12T09:03:49.843Z</lastmod>
   </url>
   <url>
-    <loc>https://eimhin.co/posts/welcome/index.html</loc>
-    <lastmod>2024-07-12T07:48:00.400Z</lastmod>
+    <loc>https://eimhin.co/pm-cv.html</loc>
+    <lastmod>2024-07-12T09:03:49.843Z</lastmod>
   </url>
   <url>
-    <loc>https://eimhin.co/notes.html</loc>
-    <lastmod>2024-07-12T07:48:00.400Z</lastmod>
+    <loc>https://eimhin.co/about.html</loc>
+    <lastmod>2024-07-12T09:03:49.323Z</lastmod>
   </url>
   <url>
-    <loc>https://eimhin.co/posts/post-with-code/index.html</loc>
-    <lastmod>2024-07-12T07:48:00.400Z</lastmod>
+    <loc>https://eimhin.co/arch-cv.html</loc>
+    <lastmod>2024-07-12T09:03:49.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eimhin.co/arch-portfolio.html</loc>
+    <lastmod>2024-07-12T09:03:49.387Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eimhin.co/pm-portfolio.html</loc>
+    <lastmod>2024-07-12T09:03:49.843Z</lastmod>
   </url>
 </urlset>
