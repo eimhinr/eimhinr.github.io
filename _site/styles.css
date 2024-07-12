@@ -1,0 +1,22 @@
+/* css styles */
+
+
+.hide-navbar .quarto-navbar {
+    display: none;
+}
+
+h1 {
+    color: teal; 
+  }
+  
+  h2 {
+    color: teal; 
+  }
+  
+  h3 {
+    color: teal; 
+  }
+  
+  h4, h5, h6 {
+    color: teal; 
+  }
