@@ -13,13 +13,13 @@ class: hide-navbar
 
 ### Entreprise Projects
 
-#### Parnassus Tower, Amsterdam
+#### Parnassus Tower Amsterdam
 
-![WeWork_](assets/WeWork/ww-parnassus-2.png)
+![WeWork_1](assets/WeWork/ww-parnassus-2.png)
 
-![WeWork_](assets/WeWork/ww-parnassus-3.png)
+![WeWork_2](assets/WeWork/ww-parnassus-3.png)
 
-![WeWork_](assets/WeWork/ww-parnassus-4.png)
+![WeWork_3](assets/WeWork/ww-parnassus-4.png)
 
 #### Amazon Hannover Building, Manchester
 

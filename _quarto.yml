@@ -35,3 +35,13 @@ format:
         \titlespacing\section{1.5pt}{*0}{*0}
         \titlespacing\subsection{1.5pt}{*0}{*0}
         \titlespacing\subsubsection{1.5pt}{*0}{*0}
+        \titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+        \titleformat{\subsection}{\normalfont\large\bfseries\color{blue}}{\thesubsection}{1em}{}
+        \titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{blue}}{\thesubsubsection}{1em}{}
+        \titleformat{\paragraph}{\normalfont\normalsize\bfseries\color{blue}}{\theparagraph}{1em}{}
+        \titleformat{\subparagraph}{\normalfont\normalsize\bfseries\color{blue}}{\thesubparagraph}{1em}{}
+        \titlespacing\section{0pt}{*0}{*0}
+        \titlespacing\subsection{0pt}{*0}{*0}
+        \titlespacing\subsubsection{0pt}{*0}{*0}
+        \titlespacing\paragraph{0pt}{*0}{*0}
+        \titlespacing\subparagraph{0pt}{*0}{*0}
