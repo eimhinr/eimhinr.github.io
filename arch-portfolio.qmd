@@ -1,6 +1,7 @@
 ---
 title: "Eimhin Rafferty • Architect Portfolio"
-class: hide-navbar
+output: html
+
 --- 
 
 
