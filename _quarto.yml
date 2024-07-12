@@ -3,12 +3,12 @@ project:
   type: website
 
 website:
-  title: "eimhin-co"
+  title: "Eimhin Rafferty"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      
 
 format:
   html:
