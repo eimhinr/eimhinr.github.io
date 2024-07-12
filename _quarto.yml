@@ -15,33 +15,33 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-  pdf:
-    documentclass: article
-    css: styles.css
-    theme: cosmo
-    linestretch: 1.2
-    margin-top: 1in
-    margin-bottom: 1in
-    margin-left: 1in
-    margin-right: 1in
-    toc: false
-    # toc-depth: 2
-    keep_tex: true
-    include-in-header:
-      text: |
-        \usepackage{fontspec}
-        \setmainfont{Arial}
-        \usepackage{titlesec}
-        \titlespacing\section{1.5pt}{*0}{*0}
-        \titlespacing\subsection{1.5pt}{*0}{*0}
-        \titlespacing\subsubsection{1.5pt}{*0}{*0}
-        \titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
-        \titleformat{\subsection}{\normalfont\large\bfseries\color{blue}}{\thesubsection}{1em}{}
-        \titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{blue}}{\thesubsubsection}{1em}{}
-        \titleformat{\paragraph}{\normalfont\normalsize\bfseries\color{blue}}{\theparagraph}{1em}{}
-        \titleformat{\subparagraph}{\normalfont\normalsize\bfseries\color{blue}}{\thesubparagraph}{1em}{}
-        \titlespacing\section{0pt}{*0}{*0}
-        \titlespacing\subsection{0pt}{*0}{*0}
-        \titlespacing\subsubsection{0pt}{*0}{*0}
-        \titlespacing\paragraph{0pt}{*0}{*0}
-        \titlespacing\subparagraph{0pt}{*0}{*0}
+  # pdf:
+  #   documentclass: article
+  #   css: styles.css
+  #   theme: cosmo
+  #   linestretch: 1.2
+  #   margin-top: 1in
+  #   margin-bottom: 1in
+  #   margin-left: 1in
+  #   margin-right: 1in
+  #   toc: false
+  #   # toc-depth: 2
+  #   keep_tex: true
+  #   include-in-header:
+  #     text: |
+  #       \usepackage{fontspec}
+  #       \setmainfont{Arial}
+  #       \usepackage{titlesec}
+  #       \titlespacing\section{1.5pt}{*0}{*0}
+  #       \titlespacing\subsection{1.5pt}{*0}{*0}
+  #       \titlespacing\subsubsection{1.5pt}{*0}{*0}
+  #       \titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+  #       \titleformat{\subsection}{\normalfont\large\bfseries\color{blue}}{\thesubsection}{1em}{}
+  #       \titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{blue}}{\thesubsubsection}{1em}{}
+  #       \titleformat{\paragraph}{\normalfont\normalsize\bfseries\color{blue}}{\theparagraph}{1em}{}
+  #       \titleformat{\subparagraph}{\normalfont\normalsize\bfseries\color{blue}}{\thesubparagraph}{1em}{}
+  #       \titlespacing\section{0pt}{*0}{*0}
+  #       \titlespacing\subsection{0pt}{*0}{*0}
+  #       \titlespacing\subsubsection{0pt}{*0}{*0}
+  #       \titlespacing\paragraph{0pt}{*0}{*0}
+  #       \titlespacing\subparagraph{0pt}{*0}{*0}

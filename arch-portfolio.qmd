@@ -1,7 +1,6 @@
 ---
 title: "Eimhin Rafferty • Architect Portfolio"
 output: html
-
 --- 
 
 

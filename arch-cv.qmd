@@ -3,10 +3,10 @@ title: "Eimhin Rafferty"
 output:
   html:
     theme: cosmo
-  pdf:
-    theme: cosmo
-    documentclass: article
-    mainfont: Arial
+  # pdf:
+  #   theme: cosmo
+  #   documentclass: article
+  #   mainfont: Arial
 
 
 --- 
