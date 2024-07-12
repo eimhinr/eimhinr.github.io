@@ -4,7 +4,7 @@ class: hide-navbar
 --- 
 
 
-## WeWork • Product Manager, Design Technology •
+## WeWork • Product Manager, Design Technology
 ** *07/2018 - 12/2022***
 > WeWork provides flexible workspace solutions for businesses of all sizes, from freelancers to Fortune 500 companies. Offering private offices, coworking memberships, and on-demand meeting rooms, WeWork creates environments that foster productivity and innovation. With locations worldwide, WeWork integrates technology, community, and design to support your professional needs, whether you require a dedicated desk or a turnkey office.
 <!-- ### Record Model initiative -->
@@ -13,7 +13,7 @@ class: hide-navbar
 
 ### Entreprise Projects
 
-#### Zoom HQ, Amsterdam
+#### Parnassus Tower, Amsterdam
 
 ![WeWork_](assets/WeWork/ww-parnassus-2.png)
 
@@ -118,7 +118,8 @@ FROM CENTRAL.CDM_PHYSICAL_SPACE.SPACE AS s
 ![WeWork_](assets/WeWork/ww_design_standards-30.png)
 
 
-## Pascall + Watson • Building Information Model Coordinator • *11/2016 - 07/2018*
+## Pascall + Watson • Building Information Model Coordinator
+*11/2016 - 07/2018*
 
 > Pascall+Watson Architects, founded in 1956, is an international architecture and design firm known for its innovative and sustainable solutions. With studios across the UK, Europe, and the Middle East, they specialize in diverse sectors including aviation, education, healthcare, and leisure. Their collaborative approach ensures each project reflects the client's vision, creating impactful spaces that serve communities. Pascall+Watson is committed to environmental and social responsibility, continually pushing the boundaries of what's possible in architecture and design.
 
@@ -183,7 +184,8 @@ London City Airport stands out as a uniquely challenging site and project for se
 
 ![PAW-Data-Code](assets/PAW/2020-Portfolio-Google-Slides-dynamo2.jpg)
 
-## Watkins Gray International • Building Information Model Manager • *02/2014 - 11/2016*
+## Watkins Gray International • Building Information Model Manager
+*02/2014 - 11/2016*
 >
 > Watkins Gray International LLP is a distinguished architecture and design firm dedicated to enhancing lives through innovative and sustainable building solutions. Specializing in sectors such as education, healthcare, residential, commercial, and defense, their expertise spans diverse project types. Committed to the art and science of building, Watkins Gray International LLP combines creativity with technical precision to deliver transformative spaces that meet the evolving needs of clients.
 
@@ -237,7 +239,8 @@ London City Airport stands out as a uniquely challenging site and project for se
 
 ![WGI Image](assets/WGI/WGI-OtherHohusing.JPG)
 
-## 1508 London • Architectural Technologist • *11/2012 - 02/2014*
+## 1508 London • Architectural Technologist
+*11/2012 - 02/2014*
 
 > 1508 London is an esteemed design studio renowned for crafting exceptional interiors and architectural spaces. Specializing in bespoke residential, hospitality, and yacht projects, they blend timeless elegance with innovative design. Their portfolio includes iconic developments like No.1 Grosvenor Square and the Mandarin Oriental Residences. With a tailored approach and a dedication to excellence, 1508 London transforms client visions into luxurious, functional realities.
 
@@ -268,7 +271,8 @@ Our technical philosophy in 1508 was that if you can touch it, you should draw i
 ![1508/1508](assets/1508/1508-Bathroom-Details.png)
 
 
-## B+R Architects • Architectural Technologist • *08/2010 - 11/2012*
+## B+R Architects • Architectural Technologist
+*08/2010 - 11/2012*
 
 > B+R Architects excels in delivering top-tier architectural solutions, emphasizing innovation, sustainability, and functionality. With expertise in Building Information Modeling (BIM) and a diverse portfolio, they cater to sectors including commercial, retail, and mission-critical facilities. Their commitment to design excellence is evident in projects like Google HQ and Waitrose John Lewis. At B+R Architects, creativity meets technology to transform spaces and exceed client expectations.
 
