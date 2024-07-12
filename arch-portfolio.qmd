@@ -5,7 +5,8 @@ output: html
 
 
 ## WeWork • Product Manager, Design Technology
-** *07/2018 - 12/2022***
+** *07/2018 - 12/2022* **
+
 > WeWork provides flexible workspace solutions for businesses of all sizes, from freelancers to Fortune 500 companies. Offering private offices, coworking memberships, and on-demand meeting rooms, WeWork creates environments that foster productivity and innovation. With locations worldwide, WeWork integrates technology, community, and design to support your professional needs, whether you require a dedicated desk or a turnkey office.
 <!-- ### Record Model initiative -->
 
@@ -41,6 +42,7 @@ office space around the world.
 Capturing accurate as-built data as the first step of design
 
 > WeWork uses reality capture and BIM solutions to support the design and construction of its WeWork offices, including ReCap, Revit, and Dynamo software. The firm uses 3D laser scanners to capture the existing conditions of a newly acquired space. The resulting point clouds are combined and edited in ReCap to visualize and navigate the existing conditions data.
+
 > This data is used in Revit to guide WeWork's modeling efforts as it develops a series of design options. The firm uses Dynamo and Revit API to embed cost and sales data from its business systems in the models in order to analyze revenue versus cost and other key business metrics.
 
 ![WeWork_](assets/WeWork/WeWork-PointCloud-Coordination4.png)
@@ -54,6 +56,7 @@ Capturing accurate as-built data as the first step of design
 #### Tooled up BIM, PyRevit, Dynamo, Google Apps Scripts
 
 > As the design progresses, WeWork scans the space and references that data to quickly generate a more detailed design model and coordinate its design with existing structure and services. This highly-coordinated, precise 3D model offers increased use of prefabrication and offsite assembly, helping to minimize onsite rework and avoid delays during construction.
+
 > In addition, the intelligent Revit design model drives WeWork’s supply chain. With Revit, the project team is able to produce all of their drawings and quantities automatically, so all estimating and bidding is based on the design model and surprises are minimized during construction.
 
 ![WeWork_Pytools](assets/WeWork/WeWorkTools.jpg)
@@ -245,8 +248,6 @@ London City Airport stands out as a uniquely challenging site and project for se
 > 1508 London is an esteemed design studio renowned for crafting exceptional interiors and architectural spaces. Specializing in bespoke residential, hospitality, and yacht projects, they blend timeless elegance with innovative design. Their portfolio includes iconic developments like No.1 Grosvenor Square and the Mandarin Oriental Residences. With a tailored approach and a dedication to excellence, 1508 London transforms client visions into luxurious, functional realities.
 
 ### Interior finishing examples
-
-![assets/1508/1508London-Ofoe-Bebek.jpg](assets/1508/1508London-Ofoe-Bebek.jpg)
 
 ![assets/1508/1508London-Bebek.jpg](assets/1508/1508London-Bebek.jpg)
 

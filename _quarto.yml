@@ -4,10 +4,11 @@ project:
 
 website:
   title: "Eimhin Rafferty"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
+## no nav bar just by excluding this 
+#  navbar:
+#    left:
+#      - href: index.qmd
+#        text: Home
       
 
 format:
