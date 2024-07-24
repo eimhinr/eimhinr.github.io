@@ -4,27 +4,30 @@
     "items": [
       "/portfolio_posts/2024-05-23 BOMA.html",
       "/portfolio_posts/2024-05-23 IWMS.html",
+      "/portfolio_posts/2024-05-23 MultipleLayouts.html",
       "/portfolio_posts/2024-05-23 EMEA Custom Team.html",
       "/portfolio_posts/2024-05-23 Software Failure.html",
       "/portfolio_posts/2024-05-23 Cloud Platform Migration.html"
     ]
   },
   {
-    "listing": "/portfolio_posts/2024-05-23 Software Failure.html",
+    "listing": "/portfolio_posts/2024-05-23 MultipleLayouts.html",
     "items": [
       "/portfolio_posts/2024-05-23 BOMA.html",
       "/portfolio_posts/2024-05-23 IWMS.html",
       "/portfolio_posts/2024-05-23 Design Standards.html",
       "/portfolio_posts/2024-05-23 EMEA Custom Team.html",
+      "/portfolio_posts/2024-05-23 Software Failure.html",
       "/portfolio_posts/2024-05-23 Cloud Platform Migration.html"
     ]
   },
   {
-    "listing": "/portfolio_posts/2024-05-23 EMEA Custom Team.html",
+    "listing": "/portfolio_posts/2024-05-23 BOMA.html",
     "items": [
-      "/portfolio_posts/2024-05-23 BOMA.html",
       "/portfolio_posts/2024-05-23 IWMS.html",
+      "/portfolio_posts/2024-05-23 MultipleLayouts.html",
       "/portfolio_posts/2024-05-23 Design Standards.html",
+      "/portfolio_posts/2024-05-23 EMEA Custom Team.html",
       "/portfolio_posts/2024-05-23 Software Failure.html",
       "/portfolio_posts/2024-05-23 Cloud Platform Migration.html"
     ]
@@ -35,18 +38,31 @@
       "/portfolio_posts/2024-05-23 EMEA Custom Team.html",
       "/portfolio_posts/2024-05-23 BOMA.html",
       "/portfolio_posts/2024-05-23 Software Failure.html",
+      "/portfolio_posts/2024-05-23 MultipleLayouts.html",
       "/portfolio_posts/2024-05-23 Cloud Platform Migration.html",
       "/portfolio_posts/2024-05-23 Design Standards.html",
       "/portfolio_posts/2024-05-23 IWMS.html"
     ]
   },
   {
-    "listing": "/portfolio_posts/2024-05-23 BOMA.html",
+    "listing": "/portfolio_posts/2024-05-23 EMEA Custom Team.html",
     "items": [
+      "/portfolio_posts/2024-05-23 BOMA.html",
       "/portfolio_posts/2024-05-23 IWMS.html",
+      "/portfolio_posts/2024-05-23 MultipleLayouts.html",
+      "/portfolio_posts/2024-05-23 Design Standards.html",
+      "/portfolio_posts/2024-05-23 Software Failure.html",
+      "/portfolio_posts/2024-05-23 Cloud Platform Migration.html"
+    ]
+  },
+  {
+    "listing": "/portfolio_posts/2024-05-23 Software Failure.html",
+    "items": [
+      "/portfolio_posts/2024-05-23 BOMA.html",
+      "/portfolio_posts/2024-05-23 IWMS.html",
+      "/portfolio_posts/2024-05-23 MultipleLayouts.html",
       "/portfolio_posts/2024-05-23 Design Standards.html",
       "/portfolio_posts/2024-05-23 EMEA Custom Team.html",
-      "/portfolio_posts/2024-05-23 Software Failure.html",
       "/portfolio_posts/2024-05-23 Cloud Platform Migration.html"
     ]
   },
@@ -55,6 +71,7 @@
     "items": [
       "/portfolio_posts/2024-05-23 BOMA.html",
       "/portfolio_posts/2024-05-23 IWMS.html",
+      "/portfolio_posts/2024-05-23 MultipleLayouts.html",
       "/portfolio_posts/2024-05-23 Design Standards.html",
       "/portfolio_posts/2024-05-23 EMEA Custom Team.html",
       "/portfolio_posts/2024-05-23 Software Failure.html"
@@ -64,6 +81,7 @@
     "listing": "/portfolio_posts/2024-05-23 IWMS.html",
     "items": [
       "/portfolio_posts/2024-05-23 BOMA.html",
+      "/portfolio_posts/2024-05-23 MultipleLayouts.html",
       "/portfolio_posts/2024-05-23 Design Standards.html",
       "/portfolio_posts/2024-05-23 EMEA Custom Team.html",
       "/portfolio_posts/2024-05-23 Software Failure.html",
