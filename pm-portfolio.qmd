@@ -1,5 +1,12 @@
 ---
-title: "PM Portfolio"
+title: Blog
+listing:
+  contents: portfolio_posts
+  sort: "date desc"
+  type: default
+  categories: true
+  date-format: "long"
+page-layout: article
 --- 
 
 # Project Manager Portfolio

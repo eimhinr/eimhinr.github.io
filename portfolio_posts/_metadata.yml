@@ -1,0 +1,5 @@
+title-block-banner: true
+page-layout: article
+date-format: "long"
+listing:
+  type: default
