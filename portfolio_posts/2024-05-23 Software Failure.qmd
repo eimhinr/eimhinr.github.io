@@ -9,14 +9,6 @@ categories:
   - Program Management
   - Operations
 ---
-
-
-# Handling a Global Software Failure: A Case Study
-
-## Summary
-
-During a global software failure, I led the resolution efforts across multiple regions, including Japan, Asia, EMEA, LATAM, and North America. The issue was initially reported by a user in Japan and quickly spread to other regions. Coordinating with network engineers and resellers, I gathered detailed information from users and kept stakeholders informed throughout the process. By developing PowerShell scripts and SOPs for a complex uninstall process, and leveraging VP support to navigate legal restrictions, I ensured minimal downtime and restored normal operations efficiently.
-
 ## Week 1 Breakdown
 
 ### Day 1: Initial Investigation
@@ -53,15 +45,22 @@ During a global software failure, I led the resolution efforts across multiple r
 - **Lawyers' Call:** Scheduled a call with vendor’s lawyers for urgent resolutions.
 
 ## Week-by-Week Breakdown
+
 ### Week 2: Compliance Resolution
+
 - **Agreement with Vendor:** Reached an agreement to use a manual process in conjunction with their compliance app to collect logs directly from users.
 - **Initial Workflow Test:** Worked with team members on critical projects to test the workflow for log collection, and run the process end to end. 
+
 ### Week 3: Automation and Initial Resolutions
+
 - **Automation Scripts:** Developed PowerShell scripts to automate compliance checks and configured Jira for progress tracking.
 - **First Reports Sent:** Submitted the first batch of reports to the vendor, applied pressure for quick responses.
+
 ### Week 4: Final Resolution
+
 - **User Instructions:** Provided users with detailed SOPs and scripts for the deep clean process, tracked progress via Jira.
 - **Resolution Achieved:** Despite slow vendor responses, the issue was resolved. Regular updates ensured transparency and maintained trust.
 - **Close Out:** Automated reports from Jira to monitor ticket burn down rates.
+
 ## Conclusion
 By systematically addressing the software failure, leveraging automation, and ensuring constant communication, I minimized downtime and restored normal operations, demonstrating effective problem-solving and leadership in crisis management.

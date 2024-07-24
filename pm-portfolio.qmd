@@ -9,6 +9,4 @@ listing:
 page-layout: article
 --- 
 
-# Project Manager Portfolio
-
-Content for the Project Manager Portfolio. (Image heavy content)
+# Here are a collection of my standout products, projects and programmes 

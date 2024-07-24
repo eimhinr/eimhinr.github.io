@@ -3,3 +3,4 @@ page-layout: article
 date-format: "long"
 listing:
   type: default
+category: "true"
