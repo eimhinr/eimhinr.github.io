@@ -10,7 +10,6 @@ categories:
   - Case Study
   - Architecture
 ---
-![WeWork Design Standard implmented](../assets/WeWork/WW_DesignContentUpdate.gif)
 
 ## Project Scope
 
@@ -33,15 +32,10 @@ We created over 1,000 data-rich elements encapsulated in a self-documenting cont
 Successfully translating the design standards required extensive coordination between various stakeholders, including:
 
 - **Construction Project Managers:** To ensure that the designs were feasible and could be implemented on-site.
-
 - **Design Teams:** To maintain the integrity and vision of the original design standards.
-
 - **Sourcing and Supply Chain Teams:** To ensure that all materials met the required standards and were available when needed. WeWork relied heavily on bulk orders and warehousing so this was a key driver of suppily chain issues in all regions.
-
 - **Cost Managers:** To keep the standards within budget while meeting all design specifications, not all regions were equal in this regard. 
-
 - **Electrical Engineers:** To ensure that all electrical and lighting configurations were accurate and complied with local regulations.
-
 - **Architects:** Any default configuratoins which impacted local building laws needed to be amended, noted or removed as needed.
 
 ### Initial Rollout and Feedback
@@ -73,11 +67,8 @@ Each region received customised processes, content, and training to ensure a sea
 The project had a significant impact on WeWork’s operations:
 
 - **Consistency:** Ensured that all designs across EMEA and eventually globally adhered to the same high standards.
-
 - **Efficiency:** Reduced the time and effort required to implement design standards on new projects.
-
 - **Quality:** Improved the overall quality and compliance of construction projects.
-
 - **Scalability:** Created a scalable model that could be adapted to other regions with minimal adjustments.
 
 ## Conclusion
