@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PM Portfolio – Eimhin Rafferty</title>
+<title>Blog – Eimhin Rafferty</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,7 +67,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -85,13 +145,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#project-manager-portfolio" id="toc-project-manager-portfolio" class="nav-link active" data-scroll-target="#project-manager-portfolio">Project Manager Portfolio</a></li>
   </ul>
 </nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Operations">Operations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Program Management">Program Management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="WeWork">WeWork <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">PM Portfolio</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -113,9 +173,55 @@ ul.task-list li input[type="checkbox"] {
 <p>Content for the Project Manager Portfolio. (Image heavy content)</p>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="WeWork,Program Management,Operations" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721816061469" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="537">
+<div class="thumbnail">
+<p><a href="./portfolio_posts/2024-05-23 Software Failure.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-23 Software Failure.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./portfolio_posts/2024-05-23 Software Failure.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./portfolio_posts/2024-05-23 Software Failure.html" class="no-external">Handling a Global Software Failure: A Case Study</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./portfolio_posts/2024-05-23 Software Failure.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('WeWork'); return false;">
+WeWork
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Program Management'); return false;">
+Program Management
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Operations'); return false;">
+Operations
+</div>
+</div>
+<div class="listing-description">
+<a href="./portfolio_posts/2024-05-23 Software Failure.html" class="no-external">During a global software failure, I led the resolution efforts across multiple regions, including Japan, Asia, EMEA, LATAM, and North America. The issue was initially reported by a user in Japan and quickly spread to other regions. Coordinating with network engineers and resellers, I gathered detailed information from users and kept stakeholders informed throughout the process. By developing PowerShell scripts and SOPs for a complex uninstall process, and leveraging VP support to navigate legal restrictions, I ensured minimal downtime and restored normal operations efficiently.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./portfolio_posts/2024-05-23 Software Failure.html" class="no-external">
+<div class="listing-date">
+May 23, 2024
+</div>
+<div class="listing-author">
+Eimhin Rafferty
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

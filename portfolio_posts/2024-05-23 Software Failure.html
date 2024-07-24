@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Eimhin Rafferty">
+<meta name="dcterms.date" content="2024-05-23">
+<meta name="description" content="During a global software failure, I led the resolution efforts across multiple regions, including Japan, Asia, EMEA, LATAM, and North America. The issue was initially reported by a user in Japan and quickly spread to other regions. Coordinating with network engineers and resellers, I gathered detailed information from users and kept stakeholders informed throughout the process. By developing PowerShell scripts and SOPs for a complex uninstall process, and leveraging VP support to navigate legal restrictions, I ensured minimal downtime and restored normal operations efficiently.">
 
-<title>Eimhin Rafferty</title>
+<title>Handling a Global Software Failure: A Case Study – Eimhin Rafferty</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -65,16 +70,118 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
 
 <div id="quarto-search-results"></div>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Handling a Global Software Failure: A Case Study</h1>
+                  <div>
+        <div class="description">
+          During a global software failure, I led the resolution efforts across multiple regions, including Japan, Asia, EMEA, LATAM, and North America. The issue was initially reported by a user in Japan and quickly spread to other regions. Coordinating with network engineers and resellers, I gathered detailed information from users and kept stakeholders informed throughout the process. By developing PowerShell scripts and SOPs for a complex uninstall process, and leveraging VP support to navigate legal restrictions, I ensured minimal downtime and restored normal operations efficiently.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">WeWork</div>
+                <div class="quarto-category">Program Management</div>
+                <div class="quarto-category">Operations</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Eimhin Rafferty </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 23, 2024</p>
+      </div>
+    </div>
+    
+      <div>
+      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">May 23, 2024</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -82,122 +189,112 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#professional-experience" id="toc-professional-experience" class="nav-link active" data-scroll-target="#professional-experience">Professional Experience</a>
+  <li><a href="#handling-a-global-software-failure-a-case-study" id="toc-handling-a-global-software-failure-a-case-study" class="nav-link active" data-scroll-target="#handling-a-global-software-failure-a-case-study">Handling a Global Software Failure: A Case Study</a>
   <ul class="collapse">
-  <li><a href="#archilogic-product-manager" id="toc-archilogic-product-manager" class="nav-link" data-scroll-target="#archilogic-product-manager">Archilogic • Product Manager</a></li>
-  <li><a href="#wework-product-manager-design-technology" id="toc-wework-product-manager-design-technology" class="nav-link" data-scroll-target="#wework-product-manager-design-technology">WeWork • Product Manager, Design Technology</a></li>
-  <li><a href="#pascall-watson-building-information-model-coordinator" id="toc-pascall-watson-building-information-model-coordinator" class="nav-link" data-scroll-target="#pascall-watson-building-information-model-coordinator">Pascall + Watson • Building Information Model Coordinator</a></li>
-  <li><a href="#watkins-gray-international-building-information-model-manager" id="toc-watkins-gray-international-building-information-model-manager" class="nav-link" data-scroll-target="#watkins-gray-international-building-information-model-manager">Watkins Gray International • Building Information Model Manager</a></li>
-  <li><a href="#london-architectural-technologist" id="toc-london-architectural-technologist" class="nav-link" data-scroll-target="#london-architectural-technologist">1508 London • Architectural Technologist</a></li>
-  <li><a href="#br-architects-architectural-technologist" id="toc-br-architects-architectural-technologist" class="nav-link" data-scroll-target="#br-architects-architectural-technologist">B+R Architects • Architectural Technologist</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#week-1-breakdown" id="toc-week-1-breakdown" class="nav-link" data-scroll-target="#week-1-breakdown">Week 1 Breakdown</a>
+  <ul class="collapse">
+  <li><a href="#day-1-initial-investigation" id="toc-day-1-initial-investigation" class="nav-link" data-scroll-target="#day-1-initial-investigation">Day 1: Initial Investigation</a></li>
+  <li><a href="#day-2-advanced-triage" id="toc-day-2-advanced-triage" class="nav-link" data-scroll-target="#day-2-advanced-triage">Day 2: Advanced Triage</a></li>
+  <li><a href="#day-3-identifying-key-factors" id="toc-day-3-identifying-key-factors" class="nav-link" data-scroll-target="#day-3-identifying-key-factors">Day 3: Identifying Key Factors</a></li>
+  <li><a href="#day-4-escalating-the-issue" id="toc-day-4-escalating-the-issue" class="nav-link" data-scroll-target="#day-4-escalating-the-issue">Day 4: Escalating the Issue</a></li>
+  <li><a href="#day-5-legal-and-vendor-coordination" id="toc-day-5-legal-and-vendor-coordination" class="nav-link" data-scroll-target="#day-5-legal-and-vendor-coordination">Day 5: Legal and Vendor Coordination</a></li>
   </ul></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#week-by-week-breakdown" id="toc-week-by-week-breakdown" class="nav-link" data-scroll-target="#week-by-week-breakdown">Week-by-Week Breakdown</a>
+  <ul class="collapse">
+  <li><a href="#week-2-compliance-resolution" id="toc-week-2-compliance-resolution" class="nav-link" data-scroll-target="#week-2-compliance-resolution">Week 2: Compliance Resolution</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Eimhin Rafferty</h1>
+
+
+
+
+<section id="handling-a-global-software-failure-a-case-study" class="level1">
+<h1>Handling a Global Software Failure: A Case Study</h1>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>During a global software failure, I led the resolution efforts across multiple regions, including Japan, Asia, EMEA, LATAM, and North America. The issue was initially reported by a user in Japan and quickly spread to other regions. Coordinating with network engineers and resellers, I gathered detailed information from users and kept stakeholders informed throughout the process. By developing PowerShell scripts and SOPs for a complex uninstall process, and leveraging VP support to navigate legal restrictions, I ensured minimal downtime and restored normal operations efficiently.</p>
+</section>
+<section id="week-1-breakdown" class="level2">
+<h2 class="anchored" data-anchor-id="week-1-breakdown">Week 1 Breakdown</h2>
+<section id="day-1-initial-investigation" class="level3">
+<h3 class="anchored" data-anchor-id="day-1-initial-investigation">Day 1: Initial Investigation</h3>
+<ul>
+<li><strong>Japan Issue Reported:</strong> A user in Japan reports a software failure via our Jira ticketing platform.</li>
+<li><strong>Initial Investigation:</strong> Reviewed the report, checked service status pages, and confirmed no provider outages.</li>
+<li><strong>EMEA Impact:</strong> European and North American teams began reporting the same issue. Contacted network engineers suspecting a recent license renewal may be the cause.</li>
+<li><strong>Communication Loop:</strong> Informed managers and VPs about the issue and ongoing efforts to triage it.</li>
+</ul>
+</section>
+<section id="day-2-advanced-triage" class="level3">
+<h3 class="anchored" data-anchor-id="day-2-advanced-triage">Day 2: Advanced Triage</h3>
+<ul>
+<li><strong>Japan Team Meeting:</strong> Learned from the Japan team that a deep uninstall process was suggested. Advised them to wait for my review.</li>
+<li><strong>Information Collection:</strong> Collected detailed information from affected users using Jira, providing templates for specific data.</li>
+<li><strong>Advanced Triage:</strong> Further calls with technical support and resellers did not find a resolution.</li>
+<li><strong>Communication Loop:</strong> Continued to inform leadership about the progress.</li>
+</ul>
+</section>
+<section id="day-3-identifying-key-factors" class="level3">
+<h3 class="anchored" data-anchor-id="day-3-identifying-key-factors">Day 3: Identifying Key Factors</h3>
+<ul>
+<li><strong>Unaffected Group:</strong> Identified a franchise team using network licenses but managing their own hardware was unaffected.</li>
+<li><strong>Emergency Calls:</strong> Scheduled calls with key IT leaders to discuss potential causes.</li>
+<li><strong>VP Leverage:</strong> Utilized VP support to get key leaders on calls.</li>
+<li><strong>Stakeholder Updates:</strong> Kept all stakeholders informed about findings and ongoing investigations.</li>
+</ul>
+</section>
+<section id="day-4-escalating-the-issue" class="level3">
+<h3 class="anchored" data-anchor-id="day-4-escalating-the-issue">Day 4: Escalating the Issue</h3>
+<ul>
+<li><strong>Service Blockage:</strong> The outage began severely impacting teams’ work.</li>
+<li><strong>Running out of Options:</strong> Discussions revealed deep reinstall as the only viable solution.</li>
+<li><strong>Litigation Hold:</strong> Legal restrictions prevented software uninstallation. Leveraged VP to push for a resolution.</li>
+<li><strong>Communication Loop:</strong> Broadened information loop to sales and operations teams to alleviate pressure on effected users.</li>
+</ul>
+</section>
+<section id="day-5-legal-and-vendor-coordination" class="level3">
+<h3 class="anchored" data-anchor-id="day-5-legal-and-vendor-coordination">Day 5: Legal and Vendor Coordination</h3>
+<ul>
+<li><strong>Legal Restrictions:</strong> Confirmed with lawyers that litigation hold was still in place.</li>
+<li><strong>Lawyers’ Call:</strong> Scheduled a call with vendor’s lawyers for urgent resolutions.</li>
+</ul>
+</section>
+</section>
+<section id="week-by-week-breakdown" class="level2">
+<h2 class="anchored" data-anchor-id="week-by-week-breakdown">Week-by-Week Breakdown</h2>
+<section id="week-2-compliance-resolution" class="level3">
+<h3 class="anchored" data-anchor-id="week-2-compliance-resolution">Week 2: Compliance Resolution</h3>
+<ul>
+<li><strong>Agreement with Vendor:</strong> Reached an agreement to use a manual process in conjunction with their compliance app to collect logs directly from users.</li>
+<li><strong>Initial Workflow Test:</strong> Worked with team members on critical projects to test the workflow for log collection, and run the process end to end. ### Week 3: Automation and Initial Resolutions</li>
+<li><strong>Automation Scripts:</strong> Developed PowerShell scripts to automate compliance checks and configured Jira for progress tracking.</li>
+<li><strong>First Reports Sent:</strong> Submitted the first batch of reports to the vendor, applied pressure for quick responses. ### Week 4: Final Resolution</li>
+<li><strong>User Instructions:</strong> Provided users with detailed SOPs and scripts for the deep clean process, tracked progress via Jira.</li>
+<li><strong>Resolution Achieved:</strong> Despite slow vendor responses, the issue was resolved. Regular updates ensured transparency and maintained trust.</li>
+<li><strong>Close Out:</strong> Automated reports from Jira to monitor ticket burn down rates. ## Conclusion By systematically addressing the software failure, leveraging automation, and ensuring constant communication, I minimized downtime and restored normal operations, demonstrating effective problem-solving and leadership in crisis management.</li>
+</ul>
+
+
+
+</section>
+</section>
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Lecco, Italy • +393792058117 • eimhin@pm.me • <a href="http://www.eimhin.co/arch-portfolio">portfolio</a> • <a href="https://www.linkedin.com/in/eimhin-rafferty">linkedin/eimhin</a></p>
-<section id="professional-experience" class="level2">
-<h2 class="anchored" data-anchor-id="professional-experience">Professional Experience</h2>
-<section id="archilogic-product-manager" class="level3">
-<h3 class="anchored" data-anchor-id="archilogic-product-manager">Archilogic • Product Manager</h3>
-<p>Remote, Italy • <em>11/2022 - Present</em></p>
-<ul>
-<li>Managed product roadmap for Editor, Data Services, and Customer Onboarding verticals. Defined, gathered and analyzeed metrics to drive decision-making and inform OKRs.</li>
-<li>Led product feature discovery, requirements gathering, and authored PRDs to drive product development. Collaborated with Sales, Customer Support, and other product teams to balance growth features and core product development.</li>
-<li>Delivered new planar graph data structure and compatible Editor 4.0 modelling platform. Supported users with advanced tools, resulting in a 2.5x increase in data conversion quality and a 1.8x reduction in conversion times.</li>
-<li>Conducted daily standups and weekly backlog refinement calls to ensure alignment and progress within the remote first, agile team in 2 week cycles over rolling 6 committed backlog week cycles.</li>
-<li>Provided sales demos, customer support, and onboarding, supporting business activities.</li>
-<li>Led technical initiatives, including single tenant instance productisation and deployment, and custom integrations with customer platforms for both proof of concept and production features.</li>
-</ul>
-</section>
-<section id="wework-product-manager-design-technology" class="level3">
-<h3 class="anchored" data-anchor-id="wework-product-manager-design-technology">WeWork • Product Manager, Design Technology</h3>
-<p>London, UK • <em>07/2018 - 12/2022</em></p>
-<ul>
-<li>Led the technical aspects of the “Record Model Initiative,” a $2.7M project to deliver uniform, verified real estate data in standardised BIM format using Revit internal and external teams.</li>
-<li>Developed and maintained revit documentation, training content, andtools for internal and external teams to deliver accurate design information. Supported this with bespoke plugins and utilities (pyrevit, dynamo, C#) to streamline productivity and quality control, integrating with third-party applications.</li>
-<li>Managed conversion of reality capture data into High Accuracy (LOD) and low LOI modelds at scale.</li>
-<li>Established ring-fenced maintenance protocols and workflows to accurately maintain critical business data based on the Record Model Initiative, ensuring that teams could trust the reliability of their data.</li>
-<li>Conducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items based on refredhsed BIM Data.</li>
-<li>Managed design software and workflows, serving as Contract Administrator for $3M in Autodesk services and software.</li>
-<li>Re-engineered processes for Design Studios, reducing sales and pre-con collateral production time from 2.5 days to 2 hours, impacting 70% of EMEA sales.</li>
-<li>Built strong working relationships across Technology, Sales, Operations, and Finance organisations, advocating for the needs of real estate data integrity and supporting sales and operations strategies.</li>
-</ul>
-</section>
-<section id="pascall-watson-building-information-model-coordinator" class="level3">
-<h3 class="anchored" data-anchor-id="pascall-watson-building-information-model-coordinator">Pascall + Watson • Building Information Model Coordinator</h3>
-<p>London, UK • <em>11/2016 - 07/2018</em></p>
-<ul>
-<li>Responsible for planning, maintaining and enforcing the ‘Project Building Information Model Execution Plan’ (BEP) for £480M Airport Campus Development Project. Implemented BS 1192 standards on the project across multiple parties.</li>
-<li>Developed and Implemented new technology processes to increase efficacy and accuracy, including: Reduced biweekly design freeze from 72hrs to 8hrs &amp; deliverable set production time from 4hrs to 20 mins.</li>
-<li>Managed 35+ concurrent Revit Models, plus IFC &amp; links from other softwares to orcstrate planning and constuction pack delivery of London City Airport Campus Project</li>
-</ul>
-</section>
-<section id="watkins-gray-international-building-information-model-manager" class="level3">
-<h3 class="anchored" data-anchor-id="watkins-gray-international-building-information-model-manager">Watkins Gray International • Building Information Model Manager</h3>
-<p>London, UK • <em>02/2014 - 11/2016</em></p>
-<ul>
-<li>Responsible for practice wide building information management and digital contract documents on projects from concept through to construction in education, healthcare and residential sectors.</li>
-<li>Key Projects include: Seven Kings Redbridge 4 Form School, Great Ormand childerns hospital projects (private paitents wing, Chelsea flower show garden on rooftop), Bromley South Central 230 residentual compliance audit and project delivery.</li>
-<li>Served on a technical advisory group for a shared professional indemnity insurance group, providing expertise on BIM and design technology in practice.</li>
-</ul>
-</section>
-<section id="london-architectural-technologist" class="level3">
-<h3 class="anchored" data-anchor-id="london-architectural-technologist">1508 London • Architectural Technologist</h3>
-<p>London, UK • <em>11/2012 - 02/2014</em></p>
-<ul>
-<li>Technical lead on luxury interiors and complex historical urban projects, both fitout, renovations and new builds.</li>
-<li>Luxury developments in Knightsbridge London, Istanbul, and Dubai.</li>
-</ul>
-</section>
-<section id="br-architects-architectural-technologist" class="level3">
-<h3 class="anchored" data-anchor-id="br-architects-architectural-technologist">B+R Architects • Architectural Technologist</h3>
-<p>London, UK • <em>08/2010 - 11/2012</em></p>
-<ul>
-<li>Project Architectural technology lead and BIM specialist.</li>
-<li>Commercial retail stores (over 20 John Lewis LLP &amp; Waitrose stores nationwide) new build, renovation and fitout.</li>
-</ul>
-</section>
-</section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<p><strong>BSc (Hons)&nbsp;in&nbsp;Architectural Technology</strong> Technological University Dublin <em>09/2005&nbsp;-&nbsp;05/2010</em></p>
-</section>
-<section id="skills" class="level2">
-<h2 class="anchored" data-anchor-id="skills">Skills</h2>
-<ul>
-<li><strong>Architecture Tools</strong>: Revit, Dynamo, Pyrevit, Navisworks, Solibri, BIMCollab, Autodesk construction cloud, Adobe Photoshop, Adobe Indesign,</li>
-<li><strong>Leadership Skills</strong>: Communication, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration</li>
-<li><strong>Tools and Software</strong>: Python, SQL, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool</li>
-</ul>
-
-
-</section>
-
-</main> <!-- /main -->
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
