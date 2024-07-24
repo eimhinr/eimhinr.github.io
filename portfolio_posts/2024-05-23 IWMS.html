@@ -8,9 +8,9 @@
 
 <meta name="author" content="Eimhin Rafferty">
 <meta name="dcterms.date" content="2024-05-23">
-<meta name="description" content="As a Product Manager at Archilogic, I led the development of a groundbreaking product that automates space calculations based on BOMA standards. This product leverages the power of our Spacegraph data structure, making it scalable, repeatable, and uniquely effective due to the relational nature of the underlying data.">
+<meta name="description" content="As a Product Manager at Archilogic, I led the development and integration of a solution to automate floor plan updates for customers, addressing a major pain point: keeping floor plans updated across multiple platforms, particularly their Integrated Workplace Management Systems (IWMS). This case study details how we collaborated with customers using FM Systems, developed automation for polyline creation, integrated our solution with IWMS platforms, and ultimately built a native app plugin for seamless data transfer.">
 
-<title>Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic – Eimhin Rafferty</title>
+<title>Case Study: Automating Floor Plan Updates and Integration with IWMS Platforms – Eimhin Rafferty</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -140,16 +140,17 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic</h1>
+      <h1 class="title">Case Study: Automating Floor Plan Updates and Integration with IWMS Platforms</h1>
                   <div>
         <div class="description">
-          As a Product Manager at Archilogic, I led the development of a groundbreaking product that automates space calculations based on BOMA standards. This product leverages the power of our Spacegraph data structure, making it scalable, repeatable, and uniquely effective due to the relational nature of the underlying data.
+          As a Product Manager at Archilogic, I led the development and integration of a solution to automate floor plan updates for customers, addressing a major pain point: keeping floor plans updated across multiple platforms, particularly their Integrated Workplace Management Systems (IWMS). This case study details how we collaborated with customers using FM Systems, developed automation for polyline creation, integrated our solution with IWMS platforms, and ultimately built a native app plugin for seamless data transfer.
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">Archilogic</div>
                 <div class="quarto-category">Product Management</div>
                 <div class="quarto-category">Case Study</div>
+                <div class="quarto-category">Integrations</div>
               </div>
                   </div>
   </div>
@@ -190,17 +191,15 @@ window.Quarto = {
    
   <ul>
   <li><a href="#the-challenge" id="toc-the-challenge" class="nav-link active" data-scroll-target="#the-challenge">The Challenge</a></li>
-  <li><a href="#solution-development-automating-space-calculation" id="toc-solution-development-automating-space-calculation" class="nav-link" data-scroll-target="#solution-development-automating-space-calculation">Solution Development: Automating Space Calculation</a>
+  <li><a href="#integration-development" id="toc-integration-development" class="nav-link" data-scroll-target="#integration-development">Integration Development</a>
   <ul class="collapse">
-  <li><a href="#understanding-the-requirements" id="toc-understanding-the-requirements" class="nav-link" data-scroll-target="#understanding-the-requirements">Understanding the Requirements</a></li>
-  <li><a href="#leveraging-spacegraph-data-structure" id="toc-leveraging-spacegraph-data-structure" class="nav-link" data-scroll-target="#leveraging-spacegraph-data-structure">Leveraging Spacegraph Data Structure</a></li>
-  <li><a href="#flexibility-of-standards" id="toc-flexibility-of-standards" class="nav-link" data-scroll-target="#flexibility-of-standards">Flexibility of Standards</a></li>
-  <li><a href="#building-the-product" id="toc-building-the-product" class="nav-link" data-scroll-target="#building-the-product">Building the Product</a></li>
-  <li><a href="#testing-and-refinement" id="toc-testing-and-refinement" class="nav-link" data-scroll-target="#testing-and-refinement">Testing and Refinement</a></li>
-  <li><a href="#graph-structure-operation" id="toc-graph-structure-operation" class="nav-link" data-scroll-target="#graph-structure-operation">Graph Structure Operation</a></li>
+  <li><a href="#automating-polyline-creation" id="toc-automating-polyline-creation" class="nav-link" data-scroll-target="#automating-polyline-creation">Automating Polyline Creation</a></li>
+  <li><a href="#accurate-area-calculations" id="toc-accurate-area-calculations" class="nav-link" data-scroll-target="#accurate-area-calculations">Accurate Area Calculations</a></li>
+  <li><a href="#integration-with-iwms" id="toc-integration-with-iwms" class="nav-link" data-scroll-target="#integration-with-iwms">Integration with IWMS</a></li>
+  <li><a href="#native-app-plugin-development" id="toc-native-app-plugin-development" class="nav-link" data-scroll-target="#native-app-plugin-development">Native App Plugin Development</a></li>
   </ul></li>
+  <li><a href="#role-and-responsibilities" id="toc-role-and-responsibilities" class="nav-link" data-scroll-target="#role-and-responsibilities">Role and Responsibilities</a></li>
   <li><a href="#impact-and-benefits" id="toc-impact-and-benefits" class="nav-link" data-scroll-target="#impact-and-benefits">Impact and Benefits</a></li>
-  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next Steps</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
@@ -214,53 +213,69 @@ window.Quarto = {
 
 <section id="the-challenge" class="level2">
 <h2 class="anchored" data-anchor-id="the-challenge">The Challenge</h2>
-<p>Real estate professionals face significant challenges when it comes to accurately calculating space according to Building Owners and Managers Association (BOMA) standards. Traditional methods are time-consuming, prone to error, and often inconsistent. The need for a reliable, automated solution was clear.</p>
+<p>Many of our customers struggled with the tedious task of keeping their floor plans updated in multiple platforms, especially within their IWMS. The most painful aspect was loading their floor plans to their IWMS, where they had to load floor plans via an vendor specific IWMS plugin in specialist CAD software, and manually draw polylines to define asset and space boundaries. This process was time-consuming, error-prone, and inefficient.</p>
 </section>
-<section id="solution-development-automating-space-calculation" class="level2">
-<h2 class="anchored" data-anchor-id="solution-development-automating-space-calculation">Solution Development: Automating Space Calculation</h2>
-<section id="understanding-the-requirements" class="level3">
-<h3 class="anchored" data-anchor-id="understanding-the-requirements">Understanding the Requirements</h3>
-<p>To create a solution that truly addresses the needs of real estate professionals, we began by: - <strong>Researching BOMA Standards:</strong> Thoroughly understanding the intricacies of BOMA standards for space calculation. - <strong>Engaging with Stakeholders:</strong> Conducting interviews and surveys with real estate professionals to gather insights on their pain points and requirements.</p>
+<section id="integration-development" class="level2">
+<h2 class="anchored" data-anchor-id="integration-development">Integration Development</h2>
+<section id="automating-polyline-creation" class="level3">
+<h3 class="anchored" data-anchor-id="automating-polyline-creation">Automating Polyline Creation</h3>
+<p>To address this challenge, we worked closely with customers to understand their needs and pain points. We then developed a solution to automate the creation of polylines for assets and spaces based on predefined rules and custom attribute information that teams could easily input. This involved:</p>
+<ul>
+<li><strong>Rules and Attributes:</strong> Defining rules and custom attributes to automate polyline creation for different assets and spaces.</li>
+<li><strong>Iterative Refinement:</strong> Working iteratively with customers to refine these standards and ensure the solution met their requirements.</li>
+<li><strong>Error Detection:</strong> Identifying and correcting errors in their manual processes, reducing human error. This reporting gave a sharp boost in confidence in the quality of our product.</li>
+</ul>
 </section>
-<section id="leveraging-spacegraph-data-structure" class="level3">
-<h3 class="anchored" data-anchor-id="leveraging-spacegraph-data-structure">Leveraging Spacegraph Data Structure</h3>
-<p>The key to our solution was leveraging Archilogic’s Spacegraph data structure, a highly relational and data-rich representation of building spaces. This data structure allowed us to: - <strong>Automate Calculations:</strong> Use spatial data to automate space calculations accurately and consistently. - <strong>Ensure Scalability:</strong> Develop a product that could be easily scaled to different buildings and spaces. - <strong>Maintain Repeatability:</strong> Ensure the process could be repeated with the same level of accuracy every time.</p>
+<section id="accurate-area-calculations" class="level3">
+<h3 class="anchored" data-anchor-id="accurate-area-calculations">Accurate Area Calculations</h3>
+<p>Our solution provided accurate calculations for overall areas (USF) and internal space areas for reservable spaces. This included desks and chair combinations within open workspaces, which were labelled and exported as SVG files, all within the correctly defined drawing layers.</p>
 </section>
-<section id="flexibility-of-standards" class="level3">
-<h3 class="anchored" data-anchor-id="flexibility-of-standards">Flexibility of Standards</h3>
-<p>Although we applied BOMA standards for this particular product, the underlying operations of our system are agnostic to the specific standards used. The Spacegraph data structure is designed to handle any set of space calculation standards, making the product versatile and adaptable to various industry requirements.</p>
+<section id="integration-with-iwms" class="level3">
+<h3 class="anchored" data-anchor-id="integration-with-iwms">Integration with IWMS</h3>
+<p>The next step was integrating this automated solution with the IWMS platform. This involved:</p>
+<ul>
+<li><strong>Collaboration with Technical Teams:</strong> Working closely with the technical teams of IWMS platforms to understand their requirements and constraints.</li>
+<li><strong>Accessing Private APIs:</strong> Gaining access to private APIs to facilitate seamless integration.</li>
+<li><strong>Deconstructing Proprietary File Formats:</strong> Analyzing and deconstructing proprietary file formats used by IWMS platforms, which turned out to be a zip file containing CSV data files and an SVG file of their plans and polylines.</li>
+</ul>
 </section>
-<section id="building-the-product" class="level3">
-<h3 class="anchored" data-anchor-id="building-the-product">Building the Product</h3>
-<p>The development process involved: - <strong>Algorithm Development:</strong> Creating algorithms to automate the space calculation process based on BOMA standards. - <strong>Integration with Spacegraph:</strong> Ensuring seamless integration with the Spacegraph data structure to utilise its relational data. - <strong>User Interface Design:</strong> Designing an intuitive user interface that allows users to easily input data and view results.</p>
+<section id="native-app-plugin-development" class="level3">
+<h3 class="anchored" data-anchor-id="native-app-plugin-development">Native App Plugin Development</h3>
+<p>To further streamline the process, we built this functionality into our native app as a plugin. This allowed customers to:</p>
+<ul>
+<li><strong>Seamless Data Transfer:</strong> Directly send their updated data to IWMS as they updated the app.</li>
+<li><strong>Real-Time Updates:</strong> Ensure their floor plans were always current without the need for manual intervention.</li>
+</ul>
 </section>
-<section id="testing-and-refinement" class="level3">
-<h3 class="anchored" data-anchor-id="testing-and-refinement">Testing and Refinement</h3>
-<p>We conducted extensive testing and refinement to ensure the product met the high standards of accuracy and usability required by our users: - <strong>Beta Testing:</strong> Engaged a group of real estate professionals to test the product and provide feedback. - <strong>Iterative Improvements:</strong> Made iterative improvements based on user feedback to enhance functionality and user experience.</p>
 </section>
-<section id="graph-structure-operation" class="level3">
-<h3 class="anchored" data-anchor-id="graph-structure-operation">Graph Structure Operation</h3>
-<p>The Spacegraph data structure operates by determining whether lines are drawn at the inner, centre, or outer edge of spaces, depending on the use of the space on either side. This approach minimises human error and subjectivity, ensuring that calculations are consistent and reliable.</p>
-</section>
+<section id="role-and-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="role-and-responsibilities">Role and Responsibilities</h2>
+<p>As the Product Manager leading this initiative, my duties included:</p>
+<ul>
+<li><strong>Stakeholder Engagement:</strong> Engaging with customers to understand their pain points and requirements.</li>
+<li><strong>Coordination:</strong> Coordinating with internal and external teams to ensure smooth development and integration.</li>
+<li><strong>Development Oversight:</strong> Overseeing the development of the automation solution and ensuring it met customer needs.</li>
+<li><strong>Integration Management:</strong> Managing the integration process with IWMS platforms, including dealing with technical teams and accessing APIs.</li>
+<li><strong>Quality Assurance:</strong> Ensuring the final product was accurate, reliable, and met high standards of quality.</li>
+<li><strong>Documentation and Training:</strong> Creating documentation and providing training to customers on using the new automated solution.</li>
+<li><strong>Plugin Development:</strong> Leading the development of the native app plugin for seamless data transfer.</li>
+</ul>
+<p>I collaborated closely with a growth engineer to deliver this integration, ensuring that all technical aspects were handled efficiently and effectively.</p>
 </section>
 <section id="impact-and-benefits" class="level2">
 <h2 class="anchored" data-anchor-id="impact-and-benefits">Impact and Benefits</h2>
-<p>The introduction of our automated space calculation product has had a profound impact on the real estate industry: - <strong>Increased Efficiency:</strong> Reduced the time required for space calculations from days to minutes. - <strong>Enhanced Accuracy:</strong> Provided highly accurate calculations, reducing errors and inconsistencies. - <strong>Scalability and Repeatability:</strong> Enabled users to easily scale the solution across multiple buildings and spaces with consistent results. - <strong>Data-Driven Insights:</strong> Leveraged the relational data in the Spacegraph data structure to provide deeper insights into space utilisation and management.</p>
-</section>
-<section id="next-steps" class="level2">
-<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
-<p>To further enhance the product and provide even more value to our users, the next steps are fully related to making everything accessable outside of our core application, via API.</p>
+<p>The integration of our automated solution with IWMS platforms demonstrated our value to customers by:</p>
 <ul>
-<li><strong>Raw Data Access:</strong> Develop APIs to allow users to access raw data directly from the Spacegraph data structure. This will enable integration with other systems and provide greater flexibility in data usage.</li>
-<li><strong>Polyline Outputs:</strong> Generate image outputs of polylines for visualisation and integration purposes.</li>
-<li><strong>CAD Line Outputs:</strong> Provide CAD line outputs for use in various design and architectural applications.</li>
-<li><strong>SVG Line Outputs:</strong> Offer SVG line outputs for web-based applications and scalable vector graphics needs.</li>
-<li><strong>IWMS Integration:</strong> Ensure that outputs are compatible with Integrated Workplace Management Systems (IWMS) and other business systems to streamline workflows and enhance data utility.</li>
+<li><strong>Improving Efficiency:</strong> Significantly reducing the time and effort required to update floor plans.</li>
+<li><strong>Enhancing Accuracy:</strong> Minimising human errors and providing precise area calculations.</li>
+<li><strong>Increasing Flexibility:</strong> Offering a flexible solution that could be tailored to different customer needs and standards.</li>
+<li><strong>Building Confidence:</strong> Showing customers that we could deliver on our promises and providing them with confidence in our capabilities.</li>
+<li><strong>Real-Time Updates:</strong> Enabling real-time updates through the native app plugin, ensuring that floor plans were always current.</li>
 </ul>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>Leading the development of the automated space calculation product at Archilogic has been a highly rewarding experience. This product not only addresses a critical need in the real estate industry but also showcases the power of leveraging relational data to create innovative, scalable, and impactful solutions. By automating a traditionally manual process, we have set a new standard for efficiency and accuracy in space calculation, demonstrating the value of data-driven innovation in real estate.</p>
+<p>Leading the development and integration of this automated solution at Archilogic was a rewarding experience. By addressing a critical pain point for our customers, we showcased our ability to innovate and deliver impactful solutions that enhance efficiency and accuracy. This case study highlights the importance of understanding customer needs, collaborating closely with stakeholders, and leveraging technology to solve complex problems. The addition of the native app plugin further streamlined the process, providing even greater value to our customers.</p>
 
 
 
@@ -268,25 +283,25 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Archilogic,Product Management,Case Study,Integrations" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721821438447" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="663">
+<div class="quarto-post image-right" data-index="0" data-categories="Archilogic,Product Management,Case Study" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721821438447" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="657">
 <div class="thumbnail">
-<p><a href="../portfolio_posts/2024-05-23 IWMS.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-23 IWMS.html" class="no-external">
+<p><a href="../portfolio_posts/2024-05-23 BOMA.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-23 BOMA.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../portfolio_posts/2024-05-23 IWMS.html" class="no-external"></a></p>
+</a><p><a href="../portfolio_posts/2024-05-23 BOMA.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../portfolio_posts/2024-05-23 IWMS.html" class="no-external">Case Study: Automating Floor Plan Updates and Integration with IWMS Platforms</a>
+<a href="../portfolio_posts/2024-05-23 BOMA.html" class="no-external">Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../portfolio_posts/2024-05-23 IWMS.html" class="no-external"></a>
+<a href="../portfolio_posts/2024-05-23 BOMA.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="../portfolio_posts/2024-05-23 IWMS.html" class="no-external">As a Product Manager at Archilogic, I led the development and integration of a solution to automate floor plan updates for customers, addressing a major pain point: keeping floor plans updated across multiple platforms, particularly their Integrated Workplace Management Systems (IWMS). This case study details how we collaborated with customers using FM Systems, developed automation for polyline creation, integrated our solution with IWMS platforms, and ultimately built a native app plugin for seamless data transfer.</a>
+<a href="../portfolio_posts/2024-05-23 BOMA.html" class="no-external">As a Product Manager at Archilogic, I led the development of a groundbreaking product that automates space calculations based on BOMA standards. This product leverages the power of our Spacegraph data structure, making it scalable, repeatable, and uniquely effective due to the relational nature of the underlying data.</a>
 </div>
 </div>
 <div class="metadata">
-<a href="../portfolio_posts/2024-05-23 IWMS.html" class="no-external">
+<a href="../portfolio_posts/2024-05-23 BOMA.html" class="no-external">
 <div class="listing-date">
 May 23, 2024
 </div>
