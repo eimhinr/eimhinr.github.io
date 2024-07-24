@@ -8,6 +8,7 @@ categories:
   - WeWork
   - Program Management
   - Operations
+  - Case Study
 ---
 ## Week 1 Breakdown
 
