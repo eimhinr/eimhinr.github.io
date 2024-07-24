@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "pm-cv.html",
+    "href": "pm-cv.html",
+    "title": "Eimhin Rafferty",
+    "section": "",
+    "text": "Lecco, Italy • +393792058117 • eimhin@pm.me • eimhin.co • linkedin/eimhin"
+  },
+  {
+    "objectID": "pm-cv.html#professional-experience",
+    "href": "pm-cv.html#professional-experience",
+    "title": "Eimhin Rafferty",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nArchilogic • Product Manager • 11/2022 - Present\n\nManaged product roadmap for Editor, Data Services, and Customer Onboarding verticals. Defined, gathered and analyzeed metrics to drive decision-making and inform OKRs.\nLed product feature discovery, requirements gathering, and authored PRDs to drive product development. Collaborated with Sales, Customer Support, and other product teams to balance growth features and core product development.\nDelivered new planar graph data structure and compatible Editor 4.0 modelling platform. Supported users with advanced tools, resulting in a 2.5x increase in data conversion quality and a 1.8x reduction in conversion times.\nConducted daily standups and weekly backlog refinement calls to ensure alignment and progress within the remote first, agile team in 2 week cycles over rolling 6 committed backlog week cycles.\nProvided sales demos, customer support, and onboarding, supporting business activities.\nLed technical initiatives, including single tenant instance productisation and deployment, and custom integrations with customer platforms for both proof of concept and production features.\n\n\n\nWeWork • Product Manager, Design Technology • 07/2018 - 12/2022\n\nLed the technical aspects of the “Record Model Initiative,” a $2.7M project to deliver uniform, verified real estate data, significantly informing key business metrics.\nEstablished ring-fenced maintenance protocols and workflows to accurately maintain critical business data based on the Record Model Initiative, ensuring that teams could trust the reliability of their data.\nConducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items.\nManaged design software and workflows, serving as Contract Administrator for $3M in Autodesk services and software.\nRe-engineered processes for Design Studios, reducing sales and pre-con collateral production time from 2.5 days to 2 hours, impacting 70% of EMEA sales.\nDeveloped and maintained documentation, training content, and tools for internal and external teams to deliver accurate design information. Supported this with bespoke plugins and utilities to streamline productivity and quality control, integrating with third-party applications.\nBuilt strong working relationships across Technology, Sales, Operations, and Finance organisations, advocating for the needs of real estate data integrity and supporting sales and operations strategies.\n\n\n\nPascall + Watson • Building Information Model Coordinator • 11/2016 - 07/2018\n\nResponsible for planning, maintaining and enforcing the ‘Project Building Information Model Execution Plan’ (BEP) for £480M Airport Campus Development Project. Implemented BS 1192 standards on the project across multiple parties.\nDeveloped and Implemented new technology processes to increase efficacy and accuracy, including: Reduced biweekly design freeze from 72hrs to 8hrs & deliverable set production time from 4hrs to 20 mins.\n\n\n\nWatkins Gray International • Building Information Model Manager • 02/2014 - 11/2016\n\nResponsible for practice wide building information management and digital contract documents on projects from concept through to construction in education, healthcare and residential sectors.\nServed on a technical advisory group for a shared professional indemnity insurance group, providing expertise on BIM and design technology in practice.\n\n\n\n1508 London • Architectural Technologist • 11/2012 - 02/2014\n\nTechnical lead on luxury interiors and complex historical urban projects\n\n\n\nB+R Architects • Architectural Technologist • 08/2010 - 11/2012\n\nProject Architectural technology lead and BIM specialist."
+  },
+  {
+    "objectID": "pm-cv.html#education",
+    "href": "pm-cv.html#education",
+    "title": "Eimhin Rafferty",
+    "section": "Education",
+    "text": "Education\nBSc (Hons) in Architectural Technology Technological University Dublin 09/2005 - 05/2010"
+  },
+  {
+    "objectID": "pm-cv.html#skills",
+    "href": "pm-cv.html#skills",
+    "title": "Eimhin Rafferty",
+    "section": "Skills",
+    "text": "Skills\n\nTechnical Skills: Product Lifecycle Management, Market Research, Agile Methodologies, Project Management, Data Analysis, Product Roadmapping, User Experience (UX) Design, Wireframing and Prototyping\nSoft Skills: Communication, Leadership, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration\nTools and Software: Python, SQL, Tableau, Looker, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Eimhin Rafferty",
@@ -19,6 +47,167 @@
     "title": "Eimhin Rafferty",
     "section": "Contact",
     "text": "Contact\nyou can drop me an email any time, whatsapp, signal or telegram too. or find me anywhere below:\n💻 Github\n📋 LinkedIn"
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 Software Failure.html",
+    "href": "portfolio_posts/2024-05-23 Software Failure.html",
+    "title": "Handling a Global Software Failure: A Case Study",
+    "section": "",
+    "text": "Japan Issue Reported: A user in Japan reports a software failure via our Jira ticketing platform.\nInitial Investigation: Reviewed the report, checked service status pages, and confirmed no provider outages.\nEMEA Impact: European and North American teams began reporting the same issue. Contacted network engineers suspecting a recent license renewal may be the cause.\nCommunication Loop: Informed managers and VPs about the issue and ongoing efforts to triage it.\n\n\n\n\n\nJapan Team Meeting: Learned from the Japan team that a deep uninstall process was suggested. Advised them to wait for my review.\nInformation Collection: Collected detailed information from affected users using Jira, providing templates for specific data.\nAdvanced Triage: Further calls with technical support and resellers did not find a resolution.\nCommunication Loop: Continued to inform leadership about the progress.\n\n\n\n\n\nUnaffected Group: Identified a franchise team using network licenses but managing their own hardware was unaffected.\nEmergency Calls: Scheduled calls with key IT leaders to discuss potential causes.\nVP Leverage: Utilized VP support to get key leaders on calls.\nStakeholder Updates: Kept all stakeholders informed about findings and ongoing investigations.\n\n\n\n\n\nService Blockage: The outage began severely impacting teams’ work.\nRunning out of Options: Discussions revealed deep reinstall as the only viable solution.\nLitigation Hold: Legal restrictions prevented software uninstallation. Leveraged VP to push for a resolution.\nCommunication Loop: Broadened information loop to sales and operations teams to alleviate pressure on effected users.\n\n\n\n\n\nLegal Restrictions: Confirmed with lawyers that litigation hold was still in place.\nLawyers’ Call: Scheduled a call with vendor’s lawyers for urgent resolutions."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 Software Failure.html#week-1-breakdown",
+    "href": "portfolio_posts/2024-05-23 Software Failure.html#week-1-breakdown",
+    "title": "Handling a Global Software Failure: A Case Study",
+    "section": "",
+    "text": "Japan Issue Reported: A user in Japan reports a software failure via our Jira ticketing platform.\nInitial Investigation: Reviewed the report, checked service status pages, and confirmed no provider outages.\nEMEA Impact: European and North American teams began reporting the same issue. Contacted network engineers suspecting a recent license renewal may be the cause.\nCommunication Loop: Informed managers and VPs about the issue and ongoing efforts to triage it.\n\n\n\n\n\nJapan Team Meeting: Learned from the Japan team that a deep uninstall process was suggested. Advised them to wait for my review.\nInformation Collection: Collected detailed information from affected users using Jira, providing templates for specific data.\nAdvanced Triage: Further calls with technical support and resellers did not find a resolution.\nCommunication Loop: Continued to inform leadership about the progress.\n\n\n\n\n\nUnaffected Group: Identified a franchise team using network licenses but managing their own hardware was unaffected.\nEmergency Calls: Scheduled calls with key IT leaders to discuss potential causes.\nVP Leverage: Utilized VP support to get key leaders on calls.\nStakeholder Updates: Kept all stakeholders informed about findings and ongoing investigations.\n\n\n\n\n\nService Blockage: The outage began severely impacting teams’ work.\nRunning out of Options: Discussions revealed deep reinstall as the only viable solution.\nLitigation Hold: Legal restrictions prevented software uninstallation. Leveraged VP to push for a resolution.\nCommunication Loop: Broadened information loop to sales and operations teams to alleviate pressure on effected users.\n\n\n\n\n\nLegal Restrictions: Confirmed with lawyers that litigation hold was still in place.\nLawyers’ Call: Scheduled a call with vendor’s lawyers for urgent resolutions."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 Software Failure.html#week-by-week-breakdown",
+    "href": "portfolio_posts/2024-05-23 Software Failure.html#week-by-week-breakdown",
+    "title": "Handling a Global Software Failure: A Case Study",
+    "section": "Week-by-Week Breakdown",
+    "text": "Week-by-Week Breakdown\n\nWeek 2: Compliance Resolution\n\nAgreement with Vendor: Reached an agreement to use a manual process in conjunction with their compliance app to collect logs directly from users.\nInitial Workflow Test: Worked with team members on critical projects to test the workflow for log collection, and run the process end to end.\n\n\n\nWeek 3: Automation and Initial Resolutions\n\nAutomation Scripts: Developed PowerShell scripts to automate compliance checks and configured Jira for progress tracking.\nFirst Reports Sent: Submitted the first batch of reports to the vendor, applied pressure for quick responses.\n\n\n\nWeek 4: Final Resolution\n\nUser Instructions: Provided users with detailed SOPs and scripts for the deep clean process, tracked progress via Jira.\nResolution Achieved: Despite slow vendor responses, the issue was resolved. Regular updates ensured transparency and maintained trust.\nClose Out: Automated reports from Jira to monitor ticket burn down rates."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 Software Failure.html#conclusion",
+    "href": "portfolio_posts/2024-05-23 Software Failure.html#conclusion",
+    "title": "Handling a Global Software Failure: A Case Study",
+    "section": "Conclusion",
+    "text": "Conclusion\nBy systematically addressing the software failure, leveraging automation, and ensuring constant communication, I minimized downtime and restored normal operations, demonstrating effective problem-solving and leadership in crisis management."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 EMEA Custom Team.html",
+    "href": "portfolio_posts/2024-05-23 EMEA Custom Team.html",
+    "title": "Developing a Workflow Template for the Custom Enterprise Team",
+    "section": "",
+    "text": "The ‘Custom Enterprise’ team struggled with:\n\nProcess Automation: Unlike the ‘Classic’ WeWork team, their processes were not automated, leading to prolonged project setup times.\nAccess to Content: The teams core work was to dive in to already delivered locations and work on propoals for refurbishments. they lacked access to the latest content, processes and workflows of the ‘Classic’ WeWork team\nIsolation: The team wasnt directly supported by the design org and lacked the guard rails they could rely on to do their best work.\nTime Consumption: Project setup, which should have taken 2-3 hours, stretched into 2+ days, severely impacting productivity."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 EMEA Custom Team.html#initial-challenges",
+    "href": "portfolio_posts/2024-05-23 EMEA Custom Team.html#initial-challenges",
+    "title": "Developing a Workflow Template for the Custom Enterprise Team",
+    "section": "",
+    "text": "The ‘Custom Enterprise’ team struggled with:\n\nProcess Automation: Unlike the ‘Classic’ WeWork team, their processes were not automated, leading to prolonged project setup times.\nAccess to Content: The teams core work was to dive in to already delivered locations and work on propoals for refurbishments. they lacked access to the latest content, processes and workflows of the ‘Classic’ WeWork team\nIsolation: The team wasnt directly supported by the design org and lacked the guard rails they could rely on to do their best work.\nTime Consumption: Project setup, which should have taken 2-3 hours, stretched into 2+ days, severely impacting productivity."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 EMEA Custom Team.html#solution-development-workflow-template",
+    "href": "portfolio_posts/2024-05-23 EMEA Custom Team.html#solution-development-workflow-template",
+    "title": "Developing a Workflow Template for the Custom Enterprise Team",
+    "section": "Solution Development: Workflow Template",
+    "text": "Solution Development: Workflow Template\n\nUnderstanding the Workflow\nTo address these challenges, I took the following steps:\n\nIssue Collation: Gathered a comprehensive list of the team’s support needs.\nDetailed Analysis: Met with team members to understand their workflows and pain points.\nStakeholder Consultation: Reviewed the team’s outputs with managers and stakeholders.\n\n\n\nCreating the Workflow Template\nRecognising the need for a streamlined process, I initiated a two-week sprint to develop a Minimum Viable Product (MVP) workflow template. This template aimed to:\n\nReduce Setup Time: Significantly cut down the time required to configure projects.\nEnhance Autonomy: Enable the team to work more independently and efficiently.\n\n\n\nImplementation and Training\n\nEngagement: Selected a team member to pilot the new workflow template on her projects.\nCo-development: Worked together to refine the template and develop standard operating procedures, instructional videos, and training sessions.\nTraining Rollout: Conducted training sessions to ensure the entire team could effectively use the new workflow template."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 EMEA Custom Team.html#impact-of-the-workflow-template",
+    "href": "portfolio_posts/2024-05-23 EMEA Custom Team.html#impact-of-the-workflow-template",
+    "title": "Developing a Workflow Template for the Custom Enterprise Team",
+    "section": "Impact of the Workflow Template",
+    "text": "Impact of the Workflow Template\nThe introduction of the workflow template had an immediate and profound impact: - Quality of deliverables: The deliverables were structured, reliable and reproducible by anyone in the team. - Accuracy: The design accuracy was enhanced as the teams had the right tools and content to deliver to the latest global design standards. - Dramatic Reduction in Turnaround Time: Project setup time reduced from 2.5 days to 2 hours. The team could consistently finish work by 6 PM. - Minimised Support Needs: The requirement for support nearly vanished. - Scalability: The template was eventually adopted by other markets.\nThe development and implementation of this workflow template not only streamlined the ‘Custom Enterprise’ team’s processes but also highlighted the importance of creating tailored solutions to meet specific team needs. This initiative significantly improved efficiency, productivity, and team satisfaction.+\nThis process was subsequently rolled out globally to India, Japan, Australia and LATAM teams. At the height of the output 80% of all desks sold outside of the USA went through this workflow."
+  },
+  {
+    "objectID": "cs-cv.html",
+    "href": "cs-cv.html",
+    "title": "Eimhin Rafferty",
+    "section": "",
+    "text": "Lecco, Italy • +393792058117 • eimhin@pm.me • eimhin.co • linkedin/eimhin"
+  },
+  {
+    "objectID": "cs-cv.html#professional-experience",
+    "href": "cs-cv.html#professional-experience",
+    "title": "Eimhin Rafferty",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nArchilogic • Product Manager • 11/2022 - 05/2024\n\nManaged product roadmap for Editor, Data Services, and Customer Onboarding verticals. Defined, gathered and analyzeed metrics to drive decision-making and inform OKRs.\nLed product feature discovery, requirements gathering, and authored PRDs to drive product development. Collaborated with Sales, Customer Support, and other product teams to balance growth features and core product development.\nDelivered new planar graph data structure and compatible Editor 4.0 modelling platform. Supported users with advanced tools, resulting in a 2.5x increase in data conversion quality and a 1.8x reduction in conversion times.\nConducted daily standups and weekly backlog refinement calls to ensure alignment and progress within the remote first, agile team in 2 week cycles over rolling 6 committed backlog week cycles.\n\nWeekly reviews with customer support team to support being the voice of the customer in product team. Listended in on CS calls and supported CS workflows.\n\nProvided sales demos, customer support, and onboarding, supporting business activities.\n\n\n\nWeWork • Product Manager, Design Technology • 07/2018 - 12/2022\n\nLed the technical aspects of the “Record Model Initiative,” a $2.7M project to deliver uniform, verified real estate data, significantly informing key business metrics.\nEstablished ring-fenced support workflows and set up a support team to manage updates, accurately maintaining critical business data verified by the Record Model Initiative, ensuring that teams could trust the reliability of their data.\nConducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items.\nStood up and managed the Design Technology support ticketing system, moving all support from ad hoc direct contact to the Jira platform. Increased trust, accountability, and reporting to best in class.\nManaged design software and workflows, serving as Contract Administrator for $3M in Autodesk services and software.\nRe-engineered processes for Design Studios, reducing sales and pre-con collateral production time from 2.5 days to 2 hours, impacting 70% of EMEA sales. Provided direct support and traning to teams using these workflows.\nDeveloped and maintained documentation, training content, and tools for internal and external teams to deliver accurate design information. Supported this with bespoke plugins and utilities to streamline productivity and quality control, integrating with third-party applications.\nBuilt strong working relationships across Technology, Sales, Operations, and Finance organisations, advocating for the needs of real estate data integrity and supporting sales and operations strategies.\n\n\n\nPascall + Watson • Building Information Model Coordinator • 11/2016 - 07/2018\n\nResponsible for planning, maintaining and enforcing the ‘Project Building Information Model Execution Plan’ (BEP) for £480M Airport Campus Development Project. Implemented BS 1192 standards on the project across multiple parties.\nDeveloped and Implemented new technology processes to increase efficacy and accuracy, including: Reduced biweekly design freeze from 72hrs to 8hrs & deliverable set production time from 4hrs to 20 mins.\nPoint of contact for traning and support for Internal and External teams in their speciailsed software. Enforced compliance with contract document reuqirements.\n\n\n\nWatkins Gray International • Building Information Model Manager • 02/2014 - 11/2016\n\nResponsible for practice wide building information management and digital contract documents on projects from concept through to construction in education, healthcare and residential sectors.\nServed on a technical advisory group for a shared professional indemnity insurance group, providing expertise on BIM and design technology in practice.\n\n\n\n1508 London • Architectural Technologist • 11/2012 - 02/2014\n\nTechnical lead on luxury interiors and complex historical urban projects\n\n\n\nB+R Architects • Architectural Technologist • 08/2010 - 11/2012\n\nProject Architectural technology lead and BIM specialist."
+  },
+  {
+    "objectID": "cs-cv.html#education",
+    "href": "cs-cv.html#education",
+    "title": "Eimhin Rafferty",
+    "section": "Education",
+    "text": "Education\nBSc (Hons) in Architectural Technology Technological University Dublin 09/2005 - 05/2010"
+  },
+  {
+    "objectID": "cs-cv.html#skills",
+    "href": "cs-cv.html#skills",
+    "title": "Eimhin Rafferty",
+    "section": "Skills",
+    "text": "Skills\n\nTechnical Skills: Product Lifecycle Management, Market Research, Agile Methodologies, Project Management, Data Analysis, Product Roadmapping, User Experience (UX) Design, Wireframing and Prototyping, Customer Support, Customer Enablement\nSoft Skills: Communication, Leadership, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration\nTools and Software: Python, SQL, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool"
+  },
+  {
+    "objectID": "arch-cv.html",
+    "href": "arch-cv.html",
+    "title": "Eimhin Rafferty",
+    "section": "",
+    "text": "Lecco, Italy • +393792058117 • eimhin@pm.me • portfolio • linkedin/eimhin"
+  },
+  {
+    "objectID": "arch-cv.html#professional-experience",
+    "href": "arch-cv.html#professional-experience",
+    "title": "Eimhin Rafferty",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nArchilogic • Product Manager\nRemote, Italy • 11/2022 - Present\n\nManaged product roadmap for Editor, Data Services, and Customer Onboarding verticals. Defined, gathered and analyzeed metrics to drive decision-making and inform OKRs.\nLed product feature discovery, requirements gathering, and authored PRDs to drive product development. Collaborated with Sales, Customer Support, and other product teams to balance growth features and core product development.\nDelivered new planar graph data structure and compatible Editor 4.0 modelling platform. Supported users with advanced tools, resulting in a 2.5x increase in data conversion quality and a 1.8x reduction in conversion times.\nConducted daily standups and weekly backlog refinement calls to ensure alignment and progress within the remote first, agile team in 2 week cycles over rolling 6 committed backlog week cycles.\nProvided sales demos, customer support, and onboarding, supporting business activities.\nLed technical initiatives, including single tenant instance productisation and deployment, and custom integrations with customer platforms for both proof of concept and production features.\n\n\n\nWeWork • Product Manager, Design Technology\nLondon, UK • 07/2018 - 12/2022\n\nLed the technical aspects of the “Record Model Initiative,” a $2.7M project to deliver uniform, verified real estate data in standardised BIM format using Revit internal and external teams.\nDeveloped and maintained revit documentation, training content, andtools for internal and external teams to deliver accurate design information. Supported this with bespoke plugins and utilities (pyrevit, dynamo, C#) to streamline productivity and quality control, integrating with third-party applications.\nManaged conversion of reality capture data into High Accuracy (LOD) and low LOI modelds at scale.\nEstablished ring-fenced maintenance protocols and workflows to accurately maintain critical business data based on the Record Model Initiative, ensuring that teams could trust the reliability of their data.\nConducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items based on refredhsed BIM Data.\nManaged design software and workflows, serving as Contract Administrator for $3M in Autodesk services and software.\nRe-engineered processes for Design Studios, reducing sales and pre-con collateral production time from 2.5 days to 2 hours, impacting 70% of EMEA sales.\nBuilt strong working relationships across Technology, Sales, Operations, and Finance organisations, advocating for the needs of real estate data integrity and supporting sales and operations strategies.\n\n\n\nPascall + Watson • Building Information Model Coordinator\nLondon, UK • 11/2016 - 07/2018\n\nResponsible for planning, maintaining and enforcing the ‘Project Building Information Model Execution Plan’ (BEP) for £480M Airport Campus Development Project. Implemented BS 1192 standards on the project across multiple parties.\nDeveloped and Implemented new technology processes to increase efficacy and accuracy, including: Reduced biweekly design freeze from 72hrs to 8hrs & deliverable set production time from 4hrs to 20 mins.\nManaged 35+ concurrent Revit Models, plus IFC & links from other softwares to orcstrate planning and constuction pack delivery of London City Airport Campus Project\n\n\n\nWatkins Gray International • Building Information Model Manager\nLondon, UK • 02/2014 - 11/2016\n\nResponsible for practice wide building information management and digital contract documents on projects from concept through to construction in education, healthcare and residential sectors.\nKey Projects include: Seven Kings Redbridge 4 Form School, Great Ormand childerns hospital projects (private paitents wing, Chelsea flower show garden on rooftop), Bromley South Central 230 residentual compliance audit and project delivery.\nServed on a technical advisory group for a shared professional indemnity insurance group, providing expertise on BIM and design technology in practice.\n\n\n\n1508 London • Architectural Technologist\nLondon, UK • 11/2012 - 02/2014\n\nTechnical lead on luxury interiors and complex historical urban projects, both fitout, renovations and new builds.\nLuxury developments in Knightsbridge London, Istanbul, and Dubai.\n\n\n\nB+R Architects • Architectural Technologist\nLondon, UK • 08/2010 - 11/2012\n\nProject Architectural technology lead and BIM specialist.\nCommercial retail stores (over 20 John Lewis LLP & Waitrose stores nationwide) new build, renovation and fitout."
+  },
+  {
+    "objectID": "arch-cv.html#education",
+    "href": "arch-cv.html#education",
+    "title": "Eimhin Rafferty",
+    "section": "Education",
+    "text": "Education\nBSc (Hons) in Architectural Technology Technological University Dublin 09/2005 - 05/2010"
+  },
+  {
+    "objectID": "arch-cv.html#skills",
+    "href": "arch-cv.html#skills",
+    "title": "Eimhin Rafferty",
+    "section": "Skills",
+    "text": "Skills\n\nArchitecture Tools: Revit, Dynamo, Pyrevit, Navisworks, Solibri, BIMCollab, Autodesk construction cloud, Adobe Photoshop, Adobe Indesign,\nLeadership Skills: Communication, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration\nTools and Software: Python, SQL, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool"
+  },
+  {
+    "objectID": "pm-portfolio.html",
+    "href": "pm-portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Case studies from a vaired career deling with Product, Project and Programme Management\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a Workflow Template for the Custom Enterprise Team\n\n\n\n\n\n\nWeWork\n\n\nProduct Management\n\n\nCase Study\n\n\nArchitecture\n\n\n\nAt WeWork, I was tasked with supporting a newly formed ‘Custom Enterprise’ team within the Sales Organisation. This team of six designers was responsible for rapidly creating sales collateral for various buildings in our portfolio. Assembled on an ad-hoc basis and not reporting to the main design organisation, they faced significant operational challenges.\n\n\n\n\n\nMay 23, 2024\n\n\nEimhin Rafferty\n\n\n\n\n\n\n\n\n\n\n\n\nAutomating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic\n\n\n\n\n\n\nArchilogic\n\n\nProduct Management\n\n\nCase Study\n\n\n\nAs a Product Manager at Archilogic, I led the development of a groundbreaking product that automates space calculations based on BOMA standards. This product leverages the power of our Spacegraph data structure, making it scalable, repeatable, and uniquely effective due to the relational nature of the underlying data.\n\n\n\n\n\nMay 23, 2024\n\n\nEimhin Rafferty\n\n\n\n\n\n\n\n\n\n\n\n\nHandling a Global Software Failure: A Case Study\n\n\n\n\n\n\nWeWork\n\n\nProgram Management\n\n\nOperations\n\n\nCase Study\n\n\n\nDuring a global software failure, I led the resolution efforts across multiple regions, including Japan, Asia, EMEA, LATAM, and North America. The issue was initially reported by a user in Japan and quickly spread to other regions. Coordinating with network engineers and resellers, I gathered detailed information from users and kept stakeholders informed throughout the process. By developing PowerShell scripts and SOPs for a complex uninstall process, and leveraging VP support to navigate legal restrictions, I ensured minimal downtime and restored normal operations efficiently.\n\n\n\n\n\nMay 23, 2024\n\n\nEimhin Rafferty\n\n\n\n\n\n\n\n\n\n\n\n\nProtecting 3.7 TB of Project Data: The BIM 360 Data Migration Initiative\n\n\n\n\n\n\nWeWork\n\n\nProgram Management\n\n\nOperations\n\n\nCase Study\n\n\n\nThe BIM 360 Data Migration project addresses the challenge of managing 3.7 TB of project data stored in a locked in cloud platform - ‘BIM 360 Teams’ which became inaccessible as versions of Autodesk Revit 2017/2018 were phased out. This migration ensureed that all project data moved to the sucessor, ‘BIM 360 Docs’, upgrading models to the latest Revit versions and maintaining user access throughout the process.\n\n\n\n\n\nMay 23, 2024\n\n\nEimhin Rafferty\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 BOMA.html",
+    "href": "portfolio_posts/2024-05-23 BOMA.html",
+    "title": "Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic",
+    "section": "",
+    "text": "Real estate professionals face significant challenges when it comes to accurately calculating space according to Building Owners and Managers Association (BOMA) standards. Traditional methods are time-consuming, prone to error, and often inconsistent. The need for a reliable, automated solution was clear."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 BOMA.html#the-challenge",
+    "href": "portfolio_posts/2024-05-23 BOMA.html#the-challenge",
+    "title": "Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic",
+    "section": "",
+    "text": "Real estate professionals face significant challenges when it comes to accurately calculating space according to Building Owners and Managers Association (BOMA) standards. Traditional methods are time-consuming, prone to error, and often inconsistent. The need for a reliable, automated solution was clear."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 BOMA.html#solution-development-automating-space-calculation",
+    "href": "portfolio_posts/2024-05-23 BOMA.html#solution-development-automating-space-calculation",
+    "title": "Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic",
+    "section": "Solution Development: Automating Space Calculation",
+    "text": "Solution Development: Automating Space Calculation\n\nUnderstanding the Requirements\nTo create a solution that truly addresses the needs of real estate professionals, we began by: - Researching BOMA Standards: Thoroughly understanding the intricacies of BOMA standards for space calculation. - Engaging with Stakeholders: Conducting interviews and surveys with real estate professionals to gather insights on their pain points and requirements.\n\n\nLeveraging Spacegraph Data Structure\nThe key to our solution was leveraging Archilogic’s Spacegraph data structure, a highly relational and data-rich representation of building spaces. This data structure allowed us to: - Automate Calculations: Use spatial data to automate space calculations accurately and consistently. - Ensure Scalability: Develop a product that could be easily scaled to different buildings and spaces. - Maintain Repeatability: Ensure the process could be repeated with the same level of accuracy every time.\n\n\nFlexibility of Standards\nAlthough we applied BOMA standards for this particular product, the underlying operations of our system are agnostic to the specific standards used. The Spacegraph data structure is designed to handle any set of space calculation standards, making the product versatile and adaptable to various industry requirements.\n\n\nBuilding the Product\nThe development process involved: - Algorithm Development: Creating algorithms to automate the space calculation process based on BOMA standards. - Integration with Spacegraph: Ensuring seamless integration with the Spacegraph data structure to utilise its relational data. - User Interface Design: Designing an intuitive user interface that allows users to easily input data and view results.\n\n\nTesting and Refinement\nWe conducted extensive testing and refinement to ensure the product met the high standards of accuracy and usability required by our users: - Beta Testing: Engaged a group of real estate professionals to test the product and provide feedback. - Iterative Improvements: Made iterative improvements based on user feedback to enhance functionality and user experience.\n\n\nGraph Structure Operation\nThe Spacegraph data structure operates by determining whether lines are drawn at the inner, centre, or outer edge of spaces, depending on the use of the space on either side. This approach minimises human error and subjectivity, ensuring that calculations are consistent and reliable."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 BOMA.html#impact-and-benefits",
+    "href": "portfolio_posts/2024-05-23 BOMA.html#impact-and-benefits",
+    "title": "Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic",
+    "section": "Impact and Benefits",
+    "text": "Impact and Benefits\nThe introduction of our automated space calculation product has had a profound impact on the real estate industry: - Increased Efficiency: Reduced the time required for space calculations from days to minutes. - Enhanced Accuracy: Provided highly accurate calculations, reducing errors and inconsistencies. - Scalability and Repeatability: Enabled users to easily scale the solution across multiple buildings and spaces with consistent results. - Data-Driven Insights: Leveraged the relational data in the Spacegraph data structure to provide deeper insights into space utilisation and management."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 BOMA.html#next-steps",
+    "href": "portfolio_posts/2024-05-23 BOMA.html#next-steps",
+    "title": "Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic",
+    "section": "Next Steps",
+    "text": "Next Steps\nTo further enhance the product and provide even more value to our users, the next steps are fully related to making everything accessable outside of our core application, via API.\n\nRaw Data Access: Develop APIs to allow users to access raw data directly from the Spacegraph data structure. This will enable integration with other systems and provide greater flexibility in data usage.\nPolyline Outputs: Generate image outputs of polylines for visualisation and integration purposes.\nCAD Line Outputs: Provide CAD line outputs for use in various design and architectural applications.\nSVG Line Outputs: Offer SVG line outputs for web-based applications and scalable vector graphics needs.\nIWMS Integration: Ensure that outputs are compatible with Integrated Workplace Management Systems (IWMS) and other business systems to streamline workflows and enhance data utility."
+  },
+  {
+    "objectID": "portfolio_posts/2024-05-23 BOMA.html#conclusion",
+    "href": "portfolio_posts/2024-05-23 BOMA.html#conclusion",
+    "title": "Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic",
+    "section": "Conclusion",
+    "text": "Conclusion\nLeading the development of the automated space calculation product at Archilogic has been a highly rewarding experience. This product not only addresses a critical need in the real estate industry but also showcases the power of leveraging relational data to create innovative, scalable, and impactful solutions. By automating a traditionally manual process, we have set a new standard for efficiency and accuracy in space calculation, demonstrating the value of data-driven innovation in real estate."
   },
   {
     "objectID": "portfolio_posts/2024-05-23 Cloud Platform Migration.html",
@@ -70,13 +259,6 @@
     "text": "Initial EMEA Release: Establish transfer management and validation framework.\nSpeed Improvements: Implement AWS Lambda for efficient file transfer and remote upgrades.\nGlobal Release: Expand process management globally and develop a reporting dashboard.\nProcess Refinement: Consolidate and integrate unzip/upgrade processes into the management system.\n\nBy successfully executing this migration, the project ensures that WeWork’s data remains accessible, updated, and efficiently managed across the latest BIM 360 platforms."
   },
   {
-    "objectID": "pm-portfolio.html",
-    "href": "pm-portfolio.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Here are a collection of my standout products, projects and programmes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProtecting 3.7 TB of Project Data: The BIM 360 Data Migration Initiative\n\n\n\n\n\n\nWeWork\n\n\nProgram Management\n\n\nOperations\n\n\nCase Study\n\n\n\nThe BIM 360 Data Migration project addresses the challenge of managing 3.7 TB of project data stored in a locked in cloud platform - ‘BIM 360 Teams’ which became inaccessible as versions of Autodesk Revit 2017/2018 were phased out. This migration ensureed that all project data moved to the sucessor, ‘BIM 360 Docs’, upgrading models to the latest Revit versions and maintaining user access throughout the process.\n\n\n\n\n\nMay 23, 2024\n\n\nEimhin Rafferty\n\n\n\n\n\n\n\n\n\n\n\n\nHandling a Global Software Failure: A Case Study\n\n\n\n\n\n\nWeWork\n\n\nProgram Management\n\n\nOperations\n\n\nCase Study\n\n\n\nDuring a global software failure, I led the resolution efforts across multiple regions, including Japan, Asia, EMEA, LATAM, and North America. The issue was initially reported by a user in Japan and quickly spread to other regions. Coordinating with network engineers and resellers, I gathered detailed information from users and kept stakeholders informed throughout the process. By developing PowerShell scripts and SOPs for a complex uninstall process, and leveraging VP support to navigate legal restrictions, I ensured minimal downtime and restored normal operations efficiently.\n\n\n\n\n\nMay 23, 2024\n\n\nEimhin Rafferty\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "arch-portfolio.html",
     "href": "arch-portfolio.html",
     "title": "Eimhin Rafferty • Architect Portfolio",
@@ -117,117 +299,5 @@
     "title": "Eimhin Rafferty • Architect Portfolio",
     "section": "B+R Architects • Architectural Technologist",
     "text": "B+R Architects • Architectural Technologist\n08/2010 - 11/2012\n\nB+R Architects excels in delivering top-tier architectural solutions, emphasizing innovation, sustainability, and functionality. With expertise in Building Information Modeling (BIM) and a diverse portfolio, they cater to sectors including commercial, retail, and mission-critical facilities. Their commitment to design excellence is evident in projects like Google HQ and Waitrose John Lewis. At B+R Architects, creativity meets technology to transform spaces and exceed client expectations.\n\n\nWaitrose Dorking\n\n\n\nassets/BandR/B+R-Dorking-Detail.png\n\n\n\n\n\nassets/BandR/B+R-Dorking-Elevation.png\n\n\n\n\n\nassets/BandR/B+R-Dorking-Elevation3.jpg\n\n\n\n\nJLP Leeds\n\n\n\nassets/BandR/Portfolio-Master-layout-draft-038.jpg\n\n\n\n\n\nassets/BandR/Image-12.jpg\n\n\n\n\n\nassets/BandR/Image-10.jpg"
-  },
-  {
-    "objectID": "arch-cv.html",
-    "href": "arch-cv.html",
-    "title": "Eimhin Rafferty",
-    "section": "",
-    "text": "Lecco, Italy • +393792058117 • eimhin@pm.me • portfolio • linkedin/eimhin"
-  },
-  {
-    "objectID": "arch-cv.html#professional-experience",
-    "href": "arch-cv.html#professional-experience",
-    "title": "Eimhin Rafferty",
-    "section": "Professional Experience",
-    "text": "Professional Experience\n\nArchilogic • Product Manager\nRemote, Italy • 11/2022 - Present\n\nManaged product roadmap for Editor, Data Services, and Customer Onboarding verticals. Defined, gathered and analyzeed metrics to drive decision-making and inform OKRs.\nLed product feature discovery, requirements gathering, and authored PRDs to drive product development. Collaborated with Sales, Customer Support, and other product teams to balance growth features and core product development.\nDelivered new planar graph data structure and compatible Editor 4.0 modelling platform. Supported users with advanced tools, resulting in a 2.5x increase in data conversion quality and a 1.8x reduction in conversion times.\nConducted daily standups and weekly backlog refinement calls to ensure alignment and progress within the remote first, agile team in 2 week cycles over rolling 6 committed backlog week cycles.\nProvided sales demos, customer support, and onboarding, supporting business activities.\nLed technical initiatives, including single tenant instance productisation and deployment, and custom integrations with customer platforms for both proof of concept and production features.\n\n\n\nWeWork • Product Manager, Design Technology\nLondon, UK • 07/2018 - 12/2022\n\nLed the technical aspects of the “Record Model Initiative,” a $2.7M project to deliver uniform, verified real estate data in standardised BIM format using Revit internal and external teams.\nDeveloped and maintained revit documentation, training content, andtools for internal and external teams to deliver accurate design information. Supported this with bespoke plugins and utilities (pyrevit, dynamo, C#) to streamline productivity and quality control, integrating with third-party applications.\nManaged conversion of reality capture data into High Accuracy (LOD) and low LOI modelds at scale.\nEstablished ring-fenced maintenance protocols and workflows to accurately maintain critical business data based on the Record Model Initiative, ensuring that teams could trust the reliability of their data.\nConducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items based on refredhsed BIM Data.\nManaged design software and workflows, serving as Contract Administrator for $3M in Autodesk services and software.\nRe-engineered processes for Design Studios, reducing sales and pre-con collateral production time from 2.5 days to 2 hours, impacting 70% of EMEA sales.\nBuilt strong working relationships across Technology, Sales, Operations, and Finance organisations, advocating for the needs of real estate data integrity and supporting sales and operations strategies.\n\n\n\nPascall + Watson • Building Information Model Coordinator\nLondon, UK • 11/2016 - 07/2018\n\nResponsible for planning, maintaining and enforcing the ‘Project Building Information Model Execution Plan’ (BEP) for £480M Airport Campus Development Project. Implemented BS 1192 standards on the project across multiple parties.\nDeveloped and Implemented new technology processes to increase efficacy and accuracy, including: Reduced biweekly design freeze from 72hrs to 8hrs & deliverable set production time from 4hrs to 20 mins.\nManaged 35+ concurrent Revit Models, plus IFC & links from other softwares to orcstrate planning and constuction pack delivery of London City Airport Campus Project\n\n\n\nWatkins Gray International • Building Information Model Manager\nLondon, UK • 02/2014 - 11/2016\n\nResponsible for practice wide building information management and digital contract documents on projects from concept through to construction in education, healthcare and residential sectors.\nKey Projects include: Seven Kings Redbridge 4 Form School, Great Ormand childerns hospital projects (private paitents wing, Chelsea flower show garden on rooftop), Bromley South Central 230 residentual compliance audit and project delivery.\nServed on a technical advisory group for a shared professional indemnity insurance group, providing expertise on BIM and design technology in practice.\n\n\n\n1508 London • Architectural Technologist\nLondon, UK • 11/2012 - 02/2014\n\nTechnical lead on luxury interiors and complex historical urban projects, both fitout, renovations and new builds.\nLuxury developments in Knightsbridge London, Istanbul, and Dubai.\n\n\n\nB+R Architects • Architectural Technologist\nLondon, UK • 08/2010 - 11/2012\n\nProject Architectural technology lead and BIM specialist.\nCommercial retail stores (over 20 John Lewis LLP & Waitrose stores nationwide) new build, renovation and fitout."
-  },
-  {
-    "objectID": "arch-cv.html#education",
-    "href": "arch-cv.html#education",
-    "title": "Eimhin Rafferty",
-    "section": "Education",
-    "text": "Education\nBSc (Hons) in Architectural Technology Technological University Dublin 09/2005 - 05/2010"
-  },
-  {
-    "objectID": "arch-cv.html#skills",
-    "href": "arch-cv.html#skills",
-    "title": "Eimhin Rafferty",
-    "section": "Skills",
-    "text": "Skills\n\nArchitecture Tools: Revit, Dynamo, Pyrevit, Navisworks, Solibri, BIMCollab, Autodesk construction cloud, Adobe Photoshop, Adobe Indesign,\nLeadership Skills: Communication, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration\nTools and Software: Python, SQL, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool"
-  },
-  {
-    "objectID": "pm-cv.html",
-    "href": "pm-cv.html",
-    "title": "Eimhin Rafferty",
-    "section": "",
-    "text": "Lecco, Italy • +393792058117 • eimhin@pm.me • eimhin.co • linkedin/eimhin"
-  },
-  {
-    "objectID": "pm-cv.html#professional-experience",
-    "href": "pm-cv.html#professional-experience",
-    "title": "Eimhin Rafferty",
-    "section": "Professional Experience",
-    "text": "Professional Experience\n\nArchilogic • Product Manager • 11/2022 - Present\n\nManaged product roadmap for Editor, Data Services, and Customer Onboarding verticals. Defined, gathered and analyzeed metrics to drive decision-making and inform OKRs.\nLed product feature discovery, requirements gathering, and authored PRDs to drive product development. Collaborated with Sales, Customer Support, and other product teams to balance growth features and core product development.\nDelivered new planar graph data structure and compatible Editor 4.0 modelling platform. Supported users with advanced tools, resulting in a 2.5x increase in data conversion quality and a 1.8x reduction in conversion times.\nConducted daily standups and weekly backlog refinement calls to ensure alignment and progress within the remote first, agile team in 2 week cycles over rolling 6 committed backlog week cycles.\nProvided sales demos, customer support, and onboarding, supporting business activities.\nLed technical initiatives, including single tenant instance productisation and deployment, and custom integrations with customer platforms for both proof of concept and production features.\n\n\n\nWeWork • Product Manager, Design Technology • 07/2018 - 12/2022\n\nLed the technical aspects of the “Record Model Initiative,” a $2.7M project to deliver uniform, verified real estate data, significantly informing key business metrics.\nEstablished ring-fenced maintenance protocols and workflows to accurately maintain critical business data based on the Record Model Initiative, ensuring that teams could trust the reliability of their data.\nConducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items.\nManaged design software and workflows, serving as Contract Administrator for $3M in Autodesk services and software.\nRe-engineered processes for Design Studios, reducing sales and pre-con collateral production time from 2.5 days to 2 hours, impacting 70% of EMEA sales.\nDeveloped and maintained documentation, training content, and tools for internal and external teams to deliver accurate design information. Supported this with bespoke plugins and utilities to streamline productivity and quality control, integrating with third-party applications.\nBuilt strong working relationships across Technology, Sales, Operations, and Finance organisations, advocating for the needs of real estate data integrity and supporting sales and operations strategies.\n\n\n\nPascall + Watson • Building Information Model Coordinator • 11/2016 - 07/2018\n\nResponsible for planning, maintaining and enforcing the ‘Project Building Information Model Execution Plan’ (BEP) for £480M Airport Campus Development Project. Implemented BS 1192 standards on the project across multiple parties.\nDeveloped and Implemented new technology processes to increase efficacy and accuracy, including: Reduced biweekly design freeze from 72hrs to 8hrs & deliverable set production time from 4hrs to 20 mins.\n\n\n\nWatkins Gray International • Building Information Model Manager • 02/2014 - 11/2016\n\nResponsible for practice wide building information management and digital contract documents on projects from concept through to construction in education, healthcare and residential sectors.\nServed on a technical advisory group for a shared professional indemnity insurance group, providing expertise on BIM and design technology in practice.\n\n\n\n1508 London • Architectural Technologist • 11/2012 - 02/2014\n\nTechnical lead on luxury interiors and complex historical urban projects\n\n\n\nB+R Architects • Architectural Technologist • 08/2010 - 11/2012\n\nProject Architectural technology lead and BIM specialist."
-  },
-  {
-    "objectID": "pm-cv.html#education",
-    "href": "pm-cv.html#education",
-    "title": "Eimhin Rafferty",
-    "section": "Education",
-    "text": "Education\nBSc (Hons) in Architectural Technology Technological University Dublin 09/2005 - 05/2010"
-  },
-  {
-    "objectID": "pm-cv.html#skills",
-    "href": "pm-cv.html#skills",
-    "title": "Eimhin Rafferty",
-    "section": "Skills",
-    "text": "Skills\n\nTechnical Skills: Product Lifecycle Management, Market Research, Agile Methodologies, Project Management, Data Analysis, Product Roadmapping, User Experience (UX) Design, Wireframing and Prototyping\nSoft Skills: Communication, Leadership, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration\nTools and Software: Python, SQL, Tableau, Looker, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool"
-  },
-  {
-    "objectID": "cs-cv.html",
-    "href": "cs-cv.html",
-    "title": "Eimhin Rafferty",
-    "section": "",
-    "text": "Lecco, Italy • +393792058117 • eimhin@pm.me • eimhin.co • linkedin/eimhin"
-  },
-  {
-    "objectID": "cs-cv.html#professional-experience",
-    "href": "cs-cv.html#professional-experience",
-    "title": "Eimhin Rafferty",
-    "section": "Professional Experience",
-    "text": "Professional Experience\n\nArchilogic • Product Manager • 11/2022 - 05/2024\n\nManaged product roadmap for Editor, Data Services, and Customer Onboarding verticals. Defined, gathered and analyzeed metrics to drive decision-making and inform OKRs.\nLed product feature discovery, requirements gathering, and authored PRDs to drive product development. Collaborated with Sales, Customer Support, and other product teams to balance growth features and core product development.\nDelivered new planar graph data structure and compatible Editor 4.0 modelling platform. Supported users with advanced tools, resulting in a 2.5x increase in data conversion quality and a 1.8x reduction in conversion times.\nConducted daily standups and weekly backlog refinement calls to ensure alignment and progress within the remote first, agile team in 2 week cycles over rolling 6 committed backlog week cycles.\n\nWeekly reviews with customer support team to support being the voice of the customer in product team. Listended in on CS calls and supported CS workflows.\n\nProvided sales demos, customer support, and onboarding, supporting business activities.\n\n\n\nWeWork • Product Manager, Design Technology • 07/2018 - 12/2022\n\nLed the technical aspects of the “Record Model Initiative,” a $2.7M project to deliver uniform, verified real estate data, significantly informing key business metrics.\nEstablished ring-fenced support workflows and set up a support team to manage updates, accurately maintaining critical business data verified by the Record Model Initiative, ensuring that teams could trust the reliability of their data.\nConducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items.\nStood up and managed the Design Technology support ticketing system, moving all support from ad hoc direct contact to the Jira platform. Increased trust, accountability, and reporting to best in class.\nManaged design software and workflows, serving as Contract Administrator for $3M in Autodesk services and software.\nRe-engineered processes for Design Studios, reducing sales and pre-con collateral production time from 2.5 days to 2 hours, impacting 70% of EMEA sales. Provided direct support and traning to teams using these workflows.\nDeveloped and maintained documentation, training content, and tools for internal and external teams to deliver accurate design information. Supported this with bespoke plugins and utilities to streamline productivity and quality control, integrating with third-party applications.\nBuilt strong working relationships across Technology, Sales, Operations, and Finance organisations, advocating for the needs of real estate data integrity and supporting sales and operations strategies.\n\n\n\nPascall + Watson • Building Information Model Coordinator • 11/2016 - 07/2018\n\nResponsible for planning, maintaining and enforcing the ‘Project Building Information Model Execution Plan’ (BEP) for £480M Airport Campus Development Project. Implemented BS 1192 standards on the project across multiple parties.\nDeveloped and Implemented new technology processes to increase efficacy and accuracy, including: Reduced biweekly design freeze from 72hrs to 8hrs & deliverable set production time from 4hrs to 20 mins.\nPoint of contact for traning and support for Internal and External teams in their speciailsed software. Enforced compliance with contract document reuqirements.\n\n\n\nWatkins Gray International • Building Information Model Manager • 02/2014 - 11/2016\n\nResponsible for practice wide building information management and digital contract documents on projects from concept through to construction in education, healthcare and residential sectors.\nServed on a technical advisory group for a shared professional indemnity insurance group, providing expertise on BIM and design technology in practice.\n\n\n\n1508 London • Architectural Technologist • 11/2012 - 02/2014\n\nTechnical lead on luxury interiors and complex historical urban projects\n\n\n\nB+R Architects • Architectural Technologist • 08/2010 - 11/2012\n\nProject Architectural technology lead and BIM specialist."
-  },
-  {
-    "objectID": "cs-cv.html#education",
-    "href": "cs-cv.html#education",
-    "title": "Eimhin Rafferty",
-    "section": "Education",
-    "text": "Education\nBSc (Hons) in Architectural Technology Technological University Dublin 09/2005 - 05/2010"
-  },
-  {
-    "objectID": "cs-cv.html#skills",
-    "href": "cs-cv.html#skills",
-    "title": "Eimhin Rafferty",
-    "section": "Skills",
-    "text": "Skills\n\nTechnical Skills: Product Lifecycle Management, Market Research, Agile Methodologies, Project Management, Data Analysis, Product Roadmapping, User Experience (UX) Design, Wireframing and Prototyping, Customer Support, Customer Enablement\nSoft Skills: Communication, Leadership, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration\nTools and Software: Python, SQL, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool"
-  },
-  {
-    "objectID": "portfolio_posts/2024-05-23 Software Failure.html",
-    "href": "portfolio_posts/2024-05-23 Software Failure.html",
-    "title": "Handling a Global Software Failure: A Case Study",
-    "section": "",
-    "text": "Japan Issue Reported: A user in Japan reports a software failure via our Jira ticketing platform.\nInitial Investigation: Reviewed the report, checked service status pages, and confirmed no provider outages.\nEMEA Impact: European and North American teams began reporting the same issue. Contacted network engineers suspecting a recent license renewal may be the cause.\nCommunication Loop: Informed managers and VPs about the issue and ongoing efforts to triage it.\n\n\n\n\n\nJapan Team Meeting: Learned from the Japan team that a deep uninstall process was suggested. Advised them to wait for my review.\nInformation Collection: Collected detailed information from affected users using Jira, providing templates for specific data.\nAdvanced Triage: Further calls with technical support and resellers did not find a resolution.\nCommunication Loop: Continued to inform leadership about the progress.\n\n\n\n\n\nUnaffected Group: Identified a franchise team using network licenses but managing their own hardware was unaffected.\nEmergency Calls: Scheduled calls with key IT leaders to discuss potential causes.\nVP Leverage: Utilized VP support to get key leaders on calls.\nStakeholder Updates: Kept all stakeholders informed about findings and ongoing investigations.\n\n\n\n\n\nService Blockage: The outage began severely impacting teams’ work.\nRunning out of Options: Discussions revealed deep reinstall as the only viable solution.\nLitigation Hold: Legal restrictions prevented software uninstallation. Leveraged VP to push for a resolution.\nCommunication Loop: Broadened information loop to sales and operations teams to alleviate pressure on effected users.\n\n\n\n\n\nLegal Restrictions: Confirmed with lawyers that litigation hold was still in place.\nLawyers’ Call: Scheduled a call with vendor’s lawyers for urgent resolutions."
-  },
-  {
-    "objectID": "portfolio_posts/2024-05-23 Software Failure.html#week-1-breakdown",
-    "href": "portfolio_posts/2024-05-23 Software Failure.html#week-1-breakdown",
-    "title": "Handling a Global Software Failure: A Case Study",
-    "section": "",
-    "text": "Japan Issue Reported: A user in Japan reports a software failure via our Jira ticketing platform.\nInitial Investigation: Reviewed the report, checked service status pages, and confirmed no provider outages.\nEMEA Impact: European and North American teams began reporting the same issue. Contacted network engineers suspecting a recent license renewal may be the cause.\nCommunication Loop: Informed managers and VPs about the issue and ongoing efforts to triage it.\n\n\n\n\n\nJapan Team Meeting: Learned from the Japan team that a deep uninstall process was suggested. Advised them to wait for my review.\nInformation Collection: Collected detailed information from affected users using Jira, providing templates for specific data.\nAdvanced Triage: Further calls with technical support and resellers did not find a resolution.\nCommunication Loop: Continued to inform leadership about the progress.\n\n\n\n\n\nUnaffected Group: Identified a franchise team using network licenses but managing their own hardware was unaffected.\nEmergency Calls: Scheduled calls with key IT leaders to discuss potential causes.\nVP Leverage: Utilized VP support to get key leaders on calls.\nStakeholder Updates: Kept all stakeholders informed about findings and ongoing investigations.\n\n\n\n\n\nService Blockage: The outage began severely impacting teams’ work.\nRunning out of Options: Discussions revealed deep reinstall as the only viable solution.\nLitigation Hold: Legal restrictions prevented software uninstallation. Leveraged VP to push for a resolution.\nCommunication Loop: Broadened information loop to sales and operations teams to alleviate pressure on effected users.\n\n\n\n\n\nLegal Restrictions: Confirmed with lawyers that litigation hold was still in place.\nLawyers’ Call: Scheduled a call with vendor’s lawyers for urgent resolutions."
-  },
-  {
-    "objectID": "portfolio_posts/2024-05-23 Software Failure.html#week-by-week-breakdown",
-    "href": "portfolio_posts/2024-05-23 Software Failure.html#week-by-week-breakdown",
-    "title": "Handling a Global Software Failure: A Case Study",
-    "section": "Week-by-Week Breakdown",
-    "text": "Week-by-Week Breakdown\n\nWeek 2: Compliance Resolution\n\nAgreement with Vendor: Reached an agreement to use a manual process in conjunction with their compliance app to collect logs directly from users.\nInitial Workflow Test: Worked with team members on critical projects to test the workflow for log collection, and run the process end to end.\n\n\n\nWeek 3: Automation and Initial Resolutions\n\nAutomation Scripts: Developed PowerShell scripts to automate compliance checks and configured Jira for progress tracking.\nFirst Reports Sent: Submitted the first batch of reports to the vendor, applied pressure for quick responses.\n\n\n\nWeek 4: Final Resolution\n\nUser Instructions: Provided users with detailed SOPs and scripts for the deep clean process, tracked progress via Jira.\nResolution Achieved: Despite slow vendor responses, the issue was resolved. Regular updates ensured transparency and maintained trust.\nClose Out: Automated reports from Jira to monitor ticket burn down rates."
-  },
-  {
-    "objectID": "portfolio_posts/2024-05-23 Software Failure.html#conclusion",
-    "href": "portfolio_posts/2024-05-23 Software Failure.html#conclusion",
-    "title": "Handling a Global Software Failure: A Case Study",
-    "section": "Conclusion",
-    "text": "Conclusion\nBy systematically addressing the software failure, leveraging automation, and ensuring constant communication, I minimized downtime and restored normal operations, demonstrating effective problem-solving and leadership in crisis management."
   }
 ]
