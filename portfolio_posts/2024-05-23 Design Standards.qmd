@@ -39,7 +39,7 @@ Successfully translating the design standards required extensive coordination be
 - **Electrical Engineers:** To ensure that all electrical and lighting configurations were accurate and complied with local regulations.
 - **Architects:** Any default configuratoins which impacted local building laws needed to be amended, noted or removed as needed.
 
-![output document](assets/WeWork/WW_DesignContentUpdate.gif)
+![output document](../assets/WeWork/WW_DesignContentUpdate.gif)
 
 ### Initial Rollout and Feedback
 
@@ -55,7 +55,7 @@ We onboarded teams across the EMEA region, providing comprehensive training to e
 
 ## Expansion and Global Rollout
 
-![local finishes standards page](assets/WeWork/ww_design_standards-13.png)
+![local finishes standards page](../assets/WeWork/ww_design_standards-13.png)
 
 Due to the success in EMEA, the initiative was expanded globally:
 

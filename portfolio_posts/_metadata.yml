@@ -4,3 +4,9 @@ date-format: "long"
 listing:
   type: default
 category: "true"
+navbar:
+  left:
+    - href: pm-cv.qmd
+      text: CV
+    - href: pm-portfolio.qmd
+      text: Portfolio

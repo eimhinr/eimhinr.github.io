@@ -4,6 +4,7 @@ description: "As a Product Manager at Archilogic, I led the development of a gro
 author: "Eimhin Rafferty"
 date: "2024-05-23"
 date-modified: "2024-05-23"
+image: "../assets/Archilogic/ArchilogicBoma1.png"
 categories:
   - Archilogic
   - Product Management
@@ -52,6 +53,12 @@ We conducted extensive testing and refinement to ensure the product met the high
 ### Graph Structure Operation
 
 The Spacegraph data structure operates by determining whether lines are drawn at the inner, centre, or outer edge of spaces, depending on the use of the space on either side. This approach minimises human error and subjectivity, ensuring that calculations are consistent and reliable.
+
+
+### Demo
+
+<iframe width="max" src="https://www.youtube.com/embed/MPYtS6j9-pQ?si=mokOj08XzUl3VmdZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Impact and Benefits
 
