@@ -4,7 +4,7 @@ description: "As a Design Technology Product Manager at WeWork, I led a high-imp
 author: "Eimhin Rafferty"
 date: "2024-05-23"
 date-modified: "2024-05-23"
-image: "assets/WeWork/ww_design_standards-15.png"
+image: "../assets/WeWork/ww_design_standards-15.png"
 categories:
   - WeWork
   - Product Management
