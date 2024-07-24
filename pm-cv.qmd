@@ -9,7 +9,7 @@ output:
     mainfont: Arial
 --- 
 <!-- # Eimhin Rafferty -->
-Lecco, Italy • +393792058117 • eimhin@pm.me • [eimhin.co](http://www.eimhin.co) • [linkedin/eimhin](https://www.linkedin.com/in/eimhin-rafferty)
+Lecco, Italy • +393792058117 • eimhin@pm.me • [Case Studies](http://www.eimhin.co/pm-portfolio) •[linkedin/eimhin](https://www.linkedin.com/in/eimhin-rafferty)
 
 ## Professional Experience
 
@@ -24,9 +24,9 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [eimhin.co](http://www.eimhi
 
 ### WeWork • Product Manager, Design Technology • *07/2018 - 12/2022*
 
+- Conducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items, with deep data drien insights reported to c-suite via tableau. 
 - Led the technical aspects of the "Record Model Initiative," a $2.7M project to deliver uniform, verified real estate data, significantly informing key business metrics.
 - Established ring-fenced maintenance protocols and workflows to accurately maintain critical business data based on the Record Model Initiative, ensuring that teams could trust the reliability of their data.
-- Conducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items.
 - Managed design software and workflows, serving as Contract Administrator for $3M in Autodesk services and software.
 - Re-engineered processes for Design Studios, reducing sales and pre-con collateral production time from 2.5 days to 2 hours, impacting 70% of EMEA sales.
 - Developed and maintained documentation, training content, and tools for internal and external teams to deliver accurate design information. Supported this with bespoke plugins and utilities to streamline productivity and quality control, integrating with third-party applications.
