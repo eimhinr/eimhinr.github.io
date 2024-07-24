@@ -1,0 +1,58 @@
+---
+title: "Developing a Workflow Template for the Custom Enterprise Team"
+description: "At WeWork, I was tasked with supporting a newly formed 'Custom Enterprise' team within the Sales Organisation. This team of six designers was responsible for rapidly creating sales collateral for various buildings in our portfolio. Assembled on an ad-hoc basis and not reporting to the main design organisation, they faced significant operational challenges."
+author: "Eimhin Rafferty"
+date: "2024-05-23"
+date-modified: "2024-05-23"
+categories:
+  - WeWork
+  - Product Management
+  - Case Study
+  - Architecture
+---
+
+## Initial Challenges
+
+The 'Custom Enterprise' team struggled with:
+
+- **Process Automation:** Unlike the 'Classic' WeWork team, their processes were not automated, leading to prolonged project setup times.
+- **Access to Content:** The teams core work was to dive in to already delivered locations and work on propoals for refurbishments. they lacked access to the latest content, processes and workflows of the 'Classic' WeWork team
+- **Isolation:** The team wasnt directly supported by the design org and lacked the guard rails they could rely on to do their best work. 
+- **Time Consumption:** Project setup, which should have taken 2-3 hours, stretched into 2+ days, severely impacting productivity.
+
+## Solution Development: Workflow Template
+
+### Understanding the Workflow
+
+To address these challenges, I took the following steps:
+
+- **Issue Collation:** Gathered a comprehensive list of the team's support needs.
+- **Detailed Analysis:** Met with team members to understand their workflows and pain points.
+- **Stakeholder Consultation:** Reviewed the team's outputs with managers and stakeholders.
+
+### Creating the Workflow Template
+
+Recognising the need for a streamlined process, I initiated a two-week sprint to develop a Minimum Viable Product (MVP) workflow template. This template aimed to:
+
+- **Reduce Setup Time:** Significantly cut down the time required to configure projects.
+- **Enhance Autonomy:** Enable the team to work more independently and efficiently.
+
+### Implementation and Training
+
+- **Engagement:** Selected a team member to pilot the new workflow template on her projects.
+- **Co-development:** Worked together to refine the template and develop standard operating procedures, instructional videos, and training sessions.
+- **Training Rollout:** Conducted training sessions to ensure the entire team could effectively use the new workflow template.
+
+## Impact of the Workflow Template
+
+The introduction of the workflow template had an immediate and profound impact:
+- **Quality of deliverables:** The deliverables were structured, reliable and reproducible by anyone in the team. 
+- **Accuracy:** The design accuracy was enhanced as the teams had the right tools and content to deliver to the latest global design standards. 
+- **Dramatic Reduction in Turnaround Time:** Project setup time reduced from 2.5 days to 2 hours. The team could consistently finish work by 6 PM.
+- **Minimised Support Needs:** The requirement for support nearly vanished.
+- **Scalability:** The template was eventually adopted by other markets.
+
+The development and implementation of this workflow template not only streamlined the 'Custom Enterprise' team's processes but also highlighted the importance of creating tailored solutions to meet specific team needs. This initiative significantly improved efficiency, productivity, and team satisfaction.+
+
+This process was subsequently rolled out globally to India, Japan, Australia and LATAM teams. 
+**At the height of the output 80% of all desks sold outside of the USA went through this workflow. **

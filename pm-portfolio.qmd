@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Portfolio
 listing:
   contents: portfolio_posts
   sort: "date desc"
@@ -9,4 +9,4 @@ listing:
 page-layout: article
 --- 
 
-# Here are a collection of my standout products, projects and programmes 
+ Case studies from a vaired career deling with Product, Project and Programme Management
