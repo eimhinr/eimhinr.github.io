@@ -1,5 +1,5 @@
 ---
-title: "Case Study: Automating Floor Plan Updates and Integration with IWMS Platforms"
+title: "Case Study: Automating Floor Plan Polylining and Integration with IWMS Platforms"
 description: "As a Product Manager at Archilogic, I led the development and integration of a solution to automate floor plan updates for customers, addressing a major pain point: keeping floor plans updated across multiple platforms, particularly their Integrated Workplace Management Systems (IWMS). This case study details how we collaborated with customers using FM Systems, developed automation for polyline creation, integrated our solution with IWMS platforms, and ultimately built a native app plugin for seamless data transfer."
 author: "Eimhin Rafferty"
 date: "2024-05-23"

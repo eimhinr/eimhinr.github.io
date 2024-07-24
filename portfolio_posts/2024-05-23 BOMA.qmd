@@ -18,12 +18,14 @@ Real estate professionals face significant challenges when it comes to accuratel
 ### Understanding the Requirements
 
 To create a solution that truly addresses the needs of real estate professionals, we began by:
+
 - **Researching BOMA Standards:** Thoroughly understanding the intricacies of BOMA standards for space calculation.
 - **Engaging with Stakeholders:** Conducting interviews and surveys with real estate professionals to gather insights on their pain points and requirements.
 
 ### Leveraging Spacegraph Data Structure
 
 The key to our solution was leveraging Archilogic’s Spacegraph data structure, a highly relational and data-rich representation of building spaces. This data structure allowed us to:
+
 - **Automate Calculations:** Use spatial data to automate space calculations accurately and consistently.
 - **Ensure Scalability:** Develop a product that could be easily scaled to different buildings and spaces.
 - **Maintain Repeatability:** Ensure the process could be repeated with the same level of accuracy every time.
@@ -35,6 +37,7 @@ Although we applied BOMA standards for this particular product, the underlying o
 ### Building the Product
 
 The development process involved:
+
 - **Algorithm Development:** Creating algorithms to automate the space calculation process based on BOMA standards.
 - **Integration with Spacegraph:** Ensuring seamless integration with the Spacegraph data structure to utilise its relational data.
 - **User Interface Design:** Designing an intuitive user interface that allows users to easily input data and view results.
@@ -42,6 +45,7 @@ The development process involved:
 ### Testing and Refinement
 
 We conducted extensive testing and refinement to ensure the product met the high standards of accuracy and usability required by our users:
+
 - **Beta Testing:** Engaged a group of real estate professionals to test the product and provide feedback.
 - **Iterative Improvements:** Made iterative improvements based on user feedback to enhance functionality and user experience.
 
@@ -52,6 +56,7 @@ The Spacegraph data structure operates by determining whether lines are drawn at
 ## Impact and Benefits
 
 The introduction of our automated space calculation product has had a profound impact on the real estate industry:
+
 - **Increased Efficiency:** Reduced the time required for space calculations from days to minutes.
 - **Enhanced Accuracy:** Provided highly accurate calculations, reducing errors and inconsistencies.
 - **Scalability and Repeatability:** Enabled users to easily scale the solution across multiple buildings and spaces with consistent results.
