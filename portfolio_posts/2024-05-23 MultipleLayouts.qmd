@@ -1,6 +1,6 @@
 ---
 title: "Case Study: Enabling Multiple Layouts at Archilogic"
-description: "In Archilogic, I led a transformative project called "Enable Multiple Layouts." This initiative aimed to allow users to create, review, and implement different layout options for building floors without disrupting the main production environment. The project involved significant technical complexity, including new API implementations and enhancements to our space graph data structure.."
+description: "In Archilogic, I led a transformative project called 'Enable Multiple Layouts.' This initiative aimed to allow users to create, review, and implement different layout options for building floors without disrupting the main production environment. The project involved significant technical complexity, including new API implementations and enhancements to our space graph data structure."
 author: "Eimhin Rafferty"
 date: "2024-05-23"
 date-modified: "2024-05-23"
