@@ -2,7 +2,6 @@
 title: "Case Study: Implementing Design Standards for EMEA - A Design Technology Product Management Initiative at WeWork"
 description: "As a Design Technology Product Manager at WeWork, I led a high-impact project to translate global design standards into actionable content, processes, and training systems for teams in EMEA. This initiative was configured to address local needs, supply chain demands, and building regulations, ensuring consistency and compliance across the region."
 author: "Eimhin Rafferty"
-image: "assets/WeWork/ww_design_standards-15.png"
 date: "2024-05-23"
 date-modified: "2024-05-23"
 categories:
@@ -34,10 +33,15 @@ We created over 1,000 data-rich elements encapsulated in a self-documenting cont
 Successfully translating the design standards required extensive coordination between various stakeholders, including:
 
 - **Construction Project Managers:** To ensure that the designs were feasible and could be implemented on-site.
+
 - **Design Teams:** To maintain the integrity and vision of the original design standards.
+
 - **Sourcing and Supply Chain Teams:** To ensure that all materials met the required standards and were available when needed. WeWork relied heavily on bulk orders and warehousing so this was a key driver of suppily chain issues in all regions.
+
 - **Cost Managers:** To keep the standards within budget while meeting all design specifications, not all regions were equal in this regard. 
+
 - **Electrical Engineers:** To ensure that all electrical and lighting configurations were accurate and complied with local regulations.
+
 - **Architects:** Any default configuratoins which impacted local building laws needed to be amended, noted or removed as needed.
 
 ### Initial Rollout and Feedback
@@ -57,7 +61,9 @@ We onboarded teams across the EMEA region, providing comprehensive training to e
 Due to the success in EMEA, the initiative was expanded globally:
 
 - **LATAM:** Configured to meet local needs and support structures, changes to nomenclature. 
+
 - **North America:** Adapted to comply with regional regulations and practices including Imperial Units and sheet sizes. It was possible to reduce number of configurations in some cases for NA. 
+
 - **APAC:** Tailored to accommodate local building codes and operational requirements. Additional typloogies and configurations needed in some cases. 
 
 Each region received customised processes, content, and training to ensure a seamless implementation of the global design standards.
@@ -67,8 +73,11 @@ Each region received customised processes, content, and training to ensure a sea
 The project had a significant impact on WeWork’s operations:
 
 - **Consistency:** Ensured that all designs across EMEA and eventually globally adhered to the same high standards.
+
 - **Efficiency:** Reduced the time and effort required to implement design standards on new projects.
+
 - **Quality:** Improved the overall quality and compliance of construction projects.
+
 - **Scalability:** Created a scalable model that could be adapted to other regions with minimal adjustments.
 
 ## Conclusion

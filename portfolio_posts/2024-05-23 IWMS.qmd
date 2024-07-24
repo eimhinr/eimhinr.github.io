@@ -21,7 +21,9 @@ Many of our customers struggled with the tedious task of keeping their floor pla
 To address this challenge, we worked closely with customers to understand their needs and pain points. We then developed a solution to automate the creation of polylines for assets and spaces based on predefined rules and custom attribute information that teams could easily input. This involved:
 
 - **Rules and Attributes:** Defining rules and custom attributes to automate polyline creation for different assets and spaces.
+
 - **Iterative Refinement:** Working iteratively with customers to refine these standards and ensure the solution met their requirements.
+
 - **Error Detection:** Identifying and correcting errors in their manual processes, reducing human error. This reporting gave a sharp boost in confidence in the quality of our product. 
 
 ### Accurate Area Calculations
@@ -33,7 +35,9 @@ Our solution provided accurate calculations for overall areas (USF) and internal
 The next step was integrating this automated solution with the IWMS platform. This involved:
 
 - **Collaboration with Technical Teams:** Working closely with the technical teams of IWMS platforms to understand their requirements and constraints.
+
 - **Accessing Private APIs:** Gaining access to private APIs to facilitate seamless integration.
+
 - **Deconstructing Proprietary File Formats:** Analyzing and deconstructing proprietary file formats used by IWMS platforms, which turned out to be a zip file containing CSV data files and an SVG file of their plans and polylines.
 
 ### Native App Plugin Development
@@ -41,6 +45,7 @@ The next step was integrating this automated solution with the IWMS platform. Th
 To further streamline the process, we built this functionality into our native app as a plugin. This allowed customers to:
 
 - **Seamless Data Transfer:** Directly send their updated data to IWMS as they updated the app.
+
 - **Real-Time Updates:** Ensure their floor plans were always current without the need for manual intervention.
 
 ## Role and Responsibilities
@@ -48,11 +53,17 @@ To further streamline the process, we built this functionality into our native a
 As the Product Manager leading this initiative, my duties included:
 
 - **Stakeholder Engagement:** Engaging with customers to understand their pain points and requirements.
+
 - **Coordination:** Coordinating with internal and external teams to ensure smooth development and integration.
+
 - **Development Oversight:** Overseeing the development of the automation solution and ensuring it met customer needs.
+
 - **Integration Management:** Managing the integration process with IWMS platforms, including dealing with technical teams and accessing APIs.
+
 - **Quality Assurance:** Ensuring the final product was accurate, reliable, and met high standards of quality.
+
 - **Documentation and Training:** Creating documentation and providing training to customers on using the new automated solution.
+
 - **Plugin Development:** Leading the development of the native app plugin for seamless data transfer.
 
 I collaborated closely with a growth engineer to deliver this integration, ensuring that all technical aspects were handled efficiently and effectively.
@@ -62,9 +73,13 @@ I collaborated closely with a growth engineer to deliver this integration, ensur
 The integration of our automated solution with IWMS platforms demonstrated our value to customers by:
 
 - **Improving Efficiency:** Significantly reducing the time and effort required to update floor plans.
+
 - **Enhancing Accuracy:** Minimising human errors and providing precise area calculations.
+
 - **Increasing Flexibility:** Offering a flexible solution that could be tailored to different customer needs and standards.
+
 - **Building Confidence:** Showing customers that we could deliver on our promises and providing them with confidence in our capabilities.
+
 - **Real-Time Updates:** Enabling real-time updates through the native app plugin, ensuring that floor plans were always current.
 
 ## Conclusion

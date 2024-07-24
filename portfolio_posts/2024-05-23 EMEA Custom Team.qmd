@@ -46,6 +46,7 @@ Recognising the need for a streamlined process, I initiated a two-week sprint to
 ## Impact of the Workflow Template
 
 The introduction of the workflow template had an immediate and profound impact:
+
 - **Quality of deliverables:** The deliverables were structured, reliable and reproducible by anyone in the team. 
 - **Accuracy:** The design accuracy was enhanced as the teams had the right tools and content to deliver to the latest global design standards. 
 - **Dramatic Reduction in Turnaround Time:** Project setup time reduced from 2.5 days to 2 hours. The team could consistently finish work by 6 PM.
