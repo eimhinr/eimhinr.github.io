@@ -1,0 +1,92 @@
+---
+title: "Case Study: Enabling Multiple Layouts at Archilogic"
+description: "In Archilogic, I led a transformative project called "Enable Multiple Layouts." This initiative aimed to allow users to create, review, and implement different layout options for building floors without disrupting the main production environment. The project involved significant technical complexity, including new API implementations and enhancements to our space graph data structure.."
+author: "Eimhin Rafferty"
+date: "2024-05-23"
+date-modified: "2024-05-23"
+image: "../assets/Archilogic/ArhcilogicDuplicateLayout.png"
+categories:
+  - Archilogic
+  - Product Management
+  - Case Study
+  - Integrations
+---
+## Case Study: Enabling Multiple Layouts at Archilogic
+
+### Project Name: Enable Multiple Layouts
+
+### Introduction
+
+As a Product Manager at Archilogic, I led a transformative project called "Enable Multiple Layouts." This initiative aimed to allow users to create, review, and implement different layout options for building floors without disrupting the main production environment. The project involved significant technical complexity, including new API implementations and enhancements to our space graph data structure.
+
+### Objective
+
+The primary goal was to empower users to propose changes, review them, and push approved changes to production. This would minimize operational disruptions and enhance decision-making processes.
+
+![compare layouts](../assets/Archilogic/ArchilogicMultipleLayoutComapre.png)
+
+### Project Overview
+
+1. **Enhancing Spacegraph Data Structure:**
+
+   - **Existing Structure:** Buildings > Many Floors per building > Singlt Layout per floor > Geometry is contained in the layout
+   - **New Feature:** Enabled creating multiple layouts for a single floor
+
+2. **Version Control Implementation:**
+
+   - Introduced version control to track changes between layouts.
+   - Visual representation of changes with green for new, red for deleted, and gray for unchanged elements.
+
+3. **Backend API Enhancements:**
+
+   - Updated APIs to accept a layout ID as an optional input.
+   - Ensured seamless integration with existing user workflows.
+
+During the sprint cycles leading up to the main implementation, API and Data structure enhancements were prioritised to enable the final delivery, with Design running in parallel. 
+
+### Key Challenges and Solutions
+
+#### 1. User Mental Model Adjustment
+
+- **Challenge:** Users previously did not differentiate between floors and layouts.
+- **Solution:** Introduced distinct naming conventions for floors and layouts (e.g., "Ground Floor" and "Hybrid Working Proposal").
+- Collaborated with the design team to educate users on the new structure.
+
+#### 2. API Integration and Compatibility
+
+- **Challenge:** Enhancing APIs to support multiple layouts while maintaining existing integrations.
+- **Solution:** Worked closely with the backend team to update all relevant APIs, ensuring compatibility and ease of use.
+
+#### 3. Managing Custom Attributes
+
+- **Challenge:** Handling changes in custom attributes within the default layout or organizational structure.
+- **Solution:** Implemented a Git-style approval workflow for conflicts, allowing users to accept or reject changes.
+
+### Implementation and Results
+
+- **Conceptual Design:** Developed the multiple layouts feature, ensuring it aligned with user needs and system architecture.
+- **Backend Development:** Enhanced APIs to handle the new layout ID parameter, maintaining backward compatibility.
+- **User Testing and Feedback:** Conducted extensive user testing to gather feedback and refine the feature.
+- **Release and Adoption:** Rolled out the feature to all users, providing training and support to facilitate adoption.
+
+### Key Outcomes
+
+1. **UI Enhancements:**
+
+   - Introduced the ability to compare changes between layouts in a Git diff-style review.
+   - Used color coding to highlight changes (red for deleted, green for new, gray for unchanged).
+
+2. **Sales and Customer Satisfaction:**
+
+   - Sales teams were delighted to introduce this feature to key customers.
+   - Positive feedback from users on the enhanced flexibility and control over layout management.
+
+3. **Realizing Long-term Goals:**
+
+   - Successfully achieved a long-term objective of enabling multiple layouts.
+   - Delivered a robust MVP and iterated quickly to leverage new possibilities.
+
+
+### Conclusion
+
+The "Enable Multiple Layouts" project was a significant achievement, demonstrating effective problem-solving, collaboration, and user-centered design. By introducing version control and enhancing our APIs, we provided users with powerful tools to manage building layouts efficiently. This project not only met our long-term goals but also delighted our sales teams and customers, reinforcing our commitment to innovation and excellence in product management.
