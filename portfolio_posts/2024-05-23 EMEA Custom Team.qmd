@@ -4,6 +4,7 @@ description: "At WeWork, I was tasked with supporting a newly formed 'Custom Ent
 author: "Eimhin Rafferty"
 date: "2024-05-23"
 date-modified: "2024-05-23"
+image: "../assets/WeWork/CU-07-002-7th-Floor-Enlarged-Plan.jpg"
 categories:
   - WeWork
   - Product Management
@@ -42,6 +43,8 @@ Recognising the need for a streamlined process, I initiated a two-week sprint to
 - **Engagement:** Selected a team member to pilot the new workflow template on her projects.
 - **Co-development:** Worked together to refine the template and develop standard operating procedures, instructional videos, and training sessions.
 - **Training Rollout:** Conducted training sessions to ensure the entire team could effectively use the new workflow template.
+
+![Full Floor Custom Plan](../assets/WeWork/ww-parnassus-5.png)
 
 ## Impact of the Workflow Template
 

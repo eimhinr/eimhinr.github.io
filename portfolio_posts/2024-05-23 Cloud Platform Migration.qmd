@@ -4,6 +4,7 @@ description: "The BIM 360 Data Migration project addresses the challenge of mana
 author: "Eimhin Rafferty"
 date: "2024-05-23"
 date-modified: "2024-05-23"
+image: "../assets/WeWork/Screenshot-2024-07-24-at-14.50.01.png"
 categories:
   - WeWork
   - Program Management
@@ -24,6 +25,8 @@ The BIM 360 Data Migration project addresses the challenge of managing 3.7 TB of
 3. **Access Maintenance**: Ensure continuous access for users to the migrated projects.
 4. **Access Tracking**: Maintain records of external access to projects in BIM 360 Teams.
 
+![Doing what we can to start](../assets/WeWork/Screenshot-2024-07-24-at-14.50.24.png)
+
 ## Challenges
 
 ## Data Storage and Revit Versions
@@ -37,6 +40,9 @@ The BIM 360 Data Migration project addresses the challenge of managing 3.7 TB of
 - 
 ## Migration Process
 
+![overview of migration workflows](../assets/WeWork/Screenshot-2024-07-24-at-14.50.54.png)
+![Track and plan](assets/WeWork/Screenshot-2024-07-24-at-14.50.57.png)
+![Orginise in waves, match priorities and regions](assets/WeWork/Screenshot-2024-07-24-at-14.51.01.png)
 ### Stage 1: Data Transfer
 
 - Move Revit models, CADs, point clouds, and relevant files to BIM 360 Docs.

@@ -4,6 +4,7 @@ description: "As a Product Manager at Archilogic, I led the development and inte
 author: "Eimhin Rafferty"
 date: "2024-05-23"
 date-modified: "2024-05-23"
+image: "../assets/Archilogic/homePage.png"
 categories:
   - Archilogic
   - Product Management

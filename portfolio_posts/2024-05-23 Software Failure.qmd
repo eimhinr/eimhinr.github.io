@@ -4,6 +4,7 @@ description: "During a global software failure, I led the resolution efforts acr
 author: "Eimhin Rafferty"
 date: "2024-05-23"
 date-modified: "2024-05-23"
+image: "../assets/WeWork/softwarethumbnail.png"
 categories:
   - WeWork
   - Program Management
