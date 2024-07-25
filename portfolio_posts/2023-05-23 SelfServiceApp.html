@@ -8,9 +8,9 @@
 
 <meta name="author" content="Eimhin Rafferty">
 <meta name="dcterms.date" content="2024-05-23">
-<meta name="description" content="As a Design Technology Product Manager at WeWork, I spearheaded a critical initiative to overhaul the support process for our design technology teams. Recognizing the need for a systematic approach to support as our teams grew leaner and more remote, I led the design, implementation, and operationalization of a comprehensive Jira-based ticketing system. This project highlighted themes of empathy, accountability, accuracy, and cross-functional leadership, ensuring fair and transparent support for all teams.">
+<meta name="description" content="To address significant bottlenecks and security issues, I led the design and development of a self-serve web app integrated with Autodesk Construction Cloud. This platform revolutionized how our global design team accessed and managed 3D models of WeWork’s 550 buildings and 2500 floors, ensuring both security and efficiency.">
 
-<title>Case Study: Transforming Design Technology Support at WeWork – Eimhin Rafferty</title>
+<title>WeWork Self Serve Platform: Enhancing Access and Security – Eimhin Rafferty</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -140,15 +140,15 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Case Study: Transforming Design Technology Support at WeWork</h1>
+      <h1 class="title">WeWork Self Serve Platform: Enhancing Access and Security</h1>
                   <div>
         <div class="description">
-          As a Design Technology Product Manager at WeWork, I spearheaded a critical initiative to overhaul the support process for our design technology teams. Recognizing the need for a systematic approach to support as our teams grew leaner and more remote, I led the design, implementation, and operationalization of a comprehensive Jira-based ticketing system. This project highlighted themes of empathy, accountability, accuracy, and cross-functional leadership, ensuring fair and transparent support for all teams.
+          To address significant bottlenecks and security issues, I led the design and development of a self-serve web app integrated with Autodesk Construction Cloud. This platform revolutionized how our global design team accessed and managed 3D models of WeWork’s 550 buildings and 2500 floors, ensuring both security and efficiency.
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">WeWork</div>
-                <div class="quarto-category">Programme Management</div>
+                <div class="quarto-category">Product Management</div>
                 <div class="quarto-category">Case Study</div>
               </div>
                   </div>
@@ -184,24 +184,8 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#case-study-transforming-design-technology-support-at-wework" id="toc-case-study-transforming-design-technology-support-at-wework" class="nav-link active" data-scroll-target="#case-study-transforming-design-technology-support-at-wework">Case Study: Transforming Design Technology Support at WeWork</a>
-  <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#identifying-the-need" id="toc-identifying-the-need" class="nav-link" data-scroll-target="#identifying-the-need">Identifying the Need</a></li>
-  <li><a href="#selling-the-vision" id="toc-selling-the-vision" class="nav-link" data-scroll-target="#selling-the-vision">Selling the Vision</a></li>
-  <li><a href="#designing-the-system" id="toc-designing-the-system" class="nav-link" data-scroll-target="#designing-the-system">Designing the System</a></li>
-  <li><a href="#implementation-and-training" id="toc-implementation-and-training" class="nav-link" data-scroll-target="#implementation-and-training">Implementation and Training</a></li>
-  <li><a href="#demonstrating-benefits" id="toc-demonstrating-benefits" class="nav-link" data-scroll-target="#demonstrating-benefits">Demonstrating Benefits</a></li>
-  <li><a href="#results-and-impact" id="toc-results-and-impact" class="nav-link" data-scroll-target="#results-and-impact">Results and Impact</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -210,64 +194,47 @@ window.Quarto = {
 
 
 
-<section id="case-study-transforming-design-technology-support-at-wework" class="level2">
-<h2 class="anchored" data-anchor-id="case-study-transforming-design-technology-support-at-wework">Case Study: Transforming Design Technology Support at WeWork</h2>
-<section id="introduction" class="level3">
-<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<p>As a Design Technology Product Manager at WeWork, I spearheaded a critical initiative to overhaul the support process for our design technology teams. Recognizing the need for a systematic approach to support as our teams grew leaner and more remote, I led the design, implementation, and operationalization of a comprehensive Jira-based ticketing system. This project highlighted themes of empathy, accountability, accuracy, and cross-functional leadership, ensuring fair and transparent support for all teams globally who relied on fair access to the Design Technology Group.</p>
-</section>
-<section id="identifying-the-need" class="level3">
-<h3 class="anchored" data-anchor-id="identifying-the-need">Identifying the Need</h3>
-<p>In an increasingly remote and decentralized work environment, the existing informal support processes were proving inadequate. Support requests were often lost in Slack messages, leading to frustration and inefficiency. Recognizing this gap, I identified the need for a structured support system to ensure that all teams, regardless of location, received equal and timely support.</p>
-</section>
-<section id="selling-the-vision" class="level3">
-<h3 class="anchored" data-anchor-id="selling-the-vision">Selling the Vision</h3>
-<p>Understanding the critical nature of this transformation, I communicated the importance of a formal ticketing system to leadership and my teammates. I emphasized how this system would:</p>
+<p><strong>Background:</strong></p>
+<p>WeWork’s Record Model initiative created a protected digital and verified data set of 3D, data-rich models for over 550 buildings, encompassing 2500 floors. However, the existing platform, where every user had admin rights, became a significant bottleneck. It allowed users to add themselves or others to projects, override read-only protections, and view any project, raising privacy and security concerns.</p>
+<p><strong>Old System Issues:</strong></p>
 <ul>
-<li>Improve time management, allowing focused work on other key pillars such as content, process, and training.</li>
-<li>Ensure fairness, with remote teams receiving the same level of support as those co-located.</li>
-<li>Enhance accountability through the introduction of Service Level Agreements (SLAs).</li>
-<li>Provide a clear escalation path to demonstrate recurring issues to VPs, facilitating investment in underlying solutions.</li>
+<li><strong>Admin Rights for All:</strong> Every user having admin privileges meant uncontrolled access, leading to potential overwriting of crucial data.</li>
+<li><strong>Privacy Risks:</strong> Users could access any project on the platform, compromising sensitive information and raising security issues.</li>
 </ul>
-</section>
-<section id="designing-the-system" class="level3">
-<h3 class="anchored" data-anchor-id="designing-the-system">Designing the System</h3>
-<p>With buy-in from leadership and the team, I designed the Jira-based ticketing system with the following features:</p>
+<p><strong>New Solution:</strong> To address these issues, I spearheaded the development of a self-serve web application integrated with Autodesk Construction Cloud. This app allowed users to:</p>
 <ul>
-<li><strong>Efficacy:</strong> Better management of our time and resources.</li>
-<li><strong>Fairness:</strong> Ensured that no message got lost and that remote teams had equal access to support.</li>
-<li><strong>Accountability:</strong> Introduced SLAs to track and measure response times.</li>
-<li><strong>Escalation:</strong> Enabled transparent escalation of issues to other departments such as IT, Technology, Finance, and Operations.</li>
-<li><strong>Standard Operating Procedures:</strong> Created structured responses for common issues to streamline support processes.</li>
+<li><strong>Download Locally:</strong> Users could access the latest file or recreate it in a new cloud directory, ensuring read-only access outside the main platform, which protects the integrity of the original data.</li>
+<li><strong>Iterate Designs:</strong> The design team could work on a ‘forked’ file, enabling them to share with customers, iterate designs, or update based on real-world conditions without impacting the business-critical data.</li>
+<li><strong>Verified Submissions:</strong> Changes could be submitted and verified through record model workflows, ensuring all modifications were tracked.</li>
+<li><strong>Controlled Access:</strong> The Okta SSO system managed user access, ensuring only authorized personnel could make changes.</li>
 </ul>
-</section>
-<section id="implementation-and-training" class="level3">
-<h3 class="anchored" data-anchor-id="implementation-and-training">Implementation and Training</h3>
-<p>I worked closely with the team to document the new system and conducted training sessions to ensure everyone was comfortable with the new processes. We launched the system locally first, allowing us to refine it based on initial feedback before rolling it out globally in a phased manner.</p>
-</section>
-<section id="demonstrating-benefits" class="level3">
-<h3 class="anchored" data-anchor-id="demonstrating-benefits">Demonstrating Benefits</h3>
-<p>To ensure adoption, I demonstrated the direct benefits of the new system to users, educating them on how it would improve their work experience. I established formal support pipelines with other technology and building support teams, creating a two-way communication channel that was transparent and accountable.</p>
-</section>
-<section id="results-and-impact" class="level3">
-<h3 class="anchored" data-anchor-id="results-and-impact">Results and Impact</h3>
-<p>The implementation of the Jira-based ticketing system had several key outcomes:</p>
+<p><strong>Implementation Steps:</strong></p>
+<ol type="1">
+<li><strong>Problem Validation:</strong> I demonstrated the severity of the issue to corporate tech, infosec, and product leadership, gaining their buy-in.</li>
+<li><strong>Cost Assignment:</strong> Highlighted the time spent on managing permissions and the potential damage to projects due to unauthorized changes.</li>
+<li><strong>Cost-Benefit Analysis:</strong> Showed that reducing the license pool to essential users for file sharing would lower costs and improve security.</li>
+<li><strong>Risk Reporting:</strong> Emphasized the risk of not addressing the issue, including potential damage to validated structures, which were part of a multi-million dollar project.</li>
+</ol>
+<p>Key tools I used:</p>
 <ul>
-<li><strong>Improved Efficiency:</strong> Teams were able to manage their time better and focus on high-priority tasks.</li>
-<li><strong>Enhanced Fairness:</strong> Remote teams received the same level of support as those in the same building, fostering a more inclusive work environment.</li>
-<li><strong>Greater Accountability:</strong> The introduction of SLAs ensured that support requests were tracked and resolved in a timely manner.</li>
-<li><strong>Effective Escalation:</strong> The system provided evidence of recurring issues, enabling leadership to make informed decisions about resource allocation and investment.</li>
-<li><strong>Standardized Processes:</strong> The creation of SOPs streamlined support responses, making the process more predictable and reliable.</li>
+<li>Lucidchart for Wireframe, Workflow Diagrams</li>
+<li>Google docs for PRD, Sheets for tracking budgets</li>
+<li>Slack for general communicaiton, dedicated channel to keep teams synced.</li>
+<li>Monday.com for managing &amp; tracking tasks</li>
 </ul>
-</section>
-<section id="conclusion" class="level3">
-<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
-<p>The transformation of the design technology support process at WeWork was a testament to effective programme management, characterized by empathy, accountability, accuracy, and cross-functional leadership. By identifying a critical need, securing buy-in from stakeholders, and implementing a robust solution, I was able to operationalize a system that significantly improved the efficiency and reliability of support for our design teams. This project not only met immediate needs but also laid the groundwork for continued improvement and scalability in our support processes.</p>
+<p><strong>Project Development:</strong></p>
+<ul>
+<li>Developed a PRD, workflow diagrams, wireframes, and other product artifacts.</li>
+<li>Tendered the project to external specialist teams experienced in the AEC space.</li>
+<li>Secured the necessary budget and vetted the selected delivery team through infosec and vendor management.</li>
+<li>Managed the project to completion, coordinating code reviews with infosec, and ensuring SSO integration and hosting were finalized.</li>
+<li>Conducted user training and provided comprehensive documentation before the app’s launch.</li>
+</ul>
+<p><strong>Outcome:</strong><br>
+The self-serve platform significantly enhanced access and security for WeWork’s global design team and customers. By addressing the bottlenecks and security issues of the old system, I ensured that only authorized users could access and modify the critical 3D models. This project demonstrated my ability to identify critical issues, secure stakeholder support, and deliver effective, scalable solutions.</p>
 
 
 
-</section>
-</section>
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
@@ -383,7 +350,35 @@ Eimhin Rafferty
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="WeWork,Product Management,Case Study,Architecture" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721898295391" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
+<div class="quarto-post image-right" data-index="4" data-categories="WeWork,Programme Management,Case Study" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721898295387" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
+<div class="thumbnail">
+<p><a href="../portfolio_posts/2024-05-23 DT Support.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-23 DT Support.html" class="no-external">
+<p><img loading="lazy" src="../assets/WeWork/DtSupportImage.png" class="thumbnail-image"></p>
+</a><p><a href="../portfolio_posts/2024-05-23 DT Support.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../portfolio_posts/2024-05-23 DT Support.html" class="no-external">Case Study: Transforming Design Technology Support at WeWork</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../portfolio_posts/2024-05-23 DT Support.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../portfolio_posts/2024-05-23 DT Support.html" class="no-external">As a Design Technology Product Manager at WeWork, I spearheaded a critical initiative to overhaul the support process for our design technology teams. Recognizing the need for a systematic approach to support as our teams grew leaner and more remote, I led the design, implementation, and operationalization of a comprehensive Jira-based ticketing system. This project highlighted themes of empathy, accountability, accuracy, and cross-functional leadership, ensuring fair and transparent support for all teams.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../portfolio_posts/2024-05-23 DT Support.html" class="no-external">
+<div class="listing-date">
+May 23, 2024
+</div>
+<div class="listing-author">
+Eimhin Rafferty
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="WeWork,Product Management,Case Study,Architecture" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721898295391" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
 <div class="thumbnail">
 <p><a href="../portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external">
 <p><img loading="lazy" src="../assets/WeWork/CU-07-002-7th-Floor-Enlarged-Plan.jpg" class="thumbnail-image"></p>
@@ -411,7 +406,7 @@ Eimhin Rafferty
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="WeWork,Programme Management,Operations,Case Study" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721898295391" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
+<div class="quarto-post image-right" data-index="6" data-categories="WeWork,Programme Management,Operations,Case Study" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721898295391" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
 <div class="thumbnail">
 <p><a href="../portfolio_posts/2024-05-23 Software Failure.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-23 Software Failure.html" class="no-external">
 <p><img loading="lazy" src="../assets/WeWork/softwarethumbnail.png" class="thumbnail-image"></p>
@@ -439,7 +434,7 @@ Eimhin Rafferty
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="WeWork,Programme Management,Operations,Case Study" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721898295387" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
+<div class="quarto-post image-right" data-index="7" data-categories="WeWork,Programme Management,Operations,Case Study" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721898295387" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
 <div class="thumbnail">
 <p><a href="../portfolio_posts/2024-05-23 Cloud Platform Migration.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-23 Cloud Platform Migration.html" class="no-external">
 <p><img loading="lazy" src="../assets/WeWork/Screenshot-2024-07-24-at-14.50.01.png" class="thumbnail-image"></p>
@@ -458,34 +453,6 @@ Eimhin Rafferty
 </div>
 <div class="metadata">
 <a href="../portfolio_posts/2024-05-23 Cloud Platform Migration.html" class="no-external">
-<div class="listing-date">
-May 23, 2024
-</div>
-<div class="listing-author">
-Eimhin Rafferty
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="WeWork,Product Management,Case Study" data-listing-date-sort="1716422400000" data-listing-file-modified-sort="1721898295387" data-listing-date-modified-sort="1716422400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="460">
-<div class="thumbnail">
-<p><a href="../portfolio_posts/2023-05-23 SelfServiceApp.html" class="no-external"></a></p><a href="../portfolio_posts/2023-05-23 SelfServiceApp.html" class="no-external">
-<p><img loading="lazy" src="../assets/WeWork/SelfServiceApp.png" class="thumbnail-image"></p>
-</a><p><a href="../portfolio_posts/2023-05-23 SelfServiceApp.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../portfolio_posts/2023-05-23 SelfServiceApp.html" class="no-external">WeWork Self Serve Platform: Enhancing Access and Security</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../portfolio_posts/2023-05-23 SelfServiceApp.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../portfolio_posts/2023-05-23 SelfServiceApp.html" class="no-external">To address significant bottlenecks and security issues, I led the design and development of a self-serve web app integrated with Autodesk Construction Cloud. This platform revolutionized how our global design team accessed and managed 3D models of WeWork’s 550 buildings and 2500 floors, ensuring both security and efficiency.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../portfolio_posts/2023-05-23 SelfServiceApp.html" class="no-external">
 <div class="listing-date">
 May 23, 2024
 </div>
