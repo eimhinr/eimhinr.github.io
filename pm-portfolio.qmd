@@ -1,5 +1,5 @@
 ---
-title: Portfolio
+title: Portfolio- Eimhin Rafferty
 listing:
   contents: portfolio_posts
   sort: "date desc"
@@ -10,5 +10,3 @@ page-layout: article
 --- 
 
  Case studies from a vaired career deling with Product, Project and Programme Management
-
- 

@@ -1,0 +1,53 @@
+---
+title: "WeWork Self Serve Platform: Enhancing Access and Security"
+description: "To address significant bottlenecks and security issues, I led the design and development of a self-serve web app integrated with Autodesk Construction Cloud. This platform revolutionized how our global design team accessed and managed 3D models of WeWork’s 550 buildings and 2500 floors, ensuring both security and efficiency."
+author: "Eimhin Rafferty"
+date: "2024-05-25"
+date-modified: "2024-05-25"
+image: "../assets/WeWork/SelfServiceApp.png"
+categories:
+  - WeWork
+  - Product Management
+  - Case Study
+---
+**Background:**  
+
+WeWork's Record Model initiative created a protected digital and verified data set of 3D, data-rich models for over 550 buildings, encompassing 2500 floors. However, the existing platform, where every user had admin rights, became a significant bottleneck. It allowed users to add themselves or others to projects, override read-only protections, and view any project, raising privacy and security concerns.
+
+**Old System Issues:**
+
+- **Admin Rights for All:** Every user having admin privileges meant uncontrolled access, leading to potential overwriting of crucial data.
+- **Privacy Risks:** Users could access any project on the platform, compromising sensitive information and raising security issues.
+
+**New Solution:**
+To address these issues, I spearheaded the development of a self-serve web application integrated with Autodesk Construction Cloud. This app allowed users to:
+
+- **Download Locally:** Users could access the latest file or recreate it in a new cloud directory, ensuring read-only access outside the main platform, which protects the integrity of the original data.
+- **Iterate Designs:** The design team could work on a 'forked' file, enabling them to share with customers, iterate designs, or update based on real-world conditions without impacting the business-critical data.
+- **Verified Submissions:** Changes could be submitted and verified through record model workflows, ensuring all modifications were tracked.
+- **Controlled Access:** The Okta SSO system managed user access, ensuring only authorized personnel could make changes.
+
+**Implementation Steps:**
+
+1. **Problem Validation:** I demonstrated the severity of the issue to corporate tech, infosec, and product leadership, gaining their buy-in.
+2. **Cost Assignment:** Highlighted the time spent on managing permissions and the potential damage to projects due to unauthorized changes.
+3. **Cost-Benefit Analysis:** Showed that reducing the license pool to essential users for file sharing would lower costs and improve security.
+4. **Risk Reporting:** Emphasized the risk of not addressing the issue, including potential damage to validated structures, which were part of a multi-million dollar project.
+
+Key tools I used: 
+
+- Lucidchart for Wireframe, Workflow Diagrams 
+- Google docs for PRD, Sheets for tracking budgets 
+- Slack for general communicaiton, dedicated channel to keep teams synced. 
+- Monday.com for managing & tracking tasks
+
+**Project Development:**
+
+- Developed a PRD, workflow diagrams, wireframes, and other product artifacts.
+- Tendered the project to external specialist teams experienced in the AEC space.
+- Secured the necessary budget and vetted the selected delivery team through infosec and vendor management.
+- Managed the project to completion, coordinating code reviews with infosec, and ensuring SSO integration and hosting were finalized.
+- Conducted user training and provided comprehensive documentation before the app's launch.
+
+**Outcome:**  
+The self-serve platform significantly enhanced access and security for WeWork's global design team and customers. By addressing the bottlenecks and security issues of the old system, I ensured that only authorized users could access and modify the critical 3D models. This project demonstrated my ability to identify critical issues, secure stakeholder support, and deliver effective, scalable solutions.

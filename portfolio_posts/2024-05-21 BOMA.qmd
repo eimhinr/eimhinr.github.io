@@ -1,0 +1,84 @@
+---
+title: "Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic"
+description: "As a Product Manager at Archilogic, I led the development of a groundbreaking product that automates space calculations based on BOMA standards. This product leverages the power of our Spacegraph data structure, making it scalable, repeatable, and uniquely effective due to the relational nature of the underlying data."
+author: "Eimhin Rafferty"
+date: "2024-05-21"
+date-modified: "2024-05-21"
+image: "../assets/Archilogic/ArchilogicBoma1.png"
+categories:
+  - Archilogic
+  - Product Management
+  - Case Study
+---
+## The Challenge
+
+Real estate professionals face significant challenges when it comes to accurately calculating space according to Building Owners and Managers Association (BOMA) standards. Traditional methods are time-consuming, prone to error, and often inconsistent. The need for a reliable, automated solution was clear.
+
+## Solution Development: Automating Space Calculation
+
+### Understanding the Requirements
+
+To create a solution that truly addresses the needs of real estate professionals, we began by:
+
+- **Researching BOMA Standards:** Thoroughly understanding the intricacies of BOMA standards for space calculation.
+- **Engaging with Stakeholders:** Conducting interviews and surveys with real estate professionals to gather insights on their pain points and requirements.
+
+### Leveraging Spacegraph Data Structure
+
+The key to our solution was leveraging Archilogic’s Spacegraph data structure, a highly relational and data-rich representation of building spaces. This data structure allowed us to:
+
+- **Automate Calculations:** Use spatial data to automate space calculations accurately and consistently.
+- **Ensure Scalability:** Develop a product that could be easily scaled to different buildings and spaces.
+- **Maintain Repeatability:** Ensure the process could be repeated with the same level of accuracy every time.
+
+### Flexibility of Standards
+
+Although we applied BOMA standards for this particular product, the underlying operations of our system are agnostic to the specific standards used. The Spacegraph data structure is designed to handle any set of space calculation standards, making the product versatile and adaptable to various industry requirements.
+
+### Building the Product
+
+The development process involved:
+
+- **Algorithm Development:** Creating algorithms to automate the space calculation process based on BOMA standards.
+- **Integration with Spacegraph:** Ensuring seamless integration with the Spacegraph data structure to utilise its relational data.
+- **User Interface Design:** Designing an intuitive user interface that allows users to easily input data and view results.
+
+### Testing and Refinement
+
+We conducted extensive testing and refinement to ensure the product met the high standards of accuracy and usability required by our users:
+
+- **Beta Testing:** Engaged a group of real estate professionals to test the product and provide feedback.
+- **Iterative Improvements:** Made iterative improvements based on user feedback to enhance functionality and user experience.
+
+### Graph Structure Operation
+
+The Spacegraph data structure operates by determining whether lines are drawn at the inner, centre, or outer edge of spaces, depending on the use of the space on either side. This approach minimises human error and subjectivity, ensuring that calculations are consistent and reliable.
+
+
+### Demo
+
+<iframe width="max" src="https://www.youtube.com/embed/MPYtS6j9-pQ?si=mokOj08XzUl3VmdZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## Impact and Benefits
+
+The introduction of our automated space calculation product has had a profound impact on the real estate industry:
+
+- **Increased Efficiency:** Reduced the time required for space calculations from days to minutes.
+- **Enhanced Accuracy:** Provided highly accurate calculations, reducing errors and inconsistencies.
+- **Scalability and Repeatability:** Enabled users to easily scale the solution across multiple buildings and spaces with consistent results.
+- **Data-Driven Insights:** Leveraged the relational data in the Spacegraph data structure to provide deeper insights into space utilisation and management.
+
+## Next Steps
+
+To further enhance the product and provide even more value to our users, the next steps are fully related to making everything accessable outside of our core application, via API. 
+
+- **Raw Data Access:** Develop APIs to allow users to access raw data directly from the Spacegraph data structure. This will enable integration with other systems and provide greater flexibility in data usage.
+- **Polyline Outputs:** Generate image outputs of polylines for visualisation and integration purposes.
+- **CAD Line Outputs:** Provide CAD line outputs for use in various design and architectural applications.
+- **SVG Line Outputs:** Offer SVG line outputs for web-based applications and scalable vector graphics needs.
+- **IWMS Integration:** Ensure that outputs are compatible with Integrated Workplace Management Systems (IWMS) and other business systems to streamline workflows and enhance data utility.
+
+## Conclusion
+
+Leading the development of the automated space calculation product at Archilogic has been a highly rewarding experience. This product not only addresses a critical need in the real estate industry but also showcases the power of leveraging relational data to create innovative, scalable, and impactful solutions. By automating a traditionally manual process, we have set a new standard for efficiency and accuracy in space calculation, demonstrating the value of data-driven innovation in real estate.

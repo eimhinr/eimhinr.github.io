@@ -2,8 +2,8 @@
 title: "Developing a Workflow Template for the Custom Enterprise Team"
 description: "At WeWork, I was tasked with supporting a newly formed 'Custom Enterprise' team within the Sales Organisation. This team of six designers was responsible for rapidly creating sales collateral for various buildings in our portfolio. Assembled on an ad-hoc basis and not reporting to the main design organisation, they faced significant operational challenges."
 author: "Eimhin Rafferty"
-date: "2024-05-23"
-date-modified: "2024-05-23"
+date: "2024-05-29"
+date-modified: "2024-05-29"
 image: "../assets/WeWork/CU-07-002-7th-Floor-Enlarged-Plan.jpg"
 categories:
   - WeWork

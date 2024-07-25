@@ -1,0 +1,68 @@
+---
+title: "Handling a Global Software Failure: A Case Study"
+description: "During a global software failure, I led the resolution efforts across multiple regions, including Japan, Asia, EMEA, LATAM, and North America. The issue was initially reported by a user in Japan and quickly spread to other regions. Coordinating with network engineers and resellers, I gathered detailed information from users and kept stakeholders informed throughout the process. By developing PowerShell scripts and SOPs for a complex uninstall process, and leveraging VP support to navigate legal restrictions, I ensured minimal downtime and restored normal operations efficiently."
+author: "Eimhin Rafferty"
+date: "2024-05-22"
+date-modified: "2024-05-22"
+image: "../assets/WeWork/softwarethumbnail.png"
+categories:
+  - WeWork
+  - Programme Management
+  - Operations
+  - Case Study
+---
+## Week 1 Breakdown
+
+### Day 1: Initial Investigation
+
+- **Japan Issue Reported:** A user in Japan reports a software failure via our Jira ticketing platform.
+- **Initial Investigation:** Reviewed the report, checked service status pages, and confirmed no provider outages.
+- **EMEA Impact:** European and North American teams began reporting the same issue. Contacted network engineers suspecting a recent license renewal may be the cause.
+- **Communication Loop:** Informed managers and VPs about the issue and ongoing efforts to triage it.
+
+### Day 2: Advanced Triage
+
+- **Japan Team Meeting:** Learned from the Japan team that a deep uninstall process was suggested. Advised them to wait for my review.
+- **Information Collection:** Collected detailed information from affected users using Jira, providing templates for specific data.
+- **Advanced Triage:** Further calls with technical support and resellers did not find a resolution.
+- **Communication Loop:** Continued to inform leadership about the progress.
+
+### Day 3: Identifying Key Factors
+
+- **Unaffected Group:** Identified a franchise team using network licenses but managing their own hardware was unaffected.
+- **Emergency Calls:** Scheduled calls with key IT leaders to discuss potential causes.
+- **VP Leverage:** Utilized VP support to get key leaders on calls.
+- **Stakeholder Updates:** Kept all stakeholders informed about findings and ongoing investigations.
+
+### Day 4: Escalating the Issue
+
+- **Service Blockage:** The outage began severely impacting teams' work.
+- **Running out of Options:** Discussions revealed deep reinstall as the only viable solution.
+- **Litigation Hold:** Legal restrictions prevented software uninstallation. Leveraged VP to push for a resolution.
+- **Communication Loop:** Broadened information loop to sales and operations teams to alleviate pressure on effected users. 
+
+### Day 5: Legal and Vendor Coordination
+
+- **Legal Restrictions:** Confirmed with lawyers that litigation hold was still in place.
+- **Lawyers' Call:** Scheduled a call with vendor’s lawyers for urgent resolutions.
+
+## Week-by-Week Breakdown
+
+### Week 2: Compliance Resolution
+
+- **Agreement with Vendor:** Reached an agreement to use a manual process in conjunction with their compliance app to collect logs directly from users.
+- **Initial Workflow Test:** Worked with team members on critical projects to test the workflow for log collection, and run the process end to end. 
+
+### Week 3: Automation and Initial Resolutions
+
+- **Automation Scripts:** Developed PowerShell scripts to automate compliance checks and configured Jira for progress tracking.
+- **First Reports Sent:** Submitted the first batch of reports to the vendor, applied pressure for quick responses.
+
+### Week 4: Final Resolution
+
+- **User Instructions:** Provided users with detailed SOPs and scripts for the deep clean process, tracked progress via Jira.
+- **Resolution Achieved:** Despite slow vendor responses, the issue was resolved. Regular updates ensured transparency and maintained trust.
+- **Close Out:** Automated reports from Jira to monitor ticket burn down rates.
+
+## Conclusion
+By systematically addressing the software failure, leveraging automation, and ensuring constant communication, I minimized downtime and restored normal operations, demonstrating effective problem-solving and leadership in crisis management.

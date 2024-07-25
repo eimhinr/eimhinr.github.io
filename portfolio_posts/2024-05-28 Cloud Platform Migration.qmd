@@ -1,0 +1,86 @@
+---
+title: "Protecting 3.7 TB of Project Data: The BIM 360 Data Migration Initiative" 
+description: "The BIM 360 Data Migration project addresses the challenge of managing 3.7 TB of project data stored in a locked in cloud platform - 'BIM 360 Teams' which became inaccessible as versions of Autodesk Revit 2017/2018 were phased out. This migration ensureed that all project data moved to the sucessor, 'BIM 360 Docs', upgrading models to the latest Revit versions and maintaining user access throughout the process."
+author: "Eimhin Rafferty"
+date: "2024-05-28"
+date-modified: "2024-05-28"
+image: "../assets/WeWork/Screenshot-2024-07-24-at-14.50.01.png"
+categories:
+  - WeWork
+  - Programme Management
+  - Operations
+  - Case Study
+---
+
+# Streamlining 3.7 TB of Project Data: The BIM 360 Data Migration Initiative
+
+## Overview
+
+The BIM 360 Data Migration project addresses the challenge of managing 3.7 TB of project data stored in BIM 360 Teams, which will become inaccessible as Revit 2017/2018 phases out. This migration ensures that all project data moves to BIM 360 Docs, upgrading models to the latest Revit versions and maintaining user access throughout the process.
+
+## Objectives
+
+1. **Data Transfer**: Move all project data from BIM 360 Teams to BIM 360 Docs.
+2. **Model Upgrade**: Upgrade EC, Layout, and AOR Revit models to the latest versions.
+3. **Access Maintenance**: Ensure continuous access for users to the migrated projects.
+4. **Access Tracking**: Maintain records of external access to projects in BIM 360 Teams.
+
+![Doing what we can to start](../assets/WeWork/Screenshot-2024-07-24-at-14.50.24.png)
+
+## Challenges
+
+## Data Storage and Revit Versions
+
+- Data spans multiple platforms: BIM 360 Team, BIM 360 Docs, and W: Drive.
+- Various Revit versions are used, with Revit 2017 access ending by Q1 2021, impacting a significant number of projects.
+
+### Projects at Risk
+
+- 317 projects using Revit <2016, 340 projects using Revit 2018, and 36 projects using Revit 2019 or later are at risk due to version phase-out and storage limitations.
+![Track and plan](../assets/WeWork/Screenshot-2024-07-24-at-14.50.57.png)
+
+## Migration Process
+
+![overview of migration workflows](../assets/WeWork/Screenshot-2024-07-24-at-14.50.54.png)
+
+### Stage 1: Data Transfer
+
+- Move Revit models, CADs, point clouds, and relevant files to BIM 360 Docs.
+  ![Orginise in waves, match priorities and regions](../assets/WeWork/Screenshot-2024-07-24-at-14.51.01.png)
+
+### Stage 2: Model Upgrade
+
+- Upgrade all Revit models to the latest version (2019).
+- Unzip and organize composite design models.
+  
+### Stage 3: Model Activation
+
+- Convert necessary Revit models to cloud collaboration models for design teams.
+  
+## Automation and Management
+
+- A Forge API Python library automates data transfer, model upgrades, and collaboration tasks.
+- Airtable is used to manage data and project information efficiently.
+
+## Workflow
+
+1. **Transfer**: Move files to an ARCHIVE folder in BIM 360 Docs.
+2. **Unzip**: Unzip composite Revit models.
+3. **Upgrade**: Use the Design Automation Forge API for remote upgrades.
+4. **Collaborate**: Manually collaborate and link files in BIM 360 Docs.
+
+## Ongoing process improvement 
+
+1. **Code Refinement**: Improve version comparison, display name handling, and async processing.
+2. **Management Transition**: Move project management from Airtable to Sheets.
+3. **Process Consolidation**: Integrate unzip/upgrade processes and enhance performance.
+4. **Dashboard Development**: Create a progress dashboard for real-time tracking and stakeholder updates.
+
+## Key Milestones
+
+- **Initial EMEA Release**: Establish transfer management and validation framework.
+- **Speed Improvements**: Implement AWS Lambda for efficient file transfer and remote upgrades.
+- **Global Release**: Expand process management globally and develop a reporting dashboard.
+- **Process Refinement**: Consolidate and integrate unzip/upgrade processes into the management system.
+
+By successfully executing this migration, the project ensures that WeWork's data remains accessible, updated, and efficiently managed across the latest BIM 360 platforms.

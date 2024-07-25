@@ -1,0 +1,151 @@
+---
+title: "Archilogic Editor 4.0: A Comprehensive Rebuild"
+description: "As the product manager in Archilogic, I oversaw the rebuild of Archilogic Editor 4.0, introducing a Spacegraph data structure for floor plans. This project enhanced efficiency and accuracy, improved data security, and streamlined workflows."
+author: "Eimhin Rafferty"
+date: "2024-05-29"
+date-modified: "2024-05-29"
+image: "../assets/Archilogic/homePage.png"
+categories:
+  - Archilogic
+  - Product Management
+  - Case Study
+---
+
+# Archilogic Editor 4.0: A Comprehensive Rebuild
+
+## Introduction
+
+### Personal Introduction
+This case study outlines my role in leading the Archilogic Editor 4.0 rebuild, highlighting my technical skills, strategic thinking, and leadership.
+
+### Project Summary
+
+As the product manager in Archilogic, I oversaw the rebuild of Archilogic Editor 4.0, introducing a Spacegraph data structure for floor plans. This project enhanced efficiency and accuracy, improved data security, and streamlined workflows.
+
+### Context and Background
+
+Archilogic transforms architectural plans into digital 3D models. The new structure allows seamless integration with advanced algorithms and LLMs, enhancing data processing and analysis. Learn more at [Archilogic](https://www.archilogic.com).
+
+## Role and Responsibilities
+
+### Specific Role and Key Responsibilities
+
+- Defined the product vision and strategy.
+- Created PRDs and wireframes.
+- Led cross-functional teams through iterative development.
+- Conducted user research and gathered feedback.
+- Supported GraphQL API and AI feature rollout.
+- Ensured stakeholder alignment and communication.
+
+## Problem Statement
+
+### Problem Description
+
+The existing editor had inefficiencies, data integrity issues, and lacked advanced features, affecting professional and non-specialist users.
+
+### Importance
+
+Addressing these issues was crucial for maintaining competitive edge and meeting user demands by improving user experience, efficiency, and supporting advanced use cases.
+
+## Objectives and Goals
+
+- **Unlock More Features** Implement Spacegraph Data structure to enable customers to see benifits of the platform. Enable other key initiatives. 
+- **Efficiency:** Reduce design iteration time by 50%.
+- **User Experience:** Increase satisfaction scores by 30%.
+- **Data Integrity:** Reduce data-related errors by 75%.
+
+## Stakeholder Analysis
+
+### Key Stakeholders and Needs
+
+- **Internal:** Engineering, Design, Sales, Marketing, Customer Support, Finance.
+- **External:** Professional customers, Corporate end users.
+
+### Engagement Strategy
+
+Regular meetings, PRDs, wireframes, and ongoing communication ensured alignment and informed stakeholders.
+
+## Research and Insights
+
+### Research and Findings
+
+- Conducted market and user research.
+  - Reviewed all major floor plan tools in the AEC and Operations Spaces for the best workflows, UI and UX features to benchmark ourselves againt. 
+- Identified needs for a more intuitive interface, data integrity, and advanced features.
+
+## Strategy and Planning
+
+### Product Vision and Roadmap
+
+Focused on creating a robust, user-friendly editor with advanced features. Prioritised features based on user needs, market trends, and technical feasibility.
+
+## Solution Design
+
+### Proposed Solution and Design Process
+
+- Rebuilt the editor with a Spacegraph data structure.
+- Created wireframes and prototypes using Figma.
+- Conducted user testing and gathered feedback.
+
+## Development and Implementation
+
+### Methodology and Milestones
+
+- Agile methodology with two-week cycles. We ran a 6 week committed backlog which we constantly prepeard ahead for based on the broader roadmap. 
+- Key milestones: Initial design, iterative testing, final testing, and launch.
+
+### Challenges and Solutions
+
+- **Data Integrity:** Developed robust algorithms.
+- **Complex Geometries:** Optimised performance with data specialists.
+- **Smooth Transitions:** Implemented rigorous testing.
+
+## Launch and Go-to-Market Strategy
+
+### Launch and Marketing Plan
+Developed a launch plan with internal training, marketing campaigns, and user onboarding. Collaborated with the marketing team for targeted campaigns.
+
+## Results and Impact
+
+### Metrics and Outcomes
+
+- **User Satisfaction:** Increased by 30%.
+- **Design Iteration Time:** Reduced by 50%.
+- **Data Errors:** Reduced by 75%.
+
+### Business Impact
+Enhanced user experience, increased adoption, and supported sales efforts.
+
+## Personal Story and Achievements
+
+### Challenges and Overcoming Them
+
+- Managed remote team across time zones with clear communication.
+- Balanced multiple priorities and tight deadlines through effective prioritisation.
+
+### Key Achievements
+
+- Led the rebuild of Archilogic Editor 4.0.
+- Introduced innovative features, improved efficiency and data integrity.
+- Fostered strong cross-functional team relationships.
+
+### Personal Reflections
+
+This project was a significant milestone, showcasing my leadership, strategic decision-making, and ability to align diverse teams towards a common goal.
+
+## Strengths Demonstrated
+
+### Leadership and Team Management
+
+Guided the project with clear goals and priorities, fostering a collaborative environment.
+
+### Communication and Stakeholder Management
+Utilised PRDs, wireframes, and regular updates to ensure stakeholder alignment.
+
+### Problem-Solving and Innovation
+Developed innovative solutions for technical challenges and prioritised based on data-driven insights.
+
+### Adaptability and Resilience
+Managed a remote team and balanced multiple priorities effectively.
+
+Overall, the Archilogic Editor 4.0 project demonstrated my competencies in building, decision-making, and alignment, ensuring our product met the highest standards of quality and performance.
