@@ -8,9 +8,9 @@
 
 <meta name="author" content="Eimhin Rafferty">
 <meta name="dcterms.date" content="2024-05-29">
-<meta name="description" content="At WeWork, I was tasked with supporting a newly formed ‘Custom Enterprise’ team within the Sales Organisation. This team of six designers was responsible for rapidly creating sales collateral for various buildings in our portfolio. Assembled on an ad-hoc basis and not reporting to the main design organisation, they faced significant operational challenges.">
+<meta name="description" content="As the product manager in Archilogic, I oversaw the rebuild of Archilogic Editor 4.0, introducing a Spacegraph data structure for floor plans. This project enhanced efficiency and accuracy, improved data security, and streamlined workflows.">
 
-<title>Developing a Workflow Template for the Custom Enterprise Team – Eimhin Rafferty</title>
+<title>Archilogic Editor 4.0: A Comprehensive Rebuild – Eimhin Rafferty</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -140,17 +140,16 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Developing a Workflow Template for the Custom Enterprise Team</h1>
+      <h1 class="title">Archilogic Editor 4.0: A Comprehensive Rebuild</h1>
                   <div>
         <div class="description">
-          At WeWork, I was tasked with supporting a newly formed ‘Custom Enterprise’ team within the Sales Organisation. This team of six designers was responsible for rapidly creating sales collateral for various buildings in our portfolio. Assembled on an ad-hoc basis and not reporting to the main design organisation, they faced significant operational challenges.
+          As the product manager in Archilogic, I oversaw the rebuild of Archilogic Editor 4.0, introducing a Spacegraph data structure for floor plans. This project enhanced efficiency and accuracy, improved data security, and streamlined workflows.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">WeWork</div>
+                <div class="quarto-category">Archilogic</div>
                 <div class="quarto-category">Product Management</div>
                 <div class="quarto-category">Case Study</div>
-                <div class="quarto-category">Architecture</div>
               </div>
                   </div>
   </div>
@@ -190,14 +189,69 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#initial-challenges" id="toc-initial-challenges" class="nav-link active" data-scroll-target="#initial-challenges">Initial Challenges</a></li>
-  <li><a href="#solution-development-workflow-template" id="toc-solution-development-workflow-template" class="nav-link" data-scroll-target="#solution-development-workflow-template">Solution Development: Workflow Template</a>
+  <li><a href="#archilogic-editor-4.0-a-comprehensive-rebuild" id="toc-archilogic-editor-4.0-a-comprehensive-rebuild" class="nav-link active" data-scroll-target="#archilogic-editor-4.0-a-comprehensive-rebuild">Archilogic Editor 4.0: A Comprehensive Rebuild</a>
   <ul class="collapse">
-  <li><a href="#understanding-the-workflow" id="toc-understanding-the-workflow" class="nav-link" data-scroll-target="#understanding-the-workflow">Understanding the Workflow</a></li>
-  <li><a href="#creating-the-workflow-template" id="toc-creating-the-workflow-template" class="nav-link" data-scroll-target="#creating-the-workflow-template">Creating the Workflow Template</a></li>
-  <li><a href="#implementation-and-training" id="toc-implementation-and-training" class="nav-link" data-scroll-target="#implementation-and-training">Implementation and Training</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#personal-introduction" id="toc-personal-introduction" class="nav-link" data-scroll-target="#personal-introduction">Personal Introduction</a></li>
+  <li><a href="#project-summary" id="toc-project-summary" class="nav-link" data-scroll-target="#project-summary">Project Summary</a></li>
+  <li><a href="#context-and-background" id="toc-context-and-background" class="nav-link" data-scroll-target="#context-and-background">Context and Background</a></li>
   </ul></li>
-  <li><a href="#impact-of-the-workflow-template" id="toc-impact-of-the-workflow-template" class="nav-link" data-scroll-target="#impact-of-the-workflow-template">Impact of the Workflow Template</a></li>
+  <li><a href="#role-and-responsibilities" id="toc-role-and-responsibilities" class="nav-link" data-scroll-target="#role-and-responsibilities">Role and Responsibilities</a>
+  <ul class="collapse">
+  <li><a href="#specific-role-and-key-responsibilities" id="toc-specific-role-and-key-responsibilities" class="nav-link" data-scroll-target="#specific-role-and-key-responsibilities">Specific Role and Key Responsibilities</a></li>
+  </ul></li>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link" data-scroll-target="#problem-statement">Problem Statement</a>
+  <ul class="collapse">
+  <li><a href="#problem-description" id="toc-problem-description" class="nav-link" data-scroll-target="#problem-description">Problem Description</a></li>
+  <li><a href="#importance" id="toc-importance" class="nav-link" data-scroll-target="#importance">Importance</a></li>
+  </ul></li>
+  <li><a href="#objectives-and-goals" id="toc-objectives-and-goals" class="nav-link" data-scroll-target="#objectives-and-goals">Objectives and Goals</a></li>
+  <li><a href="#stakeholder-analysis" id="toc-stakeholder-analysis" class="nav-link" data-scroll-target="#stakeholder-analysis">Stakeholder Analysis</a>
+  <ul class="collapse">
+  <li><a href="#key-stakeholders-and-needs" id="toc-key-stakeholders-and-needs" class="nav-link" data-scroll-target="#key-stakeholders-and-needs">Key Stakeholders and Needs</a></li>
+  <li><a href="#engagement-strategy" id="toc-engagement-strategy" class="nav-link" data-scroll-target="#engagement-strategy">Engagement Strategy</a></li>
+  </ul></li>
+  <li><a href="#research-and-insights" id="toc-research-and-insights" class="nav-link" data-scroll-target="#research-and-insights">Research and Insights</a>
+  <ul class="collapse">
+  <li><a href="#research-and-findings" id="toc-research-and-findings" class="nav-link" data-scroll-target="#research-and-findings">Research and Findings</a></li>
+  </ul></li>
+  <li><a href="#strategy-and-planning" id="toc-strategy-and-planning" class="nav-link" data-scroll-target="#strategy-and-planning">Strategy and Planning</a>
+  <ul class="collapse">
+  <li><a href="#product-vision-and-roadmap" id="toc-product-vision-and-roadmap" class="nav-link" data-scroll-target="#product-vision-and-roadmap">Product Vision and Roadmap</a></li>
+  </ul></li>
+  <li><a href="#solution-design" id="toc-solution-design" class="nav-link" data-scroll-target="#solution-design">Solution Design</a>
+  <ul class="collapse">
+  <li><a href="#proposed-solution-and-design-process" id="toc-proposed-solution-and-design-process" class="nav-link" data-scroll-target="#proposed-solution-and-design-process">Proposed Solution and Design Process</a></li>
+  </ul></li>
+  <li><a href="#development-and-implementation" id="toc-development-and-implementation" class="nav-link" data-scroll-target="#development-and-implementation">Development and Implementation</a>
+  <ul class="collapse">
+  <li><a href="#methodology-and-milestones" id="toc-methodology-and-milestones" class="nav-link" data-scroll-target="#methodology-and-milestones">Methodology and Milestones</a></li>
+  <li><a href="#challenges-and-solutions" id="toc-challenges-and-solutions" class="nav-link" data-scroll-target="#challenges-and-solutions">Challenges and Solutions</a></li>
+  </ul></li>
+  <li><a href="#launch-and-go-to-market-strategy" id="toc-launch-and-go-to-market-strategy" class="nav-link" data-scroll-target="#launch-and-go-to-market-strategy">Launch and Go-to-Market Strategy</a>
+  <ul class="collapse">
+  <li><a href="#launch-and-marketing-plan" id="toc-launch-and-marketing-plan" class="nav-link" data-scroll-target="#launch-and-marketing-plan">Launch and Marketing Plan</a></li>
+  </ul></li>
+  <li><a href="#results-and-impact" id="toc-results-and-impact" class="nav-link" data-scroll-target="#results-and-impact">Results and Impact</a>
+  <ul class="collapse">
+  <li><a href="#metrics-and-outcomes" id="toc-metrics-and-outcomes" class="nav-link" data-scroll-target="#metrics-and-outcomes">Metrics and Outcomes</a></li>
+  <li><a href="#business-impact" id="toc-business-impact" class="nav-link" data-scroll-target="#business-impact">Business Impact</a></li>
+  </ul></li>
+  <li><a href="#personal-story-and-achievements" id="toc-personal-story-and-achievements" class="nav-link" data-scroll-target="#personal-story-and-achievements">Personal Story and Achievements</a>
+  <ul class="collapse">
+  <li><a href="#challenges-and-overcoming-them" id="toc-challenges-and-overcoming-them" class="nav-link" data-scroll-target="#challenges-and-overcoming-them">Challenges and Overcoming Them</a></li>
+  <li><a href="#key-achievements" id="toc-key-achievements" class="nav-link" data-scroll-target="#key-achievements">Key Achievements</a></li>
+  <li><a href="#personal-reflections" id="toc-personal-reflections" class="nav-link" data-scroll-target="#personal-reflections">Personal Reflections</a></li>
+  </ul></li>
+  <li><a href="#strengths-demonstrated" id="toc-strengths-demonstrated" class="nav-link" data-scroll-target="#strengths-demonstrated">Strengths Demonstrated</a>
+  <ul class="collapse">
+  <li><a href="#leadership-and-team-management" id="toc-leadership-and-team-management" class="nav-link" data-scroll-target="#leadership-and-team-management">Leadership and Team Management</a></li>
+  <li><a href="#communication-and-stakeholder-management" id="toc-communication-and-stakeholder-management" class="nav-link" data-scroll-target="#communication-and-stakeholder-management">Communication and Stakeholder Management</a></li>
+  <li><a href="#problem-solving-and-innovation" id="toc-problem-solving-and-innovation" class="nav-link" data-scroll-target="#problem-solving-and-innovation">Problem-Solving and Innovation</a></li>
+  <li><a href="#adaptability-and-resilience" id="toc-adaptability-and-resilience" class="nav-link" data-scroll-target="#adaptability-and-resilience">Adaptability and Resilience</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -208,98 +262,192 @@ window.Quarto = {
 
 
 
-<section id="initial-challenges" class="level2">
-<h2 class="anchored" data-anchor-id="initial-challenges">Initial Challenges</h2>
-<p>The ‘Custom Enterprise’ team struggled with:</p>
-<ul>
-<li><strong>Process Automation:</strong> Unlike the ‘Classic’ WeWork team, their processes were not automated, leading to prolonged project setup times.</li>
-<li><strong>Access to Content:</strong> The teams core work was to dive in to already delivered locations and work on propoals for refurbishments. they lacked access to the latest content, processes and workflows of the ‘Classic’ WeWork team</li>
-<li><strong>Isolation:</strong> The team wasnt directly supported by the design org and lacked the guard rails they could rely on to do their best work.</li>
-<li><strong>Time Consumption:</strong> Project setup, which should have taken 2-3 hours, stretched into 2+ days, severely impacting productivity.</li>
-</ul>
+<section id="archilogic-editor-4.0-a-comprehensive-rebuild" class="level1">
+<h1>Archilogic Editor 4.0: A Comprehensive Rebuild</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<section id="personal-introduction" class="level3">
+<h3 class="anchored" data-anchor-id="personal-introduction">Personal Introduction</h3>
+<p>This case study outlines my role in leading the Archilogic Editor 4.0 rebuild, highlighting my technical skills, strategic thinking, and leadership.</p>
 </section>
-<section id="solution-development-workflow-template" class="level2">
-<h2 class="anchored" data-anchor-id="solution-development-workflow-template">Solution Development: Workflow Template</h2>
-<section id="understanding-the-workflow" class="level3">
-<h3 class="anchored" data-anchor-id="understanding-the-workflow">Understanding the Workflow</h3>
-<p>To address these challenges, I took the following steps:</p>
-<ul>
-<li><strong>Issue Collation:</strong> Gathered a comprehensive list of the team’s support needs.</li>
-<li><strong>Detailed Analysis:</strong> Met with team members to understand their workflows and pain points.</li>
-<li><strong>Stakeholder Consultation:</strong> Reviewed the team’s outputs with managers and stakeholders.</li>
-</ul>
+<section id="project-summary" class="level3">
+<h3 class="anchored" data-anchor-id="project-summary">Project Summary</h3>
+<p>As the product manager in Archilogic, I oversaw the rebuild of Archilogic Editor 4.0, introducing a Spacegraph data structure for floor plans. This project enhanced efficiency and accuracy, improved data security, and streamlined workflows.</p>
 </section>
-<section id="creating-the-workflow-template" class="level3">
-<h3 class="anchored" data-anchor-id="creating-the-workflow-template">Creating the Workflow Template</h3>
-<p>Recognising the need for a streamlined process, I initiated a two-week sprint to develop a Minimum Viable Product (MVP) workflow template. This template aimed to:</p>
-<ul>
-<li><strong>Reduce Setup Time:</strong> Significantly cut down the time required to configure projects.</li>
-<li><strong>Enhance Autonomy:</strong> Enable the team to work more independently and efficiently.</li>
-</ul>
-</section>
-<section id="implementation-and-training" class="level3">
-<h3 class="anchored" data-anchor-id="implementation-and-training">Implementation and Training</h3>
-<ul>
-<li><strong>Engagement:</strong> Selected a team member to pilot the new workflow template on her projects.</li>
-<li><strong>Co-development:</strong> Worked together to refine the template and develop standard operating procedures, instructional videos, and training sessions.</li>
-<li><strong>Training Rollout:</strong> Conducted training sessions to ensure the entire team could effectively use the new workflow template.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../assets/WeWork/ww-parnassus-5.png" class="img-fluid figure-img"></p>
-<figcaption>Full Floor Custom Plan</figcaption>
-</figure>
-</div>
+<section id="context-and-background" class="level3">
+<h3 class="anchored" data-anchor-id="context-and-background">Context and Background</h3>
+<p>Archilogic transforms architectural plans into digital 3D models. The new structure allows seamless integration with advanced algorithms and LLMs, enhancing data processing and analysis. Learn more at <a href="https://www.archilogic.com">Archilogic</a>.</p>
 </section>
 </section>
-<section id="impact-of-the-workflow-template" class="level2">
-<h2 class="anchored" data-anchor-id="impact-of-the-workflow-template">Impact of the Workflow Template</h2>
-<p>The introduction of the workflow template had an immediate and profound impact:</p>
+<section id="role-and-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="role-and-responsibilities">Role and Responsibilities</h2>
+<section id="specific-role-and-key-responsibilities" class="level3">
+<h3 class="anchored" data-anchor-id="specific-role-and-key-responsibilities">Specific Role and Key Responsibilities</h3>
 <ul>
-<li><strong>Quality of deliverables:</strong> The deliverables were structured, reliable and reproducible by anyone in the team.</li>
-<li><strong>Accuracy:</strong> The design accuracy was enhanced as the teams had the right tools and content to deliver to the latest global design standards.</li>
-<li><strong>Dramatic Reduction in Turnaround Time:</strong> Project setup time reduced from 2.5 days to 2 hours. The team could consistently finish work by 6 PM.</li>
-<li><strong>Minimised Support Needs:</strong> The requirement for support nearly vanished.</li>
-<li><strong>Scalability:</strong> The template was eventually adopted by other markets.</li>
+<li>Defined the product vision and strategy.</li>
+<li>Created PRDs and wireframes.</li>
+<li>Led cross-functional teams through iterative development.</li>
+<li>Conducted user research and gathered feedback.</li>
+<li>Supported GraphQL API and AI feature rollout.</li>
+<li>Ensured stakeholder alignment and communication.</li>
 </ul>
-<p>The development and implementation of this workflow template not only streamlined the ‘Custom Enterprise’ team’s processes but also highlighted the importance of creating tailored solutions to meet specific team needs. This initiative significantly improved efficiency, productivity, and team satisfaction.+</p>
-<p>This process was subsequently rolled out globally to India, Japan, Australia and LATAM teams. <strong>At the height of the output 80% of all desks sold outside of the USA went through this workflow. </strong></p>
+</section>
+</section>
+<section id="problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="problem-statement">Problem Statement</h2>
+<section id="problem-description" class="level3">
+<h3 class="anchored" data-anchor-id="problem-description">Problem Description</h3>
+<p>The existing editor had inefficiencies, data integrity issues, and lacked advanced features, affecting professional and non-specialist users.</p>
+</section>
+<section id="importance" class="level3">
+<h3 class="anchored" data-anchor-id="importance">Importance</h3>
+<p>Addressing these issues was crucial for maintaining competitive edge and meeting user demands by improving user experience, efficiency, and supporting advanced use cases.</p>
+</section>
+</section>
+<section id="objectives-and-goals" class="level2">
+<h2 class="anchored" data-anchor-id="objectives-and-goals">Objectives and Goals</h2>
+<ul>
+<li><strong>Unlock More Features</strong> Implement Spacegraph Data structure to enable customers to see benifits of the platform. Enable other key initiatives.</li>
+<li><strong>Efficiency:</strong> Reduce design iteration time by 50%.</li>
+<li><strong>User Experience:</strong> Increase satisfaction scores by 30%.</li>
+<li><strong>Data Integrity:</strong> Reduce data-related errors by 75%.</li>
+</ul>
+</section>
+<section id="stakeholder-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="stakeholder-analysis">Stakeholder Analysis</h2>
+<section id="key-stakeholders-and-needs" class="level3">
+<h3 class="anchored" data-anchor-id="key-stakeholders-and-needs">Key Stakeholders and Needs</h3>
+<ul>
+<li><strong>Internal:</strong> Engineering, Design, Sales, Marketing, Customer Support, Finance.</li>
+<li><strong>External:</strong> Professional customers, Corporate end users.</li>
+</ul>
+</section>
+<section id="engagement-strategy" class="level3">
+<h3 class="anchored" data-anchor-id="engagement-strategy">Engagement Strategy</h3>
+<p>Regular meetings, PRDs, wireframes, and ongoing communication ensured alignment and informed stakeholders.</p>
+</section>
+</section>
+<section id="research-and-insights" class="level2">
+<h2 class="anchored" data-anchor-id="research-and-insights">Research and Insights</h2>
+<section id="research-and-findings" class="level3">
+<h3 class="anchored" data-anchor-id="research-and-findings">Research and Findings</h3>
+<ul>
+<li>Conducted market and user research.
+<ul>
+<li>Reviewed all major floor plan tools in the AEC and Operations Spaces for the best workflows, UI and UX features to benchmark ourselves againt.</li>
+</ul></li>
+<li>Identified needs for a more intuitive interface, data integrity, and advanced features.</li>
+</ul>
+</section>
+</section>
+<section id="strategy-and-planning" class="level2">
+<h2 class="anchored" data-anchor-id="strategy-and-planning">Strategy and Planning</h2>
+<section id="product-vision-and-roadmap" class="level3">
+<h3 class="anchored" data-anchor-id="product-vision-and-roadmap">Product Vision and Roadmap</h3>
+<p>Focused on creating a robust, user-friendly editor with advanced features. Prioritised features based on user needs, market trends, and technical feasibility.</p>
+</section>
+</section>
+<section id="solution-design" class="level2">
+<h2 class="anchored" data-anchor-id="solution-design">Solution Design</h2>
+<section id="proposed-solution-and-design-process" class="level3">
+<h3 class="anchored" data-anchor-id="proposed-solution-and-design-process">Proposed Solution and Design Process</h3>
+<ul>
+<li>Rebuilt the editor with a Spacegraph data structure.</li>
+<li>Created wireframes and prototypes using Figma.</li>
+<li>Conducted user testing and gathered feedback.</li>
+</ul>
+</section>
+</section>
+<section id="development-and-implementation" class="level2">
+<h2 class="anchored" data-anchor-id="development-and-implementation">Development and Implementation</h2>
+<section id="methodology-and-milestones" class="level3">
+<h3 class="anchored" data-anchor-id="methodology-and-milestones">Methodology and Milestones</h3>
+<ul>
+<li>Agile methodology with two-week cycles. We ran a 6 week committed backlog which we constantly prepeard ahead for based on the broader roadmap.</li>
+<li>Key milestones: Initial design, iterative testing, final testing, and launch.</li>
+</ul>
+</section>
+<section id="challenges-and-solutions" class="level3">
+<h3 class="anchored" data-anchor-id="challenges-and-solutions">Challenges and Solutions</h3>
+<ul>
+<li><strong>Data Integrity:</strong> Developed robust algorithms.</li>
+<li><strong>Complex Geometries:</strong> Optimised performance with data specialists.</li>
+<li><strong>Smooth Transitions:</strong> Implemented rigorous testing.</li>
+</ul>
+</section>
+</section>
+<section id="launch-and-go-to-market-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="launch-and-go-to-market-strategy">Launch and Go-to-Market Strategy</h2>
+<section id="launch-and-marketing-plan" class="level3">
+<h3 class="anchored" data-anchor-id="launch-and-marketing-plan">Launch and Marketing Plan</h3>
+<p>Developed a launch plan with internal training, marketing campaigns, and user onboarding. Collaborated with the marketing team for targeted campaigns.</p>
+</section>
+</section>
+<section id="results-and-impact" class="level2">
+<h2 class="anchored" data-anchor-id="results-and-impact">Results and Impact</h2>
+<section id="metrics-and-outcomes" class="level3">
+<h3 class="anchored" data-anchor-id="metrics-and-outcomes">Metrics and Outcomes</h3>
+<ul>
+<li><strong>User Satisfaction:</strong> Increased by 30%.</li>
+<li><strong>Design Iteration Time:</strong> Reduced by 50%.</li>
+<li><strong>Data Errors:</strong> Reduced by 75%.</li>
+</ul>
+</section>
+<section id="business-impact" class="level3">
+<h3 class="anchored" data-anchor-id="business-impact">Business Impact</h3>
+<p>Enhanced user experience, increased adoption, and supported sales efforts.</p>
+</section>
+</section>
+<section id="personal-story-and-achievements" class="level2">
+<h2 class="anchored" data-anchor-id="personal-story-and-achievements">Personal Story and Achievements</h2>
+<section id="challenges-and-overcoming-them" class="level3">
+<h3 class="anchored" data-anchor-id="challenges-and-overcoming-them">Challenges and Overcoming Them</h3>
+<ul>
+<li>Managed remote team across time zones with clear communication.</li>
+<li>Balanced multiple priorities and tight deadlines through effective prioritisation.</li>
+</ul>
+</section>
+<section id="key-achievements" class="level3">
+<h3 class="anchored" data-anchor-id="key-achievements">Key Achievements</h3>
+<ul>
+<li>Led the rebuild of Archilogic Editor 4.0.</li>
+<li>Introduced innovative features, improved efficiency and data integrity.</li>
+<li>Fostered strong cross-functional team relationships.</li>
+</ul>
+</section>
+<section id="personal-reflections" class="level3">
+<h3 class="anchored" data-anchor-id="personal-reflections">Personal Reflections</h3>
+<p>This project was a significant milestone, showcasing my leadership, strategic decision-making, and ability to align diverse teams towards a common goal.</p>
+</section>
+</section>
+<section id="strengths-demonstrated" class="level2">
+<h2 class="anchored" data-anchor-id="strengths-demonstrated">Strengths Demonstrated</h2>
+<section id="leadership-and-team-management" class="level3">
+<h3 class="anchored" data-anchor-id="leadership-and-team-management">Leadership and Team Management</h3>
+<p>Guided the project with clear goals and priorities, fostering a collaborative environment.</p>
+</section>
+<section id="communication-and-stakeholder-management" class="level3">
+<h3 class="anchored" data-anchor-id="communication-and-stakeholder-management">Communication and Stakeholder Management</h3>
+<p>Utilised PRDs, wireframes, and regular updates to ensure stakeholder alignment.</p>
+</section>
+<section id="problem-solving-and-innovation" class="level3">
+<h3 class="anchored" data-anchor-id="problem-solving-and-innovation">Problem-Solving and Innovation</h3>
+<p>Developed innovative solutions for technical challenges and prioritised based on data-driven insights.</p>
+</section>
+<section id="adaptability-and-resilience" class="level3">
+<h3 class="anchored" data-anchor-id="adaptability-and-resilience">Adaptability and Resilience</h3>
+<p>Managed a remote team and balanced multiple priorities effectively.</p>
+<p>Overall, the Archilogic Editor 4.0 project demonstrated my competencies in building, decision-making, and alignment, ensuring our product met the highest standards of quality and performance.</p>
 
 
 
+</section>
+</section>
 </section>
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Archilogic,Product Management,Case Study" data-listing-date-sort="1716940800000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716940800000" data-listing-reading-time-sort="4" data-listing-word-count-sort="624">
-<div class="thumbnail">
-<p><a href="../portfolio_posts/2024-05-29 Editor4.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-29 Editor4.html" class="no-external">
-<p><img loading="lazy" src="../assets/Archilogic/homePage.png" class="thumbnail-image"></p>
-</a><p><a href="../portfolio_posts/2024-05-29 Editor4.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../portfolio_posts/2024-05-29 Editor4.html" class="no-external">Archilogic Editor 4.0: A Comprehensive Rebuild</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../portfolio_posts/2024-05-29 Editor4.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../portfolio_posts/2024-05-29 Editor4.html" class="no-external">As the product manager in Archilogic, I oversaw the rebuild of Archilogic Editor 4.0, introducing a Spacegraph data structure for floor plans. This project enhanced efficiency and accuracy, improved data security, and streamlined workflows.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../portfolio_posts/2024-05-29 Editor4.html" class="no-external">
-<div class="listing-date">
-May 29, 2024
-</div>
-<div class="listing-author">
-Eimhin Rafferty
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Archilogic,Product Management,Case Study" data-listing-date-sort="1716249600000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716249600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="673">
+<div class="quarto-post image-right" data-index="0" data-categories="Archilogic,Product Management,Case Study" data-listing-date-sort="1716249600000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716249600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="673">
 <div class="thumbnail">
 <p><a href="../portfolio_posts/2024-05-21 BOMA.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-21 BOMA.html" class="no-external">
 <p><img loading="lazy" src="../assets/Archilogic/ArchilogicBoma1.png" class="thumbnail-image"></p>
@@ -327,7 +475,7 @@ Eimhin Rafferty
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Archilogic,Product Management,Case Study,Integrations" data-listing-date-sort="1716768000000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716768000000" data-listing-reading-time-sort="4" data-listing-word-count-sort="663">
+<div class="quarto-post image-right" data-index="1" data-categories="Archilogic,Product Management,Case Study,Integrations" data-listing-date-sort="1716768000000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716768000000" data-listing-reading-time-sort="4" data-listing-word-count-sort="663">
 <div class="thumbnail">
 <p><a href="../portfolio_posts/2024-05-27 IWMS.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-27 IWMS.html" class="no-external">
 <p><img loading="lazy" src="../assets/Archilogic/homePage.png" class="thumbnail-image"></p>
@@ -355,7 +503,7 @@ Eimhin Rafferty
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Archilogic,Product Management,Case Study,Integrations" data-listing-date-sort="1716163200000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716163200000" data-listing-reading-time-sort="3" data-listing-word-count-sort="559">
+<div class="quarto-post image-right" data-index="2" data-categories="Archilogic,Product Management,Case Study,Integrations" data-listing-date-sort="1716163200000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716163200000" data-listing-reading-time-sort="3" data-listing-word-count-sort="559">
 <div class="thumbnail">
 <p><a href="../portfolio_posts/2024-05-20 MultipleLayouts.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-20 MultipleLayouts.html" class="no-external">
 <p><img loading="lazy" src="../assets/Archilogic/ArhcilogicDuplicateLayout.png" class="thumbnail-image"></p>
@@ -383,7 +531,7 @@ Eimhin Rafferty
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="WeWork,Product Management,Case Study,Architecture" data-listing-date-sort="1716076800000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716076800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="583">
+<div class="quarto-post image-right" data-index="3" data-categories="WeWork,Product Management,Case Study,Architecture" data-listing-date-sort="1716076800000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716076800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="583">
 <div class="thumbnail">
 <p><a href="../portfolio_posts/2024-05-19 Design Standards.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-19 Design Standards.html" class="no-external">
 <p><img loading="lazy" src="../assets/WeWork/ww_design_standards-15.png" class="thumbnail-image"></p>
@@ -411,7 +559,7 @@ Eimhin Rafferty
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="WeWork,Programme Management,Case Study" data-listing-date-sort="1716681600000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716681600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
+<div class="quarto-post image-right" data-index="4" data-categories="WeWork,Programme Management,Case Study" data-listing-date-sort="1716681600000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716681600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
 <div class="thumbnail">
 <p><a href="../portfolio_posts/2024-05-26 DT Support.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-26 DT Support.html" class="no-external">
 <p><img loading="lazy" src="../assets/WeWork/DtSupportImage.png" class="thumbnail-image"></p>
@@ -432,6 +580,34 @@ Eimhin Rafferty
 <a href="../portfolio_posts/2024-05-26 DT Support.html" class="no-external">
 <div class="listing-date">
 May 26, 2024
+</div>
+<div class="listing-author">
+Eimhin Rafferty
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="WeWork,Product Management,Case Study,Architecture" data-listing-date-sort="1716940800000" data-listing-file-modified-sort="1721907268756" data-listing-date-modified-sort="1716940800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
+<div class="thumbnail">
+<p><a href="../portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external"></a></p><a href="../portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external">
+<p><img loading="lazy" src="../assets/WeWork/CU-07-002-7th-Floor-Enlarged-Plan.jpg" class="thumbnail-image"></p>
+</a><p><a href="../portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external">Developing a Workflow Template for the Custom Enterprise Team</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external">At WeWork, I was tasked with supporting a newly formed ‘Custom Enterprise’ team within the Sales Organisation. This team of six designers was responsible for rapidly creating sales collateral for various buildings in our portfolio. Assembled on an ad-hoc basis and not reporting to the main design organisation, they faced significant operational challenges.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external">
+<div class="listing-date">
+May 29, 2024
 </div>
 <div class="listing-author">
 Eimhin Rafferty
