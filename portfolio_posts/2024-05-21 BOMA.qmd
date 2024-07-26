@@ -9,6 +9,12 @@ categories:
   - Archilogic
   - Product Management
   - Case Study
+tags:
+   - Design Thinking
+   - Usability Testing
+   - Iterative Development
+   - User Research
+   - MVP
 ---
 ## The Challenge
 

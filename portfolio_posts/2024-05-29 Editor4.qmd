@@ -9,6 +9,12 @@ categories:
   - Archilogic
   - Product Management
   - Case Study
+tags:
+  - Product Development
+  - User Experience Design
+  - Agile Methodologies
+  - Innovation
+
 ---
 
 # Archilogic Editor 4.0: A Comprehensive Rebuild

@@ -10,6 +10,11 @@ categories:
   - Programme Management
   - Operations
   - Case Study
+tags:
+  - Crisis Management
+  - Root Cause Analysis
+  - Incident Response
+  - Stakeholder Communication
 ---
 ## Week 1 Breakdown
 

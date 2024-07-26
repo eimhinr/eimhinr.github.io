@@ -10,6 +10,11 @@ categories:
   - Product Management
   - Case Study
   - Architecture
+tags:
+  - Stakeholder Engagement
+  - Leadership
+  - Strategic Vision
+  - Collaboration
 ---
 
 ## Initial Challenges

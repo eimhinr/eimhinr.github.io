@@ -10,6 +10,11 @@ categories:
   - Product Management
   - Case Study
   - Architecture
+tags:
+  - Techinial Writing
+  - Quality Assurance
+  - Documentation
+  - Cross Functional Coordination
 ---
 
 ## Project Scope

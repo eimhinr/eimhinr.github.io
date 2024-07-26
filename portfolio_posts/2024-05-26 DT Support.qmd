@@ -9,6 +9,11 @@ categories:
   - WeWork
   - Programme Management
   - Case Study
+tags: 
+  - Problem Solving
+  - Customer Support
+  - Process Improvement
+  - Data Analysis
 ---
 
 ## Case Study: Transforming Design Technology Support at WeWork

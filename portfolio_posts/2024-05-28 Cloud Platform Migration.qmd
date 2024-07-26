@@ -10,6 +10,11 @@ categories:
   - Programme Management
   - Operations
   - Case Study
+tags:
+  - Technical Project Management
+  - Cloud Technologies
+  - Change Management
+  - Communication 
 ---
 
 # Streamlining 3.7 TB of Project Data: The BIM 360 Data Migration Initiative

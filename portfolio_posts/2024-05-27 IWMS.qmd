@@ -10,6 +10,11 @@ categories:
   - Product Management
   - Case Study
   - Integrations
+tags:
+  - Vendor Management
+  - Requirements Gathering
+  - Risk Management
+
 ---
 ## The Challenge
 

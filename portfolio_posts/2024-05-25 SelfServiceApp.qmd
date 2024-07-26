@@ -9,6 +9,13 @@ categories:
   - WeWork
   - Product Management
   - Case Study
+tags:
+  - Product Strategy
+  - Customer Journey Mapping
+  - Mobile App Development
+  - Performance Metrics
+  - Programme Management
+  - Product Delivery
 ---
 **Background:**  
 
