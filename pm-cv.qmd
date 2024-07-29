@@ -22,7 +22,7 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [case studies](http://www.ei
 - Provided sales demos, customer support, and onboarding, supporting business activities.
 - Led technical initiatives, including single tenant instance productisation and deployment, and custom integrations with customer platforms for both proof of concept and production features.
 
-### WeWork • Product Manager, Design Technology • *07/2018 - 12/2022*
+### WeWork • Product Manager, Design Technology • *07/2018 - 11/2022*
 
 - Conducted RSF SKU Pricing Analysis, designing and validating a new pricing model using a dataset of 130k inventory rooms and 100k inventory items, with deep data drien insights reported to c-suite via tableau. 
 - Led the technical aspects of the "Record Model Initiative," a $2.7M project to deliver uniform, verified real estate data, significantly informing key business metrics.
