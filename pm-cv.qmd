@@ -41,6 +41,7 @@ Lecco, Italy • +393792058117 • eimhin@pm.me • [case studies](http://www.ei
 
 - Responsible for practice wide building information management and digital contract documents on projects from concept through to construction in education, healthcare and residential sectors.
 - Served on a technical advisory group for a shared professional indemnity insurance group, providing expertise on BIM and design technology in practice.
+- Led a practice-wide digital transformation from CAD workflows to fully BS:1192 compliant BIM workflows in an ISO 9001/27001 accredited firm.
 
 ### 1508 London • Architectural Technologist • *11/2012 - 02/2014*
 
@@ -57,6 +58,6 @@ Technological University Dublin *09/2005 - 05/2010*
 
 ## Skills
 
-- **Technical Skills**: Product Lifecycle Management, Market Research, Agile Methodologies, Project Management, Data Analysis, Product Roadmapping, User Experience (UX) Design, Wireframing and Prototyping
+- **Technical Skills**: Product Lifecycle Management, Market Research, Agile Methodologies, Project Management, Data Analysis, Product Roadmapping, User Experience (UX) Design, Wireframing and Prototyping, Digital Tranformation
 - **Soft Skills**: Communication, Leadership, Strategic Thinking, Problem-Solving, Customer Focus, Data Driven Decision-Making, Collaboration
 - **Tools and Software**: Python, SQL, Tableau, Looker, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool
