@@ -9,7 +9,7 @@ output:
     mainfont: Arial
 --- 
 <!-- # Eimhin Rafferty -->
-Lecco, Italy • +393792058117 • eimhin@pm.me • [case studies](http://www.eimhin.co/pm-portfolio) •[linkedin/eimhin](https://www.linkedin.com/in/eimhin-rafferty)
+Lecco, Italy • +393792058117 • eimhin@pm.me • [case studies](http://www.eimhin.co/pm-portfolio) • [linkedin/eimhin](https://www.linkedin.com/in/eimhin-rafferty)
 
 ## Professional Experience
 
@@ -58,5 +58,5 @@ Technological University Dublin *09/2005 - 05/2010*
 ## Skills
 
 - **Technical Skills**: Product Lifecycle Management, Market Research, Agile Methodologies, Project Management, Data Analysis, Product Roadmapping, User Experience (UX) Design, Wireframing and Prototyping
-- **Soft Skills**: Communication, Leadership, Strategic Thinking, Problem-Solving, Customer Focus, Decision-Making, Collaboration
+- **Soft Skills**: Communication, Leadership, Strategic Thinking, Problem-Solving, Customer Focus, Data Driven Decision-Making, Collaboration
 - **Tools and Software**: Python, SQL, Tableau, Looker, Typescript, Jira, Linear, Figma, Monday.com, Miro, Lucidchart, Lookback, Google Analytics, Mixpanel, HubSpot, Slack, Excel, Postman, Notion, Retool
