@@ -77,9 +77,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -167,21 +167,18 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Archilogic,Product Management,Case Study" data-listing-date-sort="1716933600000" data-listing-file-modified-sort="1722011600859" data-listing-date-modified-sort="1716933600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="624">
-<div class="thumbnail">
-<p><a href="./portfolio_posts/2024-05-29 Editor4.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-29 Editor4.html" class="no-external">
-<p><img loading="lazy" src="./assets/Archilogic/homePage.png" class="thumbnail-image"></p>
-</a><p><a href="./portfolio_posts/2024-05-29 Editor4.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio_posts/2024-05-29 Editor4.html" class="no-external">Archilogic Editor 4.0: A Comprehensive Rebuild</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio_posts/2024-05-29 Editor4.html" class="no-external"></a>
-</div>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Archilogic,Product Management,Case Study" data-listing-date-sort="1716933600000" data-listing-file-modified-sort="1722011600859" data-listing-date-modified-sort="1716933600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="624">
+<a href="./portfolio_posts/2024-05-29 Editor4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/Archilogic/homePage.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Archilogic Editor 4.0: A Comprehensive Rebuild
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Archilogic'); return false;">
 Archilogic
@@ -193,34 +190,31 @@ Product Management
 Case Study
 </div>
 </div>
-<div class="listing-description">
-<a href="./portfolio_posts/2024-05-29 Editor4.html" class="no-external">As the product manager in Archilogic, I oversaw the rebuild of Archilogic Editor 4.0, introducing a Spacegraph data structure for floor plans. This project enhanced efficiency and accuracy, improved data security, and streamlined workflows.</a>
+<div class="card-text listing-description">
+As the product manager in Archilogic, I oversaw the rebuild of Archilogic Editor 4.0, introducing a Spacegraph data structure for floor plans. This project enhanced…
 </div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Eimhin Rafferty
 </div>
-<div class="metadata">
-<a href="./portfolio_posts/2024-05-29 Editor4.html" class="no-external">
 <div class="listing-date">
 May 29, 2024
 </div>
-<div class="listing-author">
-Eimhin Rafferty
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="WeWork,Programme Management,Operations,Case Study" data-listing-date-sort="1716847200000" data-listing-file-modified-sort="1722011577771" data-listing-date-modified-sort="1716847200000" data-listing-reading-time-sort="3" data-listing-word-count-sort="427">
-<div class="thumbnail">
-<p><a href="./portfolio_posts/2024-05-28 Cloud Platform Migration.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-28 Cloud Platform Migration.html" class="no-external">
-<p><img loading="lazy" src="./assets/WeWork/Screenshot-2024-07-24-at-14.50.01.png" class="thumbnail-image"></p>
-</a><p><a href="./portfolio_posts/2024-05-28 Cloud Platform Migration.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio_posts/2024-05-28 Cloud Platform Migration.html" class="no-external">Protecting 3.7 TB of Project Data: The BIM 360 Data Migration Initiative</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio_posts/2024-05-28 Cloud Platform Migration.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="1" data-categories="WeWork,Programme Management,Operations,Case Study" data-listing-date-sort="1716847200000" data-listing-file-modified-sort="1722011577771" data-listing-date-modified-sort="1716847200000" data-listing-reading-time-sort="3" data-listing-word-count-sort="427">
+<a href="./portfolio_posts/2024-05-28 Cloud Platform Migration.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/WeWork/Screenshot-2024-07-24-at-14.50.01.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Protecting 3.7 TB of Project Data: The BIM 360 Data Migration Initiative
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('WeWork'); return false;">
 WeWork
@@ -235,34 +229,31 @@ Operations
 Case Study
 </div>
 </div>
-<div class="listing-description">
-<a href="./portfolio_posts/2024-05-28 Cloud Platform Migration.html" class="no-external">The BIM 360 Data Migration project addresses the challenge of managing 3.7 TB of project data stored in a locked in cloud platform - ‘BIM 360 Teams’ which became inaccessible as versions of Autodesk Revit 2017/2018 were phased out. This migration ensureed that all project data moved to the sucessor, ‘BIM 360 Docs’, upgrading models to the latest Revit versions and maintaining user access throughout the process.</a>
+<div class="card-text listing-description">
+The BIM 360 Data Migration project addresses the challenge of managing 3.7 TB of project data stored in a locked in cloud platform - ‘BIM 360 Teams’ which became…
 </div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Eimhin Rafferty
 </div>
-<div class="metadata">
-<a href="./portfolio_posts/2024-05-28 Cloud Platform Migration.html" class="no-external">
 <div class="listing-date">
 May 28, 2024
 </div>
-<div class="listing-author">
-Eimhin Rafferty
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Archilogic,Product Management,Case Study,Integrations" data-listing-date-sort="1716760800000" data-listing-file-modified-sort="1722011125552" data-listing-date-modified-sort="1716760800000" data-listing-reading-time-sort="4" data-listing-word-count-sort="663">
-<div class="thumbnail">
-<p><a href="./portfolio_posts/2024-05-27 IWMS.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-27 IWMS.html" class="no-external">
-<p><img loading="lazy" src="./assets/Archilogic/homePage.png" class="thumbnail-image"></p>
-</a><p><a href="./portfolio_posts/2024-05-27 IWMS.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio_posts/2024-05-27 IWMS.html" class="no-external">Case Study: Automating Floor Plan Polylining and Integration with IWMS Platforms</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio_posts/2024-05-27 IWMS.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="2" data-categories="Archilogic,Product Management,Case Study,Integrations" data-listing-date-sort="1716760800000" data-listing-file-modified-sort="1722011125552" data-listing-date-modified-sort="1716760800000" data-listing-reading-time-sort="4" data-listing-word-count-sort="663">
+<a href="./portfolio_posts/2024-05-27 IWMS.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/Archilogic/homePage.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Case Study: Automating Floor Plan Polylining and Integration with IWMS Platforms
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Archilogic'); return false;">
 Archilogic
@@ -277,34 +268,31 @@ Case Study
 Integrations
 </div>
 </div>
-<div class="listing-description">
-<a href="./portfolio_posts/2024-05-27 IWMS.html" class="no-external">As a Product Manager at Archilogic, I led the development and integration of a solution to automate floor plan updates for customers, addressing a major pain point: keeping floor plans updated across multiple platforms, particularly their Integrated Workplace Management Systems (IWMS). This case study details how we collaborated with customers using FM Systems, developed automation for polyline creation, integrated our solution with IWMS platforms, and ultimately built a native app plugin for seamless data transfer.</a>
+<div class="card-text listing-description">
+As a Product Manager at Archilogic, I led the development and integration of a solution to automate floor plan updates for customers, addressing a major pain point: keeping…
 </div>
-</div>
-<div class="metadata">
-<a href="./portfolio_posts/2024-05-27 IWMS.html" class="no-external">
-<div class="listing-date">
-May 27, 2024
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Eimhin Rafferty
 </div>
+<div class="listing-date">
+May 27, 2024
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="WeWork,Programme Management,Case Study" data-listing-date-sort="1716674400000" data-listing-file-modified-sort="1722011062727" data-listing-date-modified-sort="1716674400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
-<div class="thumbnail">
-<p><a href="./portfolio_posts/2024-05-26 DT Support.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-26 DT Support.html" class="no-external">
-<p><img loading="lazy" src="./assets/WeWork/DtSupportImage.png" class="thumbnail-image"></p>
-</a><p><a href="./portfolio_posts/2024-05-26 DT Support.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio_posts/2024-05-26 DT Support.html" class="no-external">Case Study: Transforming Design Technology Support at WeWork</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio_posts/2024-05-26 DT Support.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="3" data-categories="WeWork,Programme Management,Case Study" data-listing-date-sort="1716674400000" data-listing-file-modified-sort="1722011062727" data-listing-date-modified-sort="1716674400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
+<a href="./portfolio_posts/2024-05-26 DT Support.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/WeWork/DtSupportImage.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Case Study: Transforming Design Technology Support at WeWork
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('WeWork'); return false;">
 WeWork
@@ -316,34 +304,31 @@ Programme Management
 Case Study
 </div>
 </div>
-<div class="listing-description">
-<a href="./portfolio_posts/2024-05-26 DT Support.html" class="no-external">As a Design Technology Product Manager at WeWork, I spearheaded a critical initiative to overhaul the support process for our design technology teams. Recognizing the need for a systematic approach to support as our teams grew leaner and more remote, I led the design, implementation, and operationalization of a comprehensive Jira-based ticketing system. This project highlighted themes of empathy, accountability, accuracy, and cross-functional leadership, ensuring fair and transparent support for all teams.</a>
+<div class="card-text listing-description">
+As a Design Technology Product Manager at WeWork, I spearheaded a critical initiative to overhaul the support process for our design technology teams. Recognizing the need…
 </div>
-</div>
-<div class="metadata">
-<a href="./portfolio_posts/2024-05-26 DT Support.html" class="no-external">
-<div class="listing-date">
-May 26, 2024
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Eimhin Rafferty
 </div>
+<div class="listing-date">
+May 26, 2024
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="WeWork,Product Management,Case Study" data-listing-date-sort="1716588000000" data-listing-file-modified-sort="1722011286023" data-listing-date-modified-sort="1716588000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="460">
-<div class="thumbnail">
-<p><a href="./portfolio_posts/2024-05-25 SelfServiceApp.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-25 SelfServiceApp.html" class="no-external">
-<p><img loading="lazy" src="./assets/WeWork/SelfServiceApp.png" class="thumbnail-image"></p>
-</a><p><a href="./portfolio_posts/2024-05-25 SelfServiceApp.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio_posts/2024-05-25 SelfServiceApp.html" class="no-external">WeWork Self Serve Platform: Enhancing Access and Security</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio_posts/2024-05-25 SelfServiceApp.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="4" data-categories="WeWork,Product Management,Case Study" data-listing-date-sort="1716588000000" data-listing-file-modified-sort="1722011286023" data-listing-date-modified-sort="1716588000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="460">
+<a href="./portfolio_posts/2024-05-25 SelfServiceApp.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/WeWork/SelfServiceApp.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+WeWork Self Serve Platform: Enhancing Access and Security
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('WeWork'); return false;">
 WeWork
@@ -355,34 +340,31 @@ Product Management
 Case Study
 </div>
 </div>
-<div class="listing-description">
-<a href="./portfolio_posts/2024-05-25 SelfServiceApp.html" class="no-external">To address significant bottlenecks and security issues, I led the design and development of a self-serve web app integrated with Autodesk Construction Cloud. This platform revolutionized how our global design team accessed and managed 3D models of WeWork’s 550 buildings and 2500 floors, ensuring both security and efficiency.</a>
+<div class="card-text listing-description">
+To address significant bottlenecks and security issues, I led the design and development of a self-serve web app integrated with Autodesk Construction Cloud. This platform…
 </div>
-</div>
-<div class="metadata">
-<a href="./portfolio_posts/2024-05-25 SelfServiceApp.html" class="no-external">
-<div class="listing-date">
-May 25, 2024
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Eimhin Rafferty
 </div>
+<div class="listing-date">
+May 25, 2024
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="WeWork,Product Management,Case Study,Architecture" data-listing-date-sort="1716415200000" data-listing-file-modified-sort="1722010888871" data-listing-date-modified-sort="1716415200000" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
-<div class="thumbnail">
-<p><a href="./portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external">
-<p><img loading="lazy" src="./assets/WeWork/CU-07-002-7th-Floor-Enlarged-Plan.jpg" class="thumbnail-image"></p>
-</a><p><a href="./portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external">Developing a Workflow Template for the Custom Enterprise Team</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="5" data-categories="WeWork,Product Management,Case Study,Architecture" data-listing-date-sort="1716415200000" data-listing-file-modified-sort="1722010888871" data-listing-date-modified-sort="1716415200000" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
+<a href="./portfolio_posts/2024-05-23 EMEA Custom Team.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/WeWork/CU-07-002-7th-Floor-Enlarged-Plan.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Developing a Workflow Template for the Custom Enterprise Team
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('WeWork'); return false;">
 WeWork
@@ -397,34 +379,31 @@ Case Study
 Architecture
 </div>
 </div>
-<div class="listing-description">
-<a href="./portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external">At WeWork, I was tasked with supporting a newly formed ‘Custom Enterprise’ team within the Sales Organisation. This team of six designers was responsible for rapidly creating sales collateral for various buildings in our portfolio. Assembled on an ad-hoc basis and not reporting to the main design organisation, they faced significant operational challenges.</a>
+<div class="card-text listing-description">
+At WeWork, I was tasked with supporting a newly formed ‘Custom Enterprise’ team within the Sales Organisation. This team of six designers was responsible for rapidly…
 </div>
-</div>
-<div class="metadata">
-<a href="./portfolio_posts/2024-05-23 EMEA Custom Team.html" class="no-external">
-<div class="listing-date">
-May 23, 2024
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Eimhin Rafferty
 </div>
+<div class="listing-date">
+May 23, 2024
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="WeWork,Programme Management,Operations,Case Study" data-listing-date-sort="1716328800000" data-listing-file-modified-sort="1722011370808" data-listing-date-modified-sort="1716328800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<div class="thumbnail">
-<p><a href="./portfolio_posts/2024-05-22 Software Failure.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-22 Software Failure.html" class="no-external">
-<p><img loading="lazy" src="./assets/WeWork/softwarethumbnail.png" class="thumbnail-image"></p>
-</a><p><a href="./portfolio_posts/2024-05-22 Software Failure.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio_posts/2024-05-22 Software Failure.html" class="no-external">Handling a Global Software Failure: A Case Study</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio_posts/2024-05-22 Software Failure.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="6" data-categories="WeWork,Programme Management,Operations,Case Study" data-listing-date-sort="1716328800000" data-listing-file-modified-sort="1722011370808" data-listing-date-modified-sort="1716328800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
+<a href="./portfolio_posts/2024-05-22 Software Failure.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/WeWork/softwarethumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Handling a Global Software Failure: A Case Study
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('WeWork'); return false;">
 WeWork
@@ -439,34 +418,31 @@ Operations
 Case Study
 </div>
 </div>
-<div class="listing-description">
-<a href="./portfolio_posts/2024-05-22 Software Failure.html" class="no-external">During a global software failure, I led the resolution efforts across multiple regions, including Japan, Asia, EMEA, LATAM, and North America. The issue was initially reported by a user in Japan and quickly spread to other regions. Coordinating with network engineers and resellers, I gathered detailed information from users and kept stakeholders informed throughout the process. By developing PowerShell scripts and SOPs for a complex uninstall process, and leveraging VP support to navigate legal restrictions, I ensured minimal downtime and restored normal operations efficiently.</a>
+<div class="card-text listing-description">
+During a global software failure, I led the resolution efforts across multiple regions, including Japan, Asia, EMEA, LATAM, and North America. The issue was initially…
 </div>
-</div>
-<div class="metadata">
-<a href="./portfolio_posts/2024-05-22 Software Failure.html" class="no-external">
-<div class="listing-date">
-May 22, 2024
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Eimhin Rafferty
 </div>
+<div class="listing-date">
+May 22, 2024
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="Archilogic,Product Management,Case Study" data-listing-date-sort="1716242400000" data-listing-file-modified-sort="1722011411431" data-listing-date-modified-sort="1716242400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="673">
-<div class="thumbnail">
-<p><a href="./portfolio_posts/2024-05-21 BOMA.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-21 BOMA.html" class="no-external">
-<p><img loading="lazy" src="./assets/Archilogic/ArchilogicBoma1.png" class="thumbnail-image"></p>
-</a><p><a href="./portfolio_posts/2024-05-21 BOMA.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio_posts/2024-05-21 BOMA.html" class="no-external">Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio_posts/2024-05-21 BOMA.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="7" data-categories="Archilogic,Product Management,Case Study" data-listing-date-sort="1716242400000" data-listing-file-modified-sort="1722011411431" data-listing-date-modified-sort="1716242400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="673">
+<a href="./portfolio_posts/2024-05-21 BOMA.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/Archilogic/ArchilogicBoma1.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Automating Space Calculation: A Case Study on Leading Innovation in Real Estate with Archilogic
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Archilogic'); return false;">
 Archilogic
@@ -478,34 +454,31 @@ Product Management
 Case Study
 </div>
 </div>
-<div class="listing-description">
-<a href="./portfolio_posts/2024-05-21 BOMA.html" class="no-external">As a Product Manager at Archilogic, I led the development of a groundbreaking product that automates space calculations based on BOMA standards. This product leverages the power of our Spacegraph data structure, making it scalable, repeatable, and uniquely effective due to the relational nature of the underlying data.</a>
+<div class="card-text listing-description">
+As a Product Manager at Archilogic, I led the development of a groundbreaking product that automates space calculations based on BOMA standards. This product leverages the…
 </div>
-</div>
-<div class="metadata">
-<a href="./portfolio_posts/2024-05-21 BOMA.html" class="no-external">
-<div class="listing-date">
-May 21, 2024
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Eimhin Rafferty
 </div>
+<div class="listing-date">
+May 21, 2024
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="Archilogic,Product Management,Case Study,Integrations" data-listing-date-sort="1716156000000" data-listing-file-modified-sort="1722011220137" data-listing-date-modified-sort="1716156000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="559">
-<div class="thumbnail">
-<p><a href="./portfolio_posts/2024-05-20 MultipleLayouts.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-20 MultipleLayouts.html" class="no-external">
-<p><img loading="lazy" src="./assets/Archilogic/ArhcilogicDuplicateLayout.png" class="thumbnail-image"></p>
-</a><p><a href="./portfolio_posts/2024-05-20 MultipleLayouts.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio_posts/2024-05-20 MultipleLayouts.html" class="no-external">Case Study: Enabling Multiple Layouts at Archilogic</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio_posts/2024-05-20 MultipleLayouts.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="8" data-categories="Archilogic,Product Management,Case Study,Integrations" data-listing-date-sort="1716156000000" data-listing-file-modified-sort="1722011220137" data-listing-date-modified-sort="1716156000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="559">
+<a href="./portfolio_posts/2024-05-20 MultipleLayouts.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/Archilogic/ArhcilogicDuplicateLayout.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Case Study: Enabling Multiple Layouts at Archilogic
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Archilogic'); return false;">
 Archilogic
@@ -520,34 +493,31 @@ Case Study
 Integrations
 </div>
 </div>
-<div class="listing-description">
-<a href="./portfolio_posts/2024-05-20 MultipleLayouts.html" class="no-external">In Archilogic, I led a transformative project called ‘Enable Multiple Layouts.’ This initiative aimed to allow users to create, review, and implement different layout options for building floors without disrupting the main production environment. The project involved significant technical complexity, including new API implementations and enhancements to our space graph data structure.</a>
+<div class="card-text listing-description">
+In Archilogic, I led a transformative project called ‘Enable Multiple Layouts.’ This initiative aimed to allow users to create, review, and implement different layout…
 </div>
-</div>
-<div class="metadata">
-<a href="./portfolio_posts/2024-05-20 MultipleLayouts.html" class="no-external">
-<div class="listing-date">
-May 20, 2024
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Eimhin Rafferty
 </div>
+<div class="listing-date">
+May 20, 2024
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="WeWork,Product Management,Case Study,Architecture" data-listing-date-sort="1716069600000" data-listing-file-modified-sort="1722011334070" data-listing-date-modified-sort="1716069600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="583">
-<div class="thumbnail">
-<p><a href="./portfolio_posts/2024-05-19 Design Standards.html" class="no-external"></a></p><a href="./portfolio_posts/2024-05-19 Design Standards.html" class="no-external">
-<p><img loading="lazy" src="./assets/WeWork/ww_design_standards-15.png" class="thumbnail-image"></p>
-</a><p><a href="./portfolio_posts/2024-05-19 Design Standards.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio_posts/2024-05-19 Design Standards.html" class="no-external">Case Study: Implementing Design Standards for EMEA - A Design Technology Product Management Initiative at WeWork</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio_posts/2024-05-19 Design Standards.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="9" data-categories="WeWork,Product Management,Case Study,Architecture" data-listing-date-sort="1716069600000" data-listing-file-modified-sort="1722011334070" data-listing-date-modified-sort="1716069600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="583">
+<a href="./portfolio_posts/2024-05-19 Design Standards.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/WeWork/ww_design_standards-15.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Case Study: Implementing Design Standards for EMEA - A Design Technology Product Management Initiative at WeWork
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('WeWork'); return false;">
 WeWork
@@ -562,20 +532,20 @@ Case Study
 Architecture
 </div>
 </div>
-<div class="listing-description">
-<a href="./portfolio_posts/2024-05-19 Design Standards.html" class="no-external">As a Design Technology Product Manager at WeWork, I led a high-impact project to translate global design standards into actionable content, processes, and training systems for teams in EMEA. This initiative was configured to address local needs, supply chain demands, and building regulations, ensuring consistency and compliance across the region.</a>
+<div class="card-text listing-description">
+As a Design Technology Product Manager at WeWork, I led a high-impact project to translate global design standards into actionable content, processes, and training systems…
 </div>
-</div>
-<div class="metadata">
-<a href="./portfolio_posts/2024-05-19 Design Standards.html" class="no-external">
-<div class="listing-date">
-May 19, 2024
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Eimhin Rafferty
 </div>
-</a>
+<div class="listing-date">
+May 19, 2024
 </div>
+</div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">

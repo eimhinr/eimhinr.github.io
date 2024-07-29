@@ -3,10 +3,12 @@ title: Portfolio- Eimhin Rafferty
 listing:
   contents: portfolio_posts
   sort: "date desc"
-  type: default
+  type: grid
   categories: true
   date-format: "long"
 page-layout: article
 --- 
 
  Case studies from a vaired career deling with Product, Project and Programme Management
+
+
