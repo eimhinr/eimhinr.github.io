@@ -6,15 +6,15 @@ date: "2024-05-20"
 date-modified: "2024-05-20"
 image: "../assets/Archilogic/ArhcilogicDuplicateLayout.png"
 categories:
-  - Archilogic
-  - Product Management
-  - Case Study
-  - Integrations
+   - Archilogic
+   - Product Management
+   - Case Study
+   - Integrations
 tags: 
-  - Design Thinking
-  - Usability Testing
-  - Iterative Development
-  - User Research
+- Design Thinking
+- Usability Testing
+- Iterative Development
+- User Research
 
 ---
 ## Case Study: Enabling Multiple Layouts at Archilogic

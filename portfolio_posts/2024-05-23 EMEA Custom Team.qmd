@@ -11,10 +11,10 @@ categories:
   - Case Study
   - Architecture
 tags:
-  - Stakeholder Engagement
-  - Leadership
-  - Strategic Vision
-  - Collaboration
+  - Stakeholder Management
+  - Team Leadership
+  - Strategic Planning
+  - Cross-Functional Collaboration
 ---
 
 ## Initial Challenges
