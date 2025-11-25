@@ -8,13 +8,11 @@ image: "../assets/profile.png"
 
 👋 Hello
 
-I'm Eimhin Rafferty
+I'm Eimhin. 
 
-With over 4 years of direct experience in product management, I have delivered genre-defining products and ambitious programmes at the intersection of technology and the built environment. This builds on a foundation of 10 years of experience in delivering a broad portfolio of design and construction projects globally.
+I work for Autodesk, on the Tandem Team. Ask me about Digital Twins!
 
-My architectural background equips me with meticulous attention to detail, strong problem-solving skills, and the ability to communicate complex ideas clearly and concisely to both technical and non-technical audiences. I excel in cross-functional teams, am passionate about user-centric design, and possess a wide-angle lens for identifying and addressing complex challenges.
-
-With patience and empathy, I foster strong relationships, build consensus, and drive projects to successful completion.
+My background is in Architecture Technology, and have worked on projects big and small, over a decade in London, before moving into Product Manageemt and Customer Sucess roles in the tech world. 
 
 ## About Me
 - 🏃 I love to Cycle & Run ↗️ Follow me on ⏱️ [Strava](https://www.strava.com/athletes/eimhin_rafferty)  
@@ -22,7 +20,7 @@ With patience and empathy, I foster strong relationships, build consensus, and d
 - 🇮🇪 I'm from ireland
 - 🇬🇧 I've Lived and worked for many years in the UK
 - 🇮🇹 Now I live in Italy with my family
-- 🔉 Eimhin is a difficult irish name, it is prounced like 'Kevin' if you ignore the K 
+- 🔉 Eimhin is a difficult irish name, it is prounced like 'Kevin' if you drop the K 
 
 ## Contact
 
