@@ -1,14 +1,18 @@
-<link href="style.css" rel="stylesheet">
+---
+title: "Eimhin Rafferty"
+image: "../assets/profile.png"
+--- 
+<div style="width: 150px; clip-path: circle(50%)">
+  <img src="assets/profile1.png" alt="Circular Image" style="width: 100%; height: auto;">
+</div>
 
-  <div class="profile-image-container" >
-    <img src="source/profile.png" alt="" class="profile-image" >
-  </div>
-  
-# 👋 Hello
+👋 Hello
 
-I'm Eimhin Rafferty
+I'm Eimhin.
 
-I am a Product Manager with 5+ years as a PM, prior to that I have worked for 10+ years as a Building Information Modling expert in the Architectural Design and Construction sectors. I have lead large and successful initiatives and fostered user-centric design. I possess strong user empathy, an eye for good design, and a continuous curiosity to drive product improvements. My Architectural background gives me a meticulous attention to detail and strong problem-solving skills.
+I work for Autodesk, on the Tandem Team. Ask me about Digital Twins!
+
+My background is in Architecture Technology, and have worked on projects big and small, over a decade in London, before moving into Product Manageemt and Customer Sucess roles in the tech world.
 
 ## About Me
 - 🏃 I love to Cycle & Run ↗️ Follow me on ⏱️ [Strava](https://www.strava.com/athletes/eimhin_rafferty)  
@@ -16,7 +20,7 @@ I am a Product Manager with 5+ years as a PM, prior to that I have worked for 10
 - 🇮🇪 I'm from ireland
 - 🇬🇧 I've Lived and worked for many years in the UK
 - 🇮🇹 Now I live in Italy with my family
-- 🔉 Eimhin is a difficult irish name, it is prounced like 'Kevin' if you ignore the K
+- 🔉 Eimhin is a difficult irish name, it is prounced like 'Kevin' if you drop the K 
 
 ## Contact
 
@@ -25,6 +29,4 @@ or find me anywhere below:
 
 💻 [Github](https://www.github.com/eimhinr)
 
-📋 [LinkedIn](https://www.linkedin.com/eimhin-rafferty)
-
-<!-- <script src="scriptMain.js"></script> -->
+📋 [LinkedIn](https://www.linkedin.com/in/eimhin-rafferty)
